@@ -96,7 +96,7 @@ In addition to hit count, it also uses tail age as filters (to ensure some level
 This strategy ranks ACs using the `tail delta hit`, pick the higest and lowest rank as the victim and receiver. In addition to tail hit count, it also used total slabs free slabs as filters.
 - **minSlabs**: default value: 1, same as above. ACs with fewer than `minSlabs` slabs don't have victim candidacy.
 - **movingAverageParam**
-	- default value: 1
+	- default value: 0.3
 	- semantics: claimed to be the parameter for moving average, to smooth the ranking. (I didn't understand the point of this parameter, opened a [GitHub discussion](https://github.com/facebook/CacheLib/discussions/376))
 - **maxFreeMemSlabs**
 	- default value: 1
