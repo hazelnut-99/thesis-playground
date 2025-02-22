@@ -1,3 +1,6 @@
 .vscode/
 **/executable/
 **/outcome/
+.DS_Store
+.ipynb_checkpoints/
+
