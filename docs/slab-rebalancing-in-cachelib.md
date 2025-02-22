@@ -1,6 +1,6 @@
-ssh Hongshu@clstore03.clemson.cloudlab.u# Slab Rebalance in CacheLib
-[Doc1](https://cachelib.org/docs/Cache_Library_User_Guides/pool_rebalance_strategy/)
-[Doc2](https://cachelib.org/docs/Cache_Library_Architecture_Guide/slab_rebalancing)
+# Slab Rebalance in CacheLib
+[Doc1](https://cachelib.org/docs/Cache_Library_User_Guides/pool_rebalance_strategy/) </br>
+[Doc2](https://cachelib.org/docs/Cache_Library_Architecture_Guide/slab_rebalancing) </br>
 **Terminology**:
 AC: Allocation Class
 
