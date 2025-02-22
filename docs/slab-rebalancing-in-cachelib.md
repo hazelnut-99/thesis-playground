@@ -1,4 +1,4 @@
-# Slab Rebalance in CacheLib
+ssh Hongshu@clstore03.clemson.cloudlab.u# Slab Rebalance in CacheLib
 [Doc1](https://cachelib.org/docs/Cache_Library_User_Guides/pool_rebalance_strategy/)
 [Doc2](https://cachelib.org/docs/Cache_Library_Architecture_Guide/slab_rebalancing)
 **Terminology**:
@@ -11,7 +11,7 @@ the slab from the *victim AC* will be returned to the pool.
 CacheLib provides several slab rebalancing strategies, they differ in how they choose the *victim AC* and *receiver AC*. Here we have a taste of the main idea behind each strategy-we'll dive into details later.
 
  - **Default strategy**: only interested in allocation failures 
-	 - Pick receiver based on *allocation failures*.
+	 - Pick receiver based on *most allocation failures*.
 	 - Pick victim by *max number of slabs (free  +  used).*
  - **LRU Tail Age strategy**: based on tail age
 	 - Pick receiver based on *min tail age*.
@@ -25,6 +25,30 @@ CacheLib provides several slab rebalancing strategies, they differ in how they c
  - **Free Mem strategy**: it doesn't specify receiver, will return the slab from the victim AC to the pool
 	 - Pick victim based on the *max free memory*
  - **Random strategy**: both victim and receiver are chosen randomly.
+
+## Overall Workflow
+
+    1. If freeAllocThreshold_ > 0:
+        a. Pick a victim using pickVictimByFreeAlloc (one with the most free memory).
+        b. Release a slab from the victim AC.
+        c. If not all slabs are allocated in the pool, return (rebalance complete).
+    
+    2. If there exists an allocation class (AC) with allocation failures:
+        a. Select the AC with the most allocation failures as the receiver.
+        
+        b. If no rebalance strategy is configured:
+            i. Pick the AC with the most slabs as the victim.
+        c. Else:
+            i. Use the strategy-specific implementation to pick the victim.
+    
+        d. If both a victim and a receiver are found, return (rebalance complete).
+    
+    3. Otherwise:
+        a. Use the strategy-specific implementation to pick both a victim and a receiver.
+
+
+
+
 
 ## Parameters
 ### Top-level 
@@ -91,3 +115,5 @@ This strategy ranks ACs using the `tail delta hit`, pick the higest and lowest r
 ### Additionals
 - ACs with free slabs won't be chosen as receivers
 - ACs that recently received slabs won't be chosen as victims (holdOff)
+
+
