@@ -1,4 +1,5 @@
 #include "OracleGeneralBinaryZstdTraceReader.h"
+#include <fstream>
 
 ZstdReader *createZstdReader(const char *tracePath) {
   ZstdReader *reader = (ZstdReader *)malloc(sizeof(ZstdReader));
@@ -185,27 +186,50 @@ int oracleGeneralBinReadOneReq(ZstdReader *reader, OracleGeneralBinRequest *req)
     return 0;
 }
 
+
 int main(int argc, char *argv[]) {
     if (argc < 2) {
-        std::cerr << "Usage: " << argv[0] << " <file_path>" << std::endl;
+        std::cerr << "Usage: " << argv[0] << " <input_file_path> [output_file_path]" << std::endl;
         return 1;
     }
 
-    const char *filePath = argv[1];
-    ZstdReader *reader = createZstdReader(filePath);
+    const char *inputFilePath = argv[1];
+    const char *outputFilePath = (argc >= 3) ? argv[2] : nullptr;
+
+    ZstdReader *reader = createZstdReader(inputFilePath);
     if (!reader) {
         std::cerr << "Failed to create zstd reader" << std::endl;
         return 1;
     }
 
+    std::ofstream outputFile;
+    if (outputFilePath) {
+        outputFile.open(outputFilePath);
+        if (!outputFile.is_open()) {
+            std::cerr << "Failed to open output file: " << outputFilePath << std::endl;
+            freeZstdReader(reader);
+            return 1;
+        }
+        outputFile << "clock_time,object_id,object_size,next_access_vtime\n";
+    }
     OracleGeneralBinRequest req;
-    if (oracleGeneralBinReadOneReq(reader, &req) == 0 && req.valid) {
-        std::cout << "Clock Time: " << req.clockTime << std::endl;
-        std::cout << "Object ID: " << req.objId << std::endl;
-        std::cout << "Object Size: " << req.objSize << std::endl;
-        std::cout << "Next Access VTime: " << req.nextAccessVtime << std::endl;
-    } else {
-        std::cerr << "Failed to read request" << std::endl;
+    while (oracleGeneralBinReadOneReq(reader, &req) == 0) {
+        if (outputFilePath) {
+            outputFile << req.clockTime << ","
+                       << req.objId << ","
+                       << req.objSize << ","
+                       << req.nextAccessVtime << "\n";
+        } else {
+            std::cout << "Clock Time: " << req.clockTime << std::endl;
+            std::cout << "Object ID: " << req.objId << std::endl;
+            std::cout << "Object Size: " << req.objSize << std::endl;
+            std::cout << "Next Access VTime: " << req.nextAccessVtime << std::endl;
+            break;
+        }
+    }
+
+    if (outputFilePath) {
+        outputFile.close();
     }
 
     freeZstdReader(reader);
