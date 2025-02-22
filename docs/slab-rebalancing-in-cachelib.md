@@ -28,8 +28,8 @@ CacheLib provides several slab rebalancing strategies, they differ in how they c
 
 ## Overall Workflow
 
-    1. If freeAllocThreshold_ > 0:
-        a. Pick a victim using pickVictimByFreeAlloc (one with the most free memory).
+    1. If poolRebalancerFreeAllocThreshold > 0:
+        a. Pick an AC with most free memory (needs to be above the threshold) as the victim.
         b. Release a slab from the victim AC.
         c. If not all slabs are allocated in the pool, return (rebalance complete).
     
@@ -37,7 +37,7 @@ CacheLib provides several slab rebalancing strategies, they differ in how they c
         a. Select the AC with the most allocation failures as the receiver.
         
         b. If no rebalance strategy is configured:
-            i. Pick the AC with the most slabs as the victim.
+            i. Pick the AC with the most slabs as the victim (default).
         c. Else:
             i. Use the strategy-specific implementation to pick the victim.
     
