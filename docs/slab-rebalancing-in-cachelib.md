@@ -1,52 +1,65 @@
-# Slab Rebalance in CacheLib
 [Doc1](https://cachelib.org/docs/Cache_Library_User_Guides/pool_rebalance_strategy/) </br>
+
 [Doc2](https://cachelib.org/docs/Cache_Library_Architecture_Guide/slab_rebalancing) </br>
+
 **Terminology**:
+
 AC: Allocation Class
 
+  
+
 ## High-level overview
-There is a background daemon thread `PoolRebalancer` that gets invoked periodically. Upon invocation, it picks a *victim AC* and a *receiver AC*, moves a slab from the *victim AC* to the *receiver AC*. Note that *receiver AC* isn't necessary, and when the *receiver AC* isn't specified, 
-the slab from the *victim AC* will be returned to the pool.
+CacheLib implements slab rebalancing through a background daemon thread called `PoolRebalancer` that periodically redistributes memory across Allocation Classes (ACs). The rebalancer's core operation involves selecting a "victim AC" to release memory and optionally a "receiver AC" to receive it.
+  
+## Rebalancing Strategies
+CacheLib provides several slab rebalancing strategies, they differ in how they choose the *victim AC* and *receiver AC*. Here's an overview-we'll dive into details later.
 
-CacheLib provides several slab rebalancing strategies, they differ in how they choose the *victim AC* and *receiver AC*. Here we have a taste of the main idea behind each strategy-we'll dive into details later.
+**Default strategy**: focuses on addressing allocation failures
+- Receiver: AC with highest allocation failure count
+- Victim: AC with maximum total slabs (free + used)
 
- - **Default strategy**: only interested in allocation failures 
-	 - Pick receiver based on *most allocation failures*.
-	 - Pick victim by *max number of slabs (free  +  used).*
- - **LRU Tail Age strategy**: based on tail age
-	 - Pick receiver based on *min tail age*.
-	 - Pick victim based on *max tail age*.
- - **Hits Per Slab strategy**: based on total hit count of ACs and uses a *`delta_hit`* metric. `delta_hit = hit_count(current) - hit_count(at_last_rebalance) / hit_count(current)`, a high `delta_hit` value indicates increasing popularity. 
-	 - Pick receiver based on *max delta_hit* (increasing popularity).
-	 - Pick victim based on *min delta_hit* (decreasing popularity). 
- - **Marginal Hits Per Slab strategy**: similar to HitsPerSlab, but instead of considering the toal hit count of ACs, it considers the hit count of the *tail* of each AC. (only works in combination with LRU2Q)
-	 - Pick receiver based on *max tail delta_hit* (increasing popularity).
-	 - Pick victim based on *min tail delta_hit* (decreasing popularity).
- - **Free Mem strategy**: it doesn't specify receiver, will return the slab from the victim AC to the pool
-	 - Pick victim based on the *max free memory*
- - **Random strategy**: both victim and receiver are chosen randomly.
+**LRU Tail Age strategy**: based on tail age (mimic a global LRU)
+- Receiver: AC with minimum tail age
+- Victim: AC with maximum tail age
+
+**Hits Per Slab strategy**:  to drive high objectwise-hitrate (can also ensure some fairness by setting eviction age threshold)
+based on total hit count of ACs and uses a *`delta_hit`* metric. `delta_hit = hit_count(current) - hit_count(at_last_rebalance) / total_slab_count`, a high `delta_hit` value indicates increasing popularity. [\[source code\]](https://github.com/facebook/CacheLib/blob/fb79d6619cb4f0a5546b4cd6436a9ecdced0c32f/cachelib/allocator/RebalanceInfo.h#L133)
+
+- Receiver: AC with highest delta_hit (indicating increasing popularity)
+- Victim: AC with lowest delta_hit (indicating decreasing popularity)
+
+**Marginal Hits strategy**: similar to HitsPerSlab, but instead of considering the toal hit count of ACs, it considers the hit count of the *tail* of each AC. (only works in combination with LRU2Q)
+- Receiver: AC with highest tail delta_hit (indicating increasing popularity)
+- Victim: AC with lowest tail delta_hit (indicating decreasing popularity)
+
+**Free Mem strategy**: based on free memory
+- Victim: AC with maximum free memory
+- Doesn't specify receiver
+
+**Random strategy**: both victim and receiver are chosen randomly.
+
+  
 
 ## Overall Workflow
 
-    1. If poolRebalancerFreeAllocThreshold > 0:
-        a. Pick an AC with most free memory (needs to be above the threshold) as the victim.
-        b. Release a slab from the victim AC.
-        c. If not all slabs are allocated in the pool, return (rebalance complete).
-    
-    2. If there exists an allocation class (AC) with allocation failures:
-        a. Select the AC with the most allocation failures as the receiver.
-        
-        b. If no rebalance strategy is configured:
-            i. Pick the AC with the most slabs as the victim (default).
-        c. Else:
-            i. Use the strategy-specific implementation to pick the victim.
-    
-        d. If both a victim and a receiver are found, return (rebalance complete).
-    
-    3. Otherwise:
-        a. Use the strategy-specific implementation to pick both a victim and a receiver.
+  [\[source code\]](https://github.com/facebook/CacheLib/blob/fb79d6619cb4f0a5546b4cd6436a9ecdced0c32f/cachelib/allocator/PoolRebalancer.cpp#L104)
 
 
+1. (If poolRebalancerFreeAllocThreshold > 0), Free Memory Check
+   - identify ACs with free memory above threshold
+   - Release slab from AC with most free memory
+   - Exit if pool has unallocated slabs
+
+2. Allocation Failure Resolution
+   - Select AC with most allocation failures as receiver
+   - For victim selection:
+     - Default: Choose AC with most slabs
+     - Otherwise: Use strategy-specific impl of victim selection
+   - Exit if both victim and receiver identified
+
+3. Strategy-Specific Rebalancing
+   - Apply strategy-specific imp for selecting the victim and receiver AC.
+  
 
 
 
@@ -63,7 +76,7 @@ CacheLib provides several slab rebalancing strategies, they differ in how they c
 	- semantics: if false, upon detecting allocation failures, the `PoolRebalancer` will be waked up (event-driven wake-up in addition to periodic wake-ups)
 
 ### Strategy-specific
-#### LRU Tail Age
+#### LRU Tail Age [\[source code\]](https://github.com/facebook/CacheLib/blob/fb79d6619cb4f0a5546b4cd6436a9ecdced0c32f/cachelib/allocator/LruTailAgeStrategy.cpp#L137)
 - **minSlabs**
 	- default value: 1
 	- semantics: min number of slabs to retain in every AC. ACs with fewer than `minSlabs` slabs don't have victim candidacy.
@@ -80,7 +93,7 @@ CacheLib provides several slab rebalancing strategies, they differ in how they c
 	- default value: 100 (todo check unit)
 	- semantics: the absolute tail age difference between the chosen victim and receiver must be above this threshold
 
-#### Hits Per Slab
+#### Hits Per Slab [\[source code\]](https://github.com/facebook/CacheLib/blob/fb79d6619cb4f0a5546b4cd6436a9ecdced0c32f/cachelib/allocator/HitsPerSlabStrategy.cpp#L26)
 In addition to hit count, it also uses tail age as filters (to ensure some level of fairness by guaranteeing some eviction age).
 - **minSlabs** and **numSlabsFreeMem** works similarly as *LRU Tail Age*
 - **minLruTailAge**
@@ -92,7 +105,7 @@ In addition to hit count, it also uses tail age as filters (to ensure some level
 - **diffRatio**(default: 0.1), **minDiff**(default: 100)
 	- relative and absolute `delta_hit` diff threshold between the chosen victim and receiver.
 
-#### Marginal Hits Per Slab 
+#### Marginal Hits Per Slab [\[source code\]](https://github.com/facebook/CacheLib/blob/fb79d6619cb4f0a5546b4cd6436a9ecdced0c32f/cachelib/allocator/RebalanceInfo.h#L133)
 This strategy ranks ACs using the `tail delta hit`, pick the higest and lowest rank as the victim and receiver. In addition to tail hit count, it also used total slabs free slabs as filters.
 - **minSlabs**: default value: 1, same as above. ACs with fewer than `minSlabs` slabs don't have victim candidacy.
 - **movingAverageParam**
@@ -102,7 +115,7 @@ This strategy ranks ACs using the `tail delta hit`, pick the higest and lowest r
 	- default value: 1
 	- semantics: an AC can be a receiver only if its free slabs is below this threshold.
 
-#### Free Mem
+#### Free Mem [\[source code\]](https://github.com/facebook/CacheLib/blob/fb79d6619cb4f0a5546b4cd6436a9ecdced0c32f/cachelib/allocator/FreeMemStrategy.cpp#L25)
  - **minSlabs**: default value: 1, same as above. 
  - **maxUnAllocatedSlabs**
 	 - default value: 1000
