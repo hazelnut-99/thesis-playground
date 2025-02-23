@@ -1,3 +1,5 @@
+# Slab rebalance in CacheLib
+
 [Doc1](https://cachelib.org/docs/Cache_Library_User_Guides/pool_rebalance_strategy/) </br>
 
 [Doc2](https://cachelib.org/docs/Cache_Library_Architecture_Guide/slab_rebalancing) </br>
@@ -23,7 +25,8 @@ CacheLib provides several slab rebalancing strategies, they differ in how they c
 - Victim: AC with maximum tail age
 
 **Hits Per Slab strategy**:  to drive high objectwise-hitrate (can also ensure some fairness by setting eviction age threshold)
-based on total hit count of ACs and uses a *`delta_hit`* metric. `delta_hit = hit_count(current) - hit_count(at_last_rebalance) / total_slab_count`, a high `delta_hit` value indicates increasing popularity. [\[source code\]](https://github.com/facebook/CacheLib/blob/fb79d6619cb4f0a5546b4cd6436a9ecdced0c32f/cachelib/allocator/RebalanceInfo.h#L133)
+based on total hit count of ACs and uses a *`delta_hit`* metric.</br>
+`delta_hit = hit_count(current) - hit_count(at_last_rebalance) / total_slab_count`, a high `delta_hit` value indicates increasing popularity. [\[source code\]](https://github.com/facebook/CacheLib/blob/fb79d6619cb4f0a5546b4cd6436a9ecdced0c32f/cachelib/allocator/RebalanceInfo.h#L133)
 
 - Receiver: AC with highest delta_hit (indicating increasing popularity)
 - Victim: AC with lowest delta_hit (indicating decreasing popularity)
