@@ -7,7 +7,6 @@ from itertools import product
 base_config_path = 'base_config.json'
 cachebench_path = '/users/Hongshu/CacheLib/opt/cachelib/bin/cachebench'
 
-
 rebalance_configs = [
     {"rebalanceStrategy": "default"},
     {"rebalanceStrategy": "lru-tail", "rebalanceDiffRatio": 0.25},
@@ -34,7 +33,6 @@ cache_eviction_configs = [
     {"allocator": "TINYLFU"}
 ]
 
-
 """
 Tail hits tracking cannot be enabled on MMTypes except MM2Q.
 """
@@ -47,11 +45,20 @@ test_configs = [
 with open(base_config_path, 'r') as f:
     base_config = json.load(f)
 
-for config in test_configs:
+trace_file_path = os.getenv('TRACE_FILE')
+record_count = int(os.getenv('RECORD_COUNT'))
+
+for idx, config in enumerate(test_configs, start=1):
     test_config = base_config.copy()
     test_config['cache_config'].update(config)
 
-    test_dir = 'outcome/' + str(uuid.uuid4())
+    # Update the traceFileNames key with the new CSV file
+    test_config['test_config']['traceFileNames'] = [trace_file_path]
+
+    # Update the numOps key with the record count
+    test_config['test_config']['numOps'] = record_count
+
+    test_dir = 'outcome_cp/' + str(uuid.uuid4())
     os.makedirs(test_dir)
 
     config_path = os.path.join(test_dir, 'config.json')
@@ -59,6 +66,10 @@ for config in test_configs:
         json.dump(test_config, f, indent=2)
 
     std_out_path = os.path.join(test_dir, 'std.out')
+    
+    # Log progress
+    print(f"Running {trace_file_path}: config {idx}")
+
     with open(std_out_path, 'w') as std_out:
         subprocess.run([cachebench_path, '--json_test_config', config_path], stdout=std_out, stderr=subprocess.STDOUT)
 
