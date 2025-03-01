@@ -22,6 +22,7 @@
         "numOps": 69392150,
         "numThreads": 1,
         "prepopulateCache": true,
+        "wakeUpPoolRebalancerTraceTimer": false,
         "traceFileNames": [
             "/users/Hongshu/traces/w06.csv"
         ],

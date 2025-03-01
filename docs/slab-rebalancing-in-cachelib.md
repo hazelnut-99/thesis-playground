@@ -26,12 +26,16 @@ CacheLib implements slab rebalancing through a background daemon thread called `
 
 | AC metric | Default | LRU tail age | Hits per slab | Marginal Hits | FreeMem |
 |--|--|--|--|--|--|
-| total slabs | Y |  |  |  |  |
-| free memory |  | Y | Y |  | Y |
+| total slabs | Y |  | Y (as denominator) |  |  |
+| free memory |  | Y  | Y |  | Y |
 | tail age |  | Y | Y |  |  |  |
-| hit count |  |  | Y |  |  |  |
-| tail hit count |  |  |  | Y |  |  |
+| (delta) hit count |  |  | Y (as Numerator) |  |  |  |
+| (delta) tail hit count |  |  |  | Y |  |  |
 
+Internally, CacheLib maintains many other counters that might be useful for slab rebalance as well ([source code](https://github.com/facebook/CacheLib/blob/main/cachelib/allocator/RebalanceInfo.h)), e.g.  
+- (delta) number of evictions per AC
+- (delta) number of alloc failures per AC
+- (delta) number of slabs per AC
 
 ## Rebalancing Strategies
 
@@ -57,15 +61,15 @@ CacheLib provides several slab rebalancing strategies, they differ in how they c
 
 **Hits Per Slab strategy**: to drive high objectwise-hitrate (can also ensure some fairness by setting eviction age threshold)
 
-based on total hit count of ACs and uses a *`delta_hit`* metric.</br>
+based on total hit count of ACs and uses a *`delta_hit`* metric (average hit count per slab within a time window).</br>
 
 `delta_hit = hit_count(current) - hit_count(at_last_rebalance) / total_slab_count`, a high `delta_hit` value indicates increasing popularity. [\[source code\]](https://github.com/facebook/CacheLib/blob/fb79d6619cb4f0a5546b4cd6436a9ecdced0c32f/cachelib/allocator/RebalanceInfo.h#L133)
 
   
 
-- Receiver: AC with highest delta_hit (indicating increasing popularity)
+- Receiver: AC with highest delta_hit (indicating high popularity)
 
-- Victim: AC with lowest delta_hit (indicating decreasing popularity)
+- Victim: AC with lowest delta_hit (indicating low popularity)
 
   
 
@@ -83,9 +87,6 @@ based on total hit count of ACs and uses a *`delta_hit`* metric.</br>
 
 - Doesn't specify receiver
 
-  
-
-**Random strategy**: both victim and receiver are chosen randomly.
 
   
 ### Counters different strategies rely on:
