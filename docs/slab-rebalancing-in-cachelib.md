@@ -42,6 +42,7 @@ After locating a victim AC, the logic of choosing a slab to release within the v
 [source code](https://github.com/facebook/CacheLib/blob/6a832fb2bf6c47b82493f43684987bdc2d43872a/cachelib/allocator/memory/AllocationClass.cpp#L204)
 - if there are `freeSlabs`: return the first free slab
 - otherwise pick a random `allocatedSlab` (can this logic be improved?)
+- alternatively, the call-site can specify a hint address (explicitly specify which slab to release, by default this isn't specified, can we specify this as the slab where the lru tail item lives in?)
 
 After locating the slab to release, the execution of release has two options:  
 [source code](https://github.com/facebook/CacheLib/blob/6a832fb2bf6c47b82493f43684987bdc2d43872a/cachelib/allocator/CacheAllocator.h#L4985)

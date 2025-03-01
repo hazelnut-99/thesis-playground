@@ -26,7 +26,7 @@ rebalance_configs = [
     for free_alloc in free_alloc_thresholds
     for interval in pool_rebalance_intervals
 ]
-# disable rebalancing
+# disable rebalancing 
 rebalance_configs.append(
     { "disablepoolRebalancer": True, "poolRebalancerDisableForcedWakeUp": True}
 )
@@ -56,7 +56,7 @@ test_configs = [
     {**rebalance, **cache_size, **eviction, **alloc_factor, "test_group": "general"}
     for rebalance, cache_size, eviction, alloc_factor in product(rebalance_configs, cache_size_configs, cache_eviction_configs, alloc_factor_configs)
     if "rebalanceStrategy" in rebalance and not (rebalance["rebalanceStrategy"] == "marginal-hits" and eviction["allocator"] != "LRU2Q")
-]
+] # todo: bug here, rebalance disabled doesn't do anything.
 
 
 
