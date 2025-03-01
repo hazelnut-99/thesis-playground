@@ -37,6 +37,22 @@ Internally, CacheLib maintains many other counters that might be useful for slab
 - (delta) number of alloc failures per AC
 - (delta) number of slabs per AC
 
+
+After locating a victim AC, the logic of choosing a slab to release within the victim AC works as follows:  
+[source code](https://github.com/facebook/CacheLib/blob/6a832fb2bf6c47b82493f43684987bdc2d43872a/cachelib/allocator/memory/AllocationClass.cpp#L204)
+- if there are `freeSlabs`: return the first free slab
+- otherwise pick a random `allocatedSlab` (can this logic be improved?)
+
+After locating the slab to release, the execution of release has two options:  
+[source code](https://github.com/facebook/CacheLib/blob/6a832fb2bf6c47b82493f43684987bdc2d43872a/cachelib/allocator/CacheAllocator.h#L4985)
+- by default, directly evict all active allocations in this slab (we might be kicking out popular items)
+- alternatively, by passing in a user provided callback, we can copy the active allocation to release and evict the LRU tail (such that the oldest item is kicked out).
+
+
+
+
+  
+
 ## Rebalancing Strategies
 
 CacheLib provides several slab rebalancing strategies, they differ in how they choose the *victim AC* and *receiver AC*. Here's an overview-we'll dive into details later.
@@ -63,7 +79,7 @@ CacheLib provides several slab rebalancing strategies, they differ in how they c
 
 based on total hit count of ACs and uses a *`delta_hit`* metric (average hit count per slab within a time window).</br>
 
-`delta_hit = hit_count(current) - hit_count(at_last_rebalance) / total_slab_count`, a high `delta_hit` value indicates increasing popularity. [\[source code\]](https://github.com/facebook/CacheLib/blob/fb79d6619cb4f0a5546b4cd6436a9ecdced0c32f/cachelib/allocator/RebalanceInfo.h#L133)
+`delta_hit = hit_count(current) - hit_count(at_last_rebalance) / (total_slab_count - 1)`, a high `delta_hit` value indicates increasing popularity. [\[source code\]](https://github.com/facebook/CacheLib/blob/fb79d6619cb4f0a5546b4cd6436a9ecdced0c32f/cachelib/allocator/RebalanceInfo.h#L133)
 
   
 
