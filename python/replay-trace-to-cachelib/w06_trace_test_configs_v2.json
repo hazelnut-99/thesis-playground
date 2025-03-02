@@ -1,0 +1,290 @@
+[
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 256,
+    "allocator": "LRU",
+    "allocFactor": 1.2,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 256,
+    "allocator": "LRU",
+    "allocFactor": 1.25,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 256,
+    "allocator": "LRU",
+    "allocFactor": 1.5,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 256,
+    "allocator": "LRU2Q",
+    "allocFactor": 1.2,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 256,
+    "allocator": "LRU2Q",
+    "allocFactor": 1.25,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 256,
+    "allocator": "LRU2Q",
+    "allocFactor": 1.5,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 256,
+    "allocator": "TINYLFU",
+    "allocFactor": 1.2,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 256,
+    "allocator": "TINYLFU",
+    "allocFactor": 1.25,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 256,
+    "allocator": "TINYLFU",
+    "allocFactor": 1.5,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 512,
+    "allocator": "LRU",
+    "allocFactor": 1.2,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 512,
+    "allocator": "LRU",
+    "allocFactor": 1.25,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 512,
+    "allocator": "LRU",
+    "allocFactor": 1.5,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 512,
+    "allocator": "LRU2Q",
+    "allocFactor": 1.2,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 512,
+    "allocator": "LRU2Q",
+    "allocFactor": 1.25,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 512,
+    "allocator": "LRU2Q",
+    "allocFactor": 1.5,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 512,
+    "allocator": "TINYLFU",
+    "allocFactor": 1.2,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 512,
+    "allocator": "TINYLFU",
+    "allocFactor": 1.25,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 512,
+    "allocator": "TINYLFU",
+    "allocFactor": 1.5,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 1024,
+    "allocator": "LRU",
+    "allocFactor": 1.2,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 1024,
+    "allocator": "LRU",
+    "allocFactor": 1.25,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 1024,
+    "allocator": "LRU",
+    "allocFactor": 1.5,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 1024,
+    "allocator": "LRU2Q",
+    "allocFactor": 1.2,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 1024,
+    "allocator": "LRU2Q",
+    "allocFactor": 1.25,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 1024,
+    "allocator": "LRU2Q",
+    "allocFactor": 1.5,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 1024,
+    "allocator": "TINYLFU",
+    "allocFactor": 1.2,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 1024,
+    "allocator": "TINYLFU",
+    "allocFactor": 1.25,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 1024,
+    "allocator": "TINYLFU",
+    "allocFactor": 1.5,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 2048,
+    "allocator": "LRU",
+    "allocFactor": 1.2,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 2048,
+    "allocator": "LRU",
+    "allocFactor": 1.25,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 2048,
+    "allocator": "LRU",
+    "allocFactor": 1.5,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 2048,
+    "allocator": "LRU2Q",
+    "allocFactor": 1.2,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 2048,
+    "allocator": "LRU2Q",
+    "allocFactor": 1.25,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 2048,
+    "allocator": "LRU2Q",
+    "allocFactor": 1.5,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 2048,
+    "allocator": "TINYLFU",
+    "allocFactor": 1.2,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 2048,
+    "allocator": "TINYLFU",
+    "allocFactor": 1.25,
+    "test_group": "general"
+  },
+  {
+    "disablepoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "cacheSizeMB": 2048,
+    "allocator": "TINYLFU",
+    "allocFactor": 1.5,
+    "test_group": "general"
+  }
+]

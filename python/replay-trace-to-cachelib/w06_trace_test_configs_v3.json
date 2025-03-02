@@ -1,0 +1,110 @@
+[
+  {
+    "rebalanceStrategy": "random",
+    "rebalanceMinSlabs": 0,
+    "allocator": "LRU",
+    "poolRebalanceIntervalSec": 1,
+    "allocFactor": 1.25,
+    "cacheSizeMB": 256,
+    "test_group": "random-configs"
+  },
+  {
+    "rebalanceStrategy": "random",
+    "rebalanceMinSlabs": 0,
+    "allocator": "LRU",
+    "poolRebalanceIntervalSec": 1,
+    "allocFactor": 1.25,
+    "cacheSizeMB": 512,
+    "test_group": "random-configs"
+  },
+  {
+    "rebalanceStrategy": "random",
+    "rebalanceMinSlabs": 0,
+    "allocator": "LRU",
+    "poolRebalanceIntervalSec": 1,
+    "allocFactor": 1.25,
+    "cacheSizeMB": 1024,
+    "test_group": "random-configs"
+  },
+  {
+    "rebalanceStrategy": "random",
+    "rebalanceMinSlabs": 0,
+    "allocator": "LRU",
+    "poolRebalanceIntervalSec": 1,
+    "allocFactor": 1.25,
+    "cacheSizeMB": 2048,
+    "test_group": "random-configs"
+  },
+  {
+    "rebalanceStrategy": "random",
+    "rebalanceMinSlabs": 1,
+    "allocator": "LRU",
+    "poolRebalanceIntervalSec": 1,
+    "allocFactor": 1.25,
+    "cacheSizeMB": 256,
+    "test_group": "random-configs"
+  },
+  {
+    "rebalanceStrategy": "random",
+    "rebalanceMinSlabs": 1,
+    "allocator": "LRU",
+    "poolRebalanceIntervalSec": 1,
+    "allocFactor": 1.25,
+    "cacheSizeMB": 512,
+    "test_group": "random-configs"
+  },
+  {
+    "rebalanceStrategy": "random",
+    "rebalanceMinSlabs": 1,
+    "allocator": "LRU",
+    "poolRebalanceIntervalSec": 1,
+    "allocFactor": 1.25,
+    "cacheSizeMB": 1024,
+    "test_group": "random-configs"
+  },
+  {
+    "rebalanceStrategy": "random",
+    "rebalanceMinSlabs": 1,
+    "allocator": "LRU",
+    "poolRebalanceIntervalSec": 1,
+    "allocFactor": 1.25,
+    "cacheSizeMB": 2048,
+    "test_group": "random-configs"
+  },
+  {
+    "rebalanceStrategy": "random",
+    "rebalanceMinSlabs": 2,
+    "allocator": "LRU",
+    "poolRebalanceIntervalSec": 1,
+    "allocFactor": 1.25,
+    "cacheSizeMB": 256,
+    "test_group": "random-configs"
+  },
+  {
+    "rebalanceStrategy": "random",
+    "rebalanceMinSlabs": 2,
+    "allocator": "LRU",
+    "poolRebalanceIntervalSec": 1,
+    "allocFactor": 1.25,
+    "cacheSizeMB": 512,
+    "test_group": "random-configs"
+  },
+  {
+    "rebalanceStrategy": "random",
+    "rebalanceMinSlabs": 2,
+    "allocator": "LRU",
+    "poolRebalanceIntervalSec": 1,
+    "allocFactor": 1.25,
+    "cacheSizeMB": 1024,
+    "test_group": "random-configs"
+  },
+  {
+    "rebalanceStrategy": "random",
+    "rebalanceMinSlabs": 2,
+    "allocator": "LRU",
+    "poolRebalanceIntervalSec": 1,
+    "allocFactor": 1.25,
+    "cacheSizeMB": 2048,
+    "test_group": "random-configs"
+  }
+]

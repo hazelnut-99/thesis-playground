@@ -68,7 +68,7 @@ CacheLib provides several slab rebalancing strategies, they differ in how they c
 
   
 
-**LRU Tail Age strategy**: based on tail age (mimic a global LRU)
+**LRU Tail Age strategy**: balance age of the oldest item (mimic a global LRU)
 
 - Receiver: AC with minimum tail age
 
@@ -76,7 +76,7 @@ CacheLib provides several slab rebalancing strategies, they differ in how they c
 
   
 
-**Hits Per Slab strategy**: to drive high objectwise-hitrate (can also ensure some fairness by setting eviction age threshold)
+**Hits Per Slab strategy**: balance hit per slab (can also ensure some fairness by setting eviction age threshold)
 
 based on total hit count of ACs and uses a *`delta_hit`* metric (average hit count per slab within a time window).</br>
 
@@ -103,11 +103,6 @@ based on total hit count of ACs and uses a *`delta_hit`* metric (average hit cou
 - Victim: AC with maximum free memory
 
 - Doesn't specify receiver
-
-
-  
-### Counters different strategies rely on:
-
 
 
   
@@ -207,7 +202,7 @@ based on total hit count of ACs and uses a *`delta_hit`* metric (average hit cou
 
 -  **minTailAgeDifference**
 
-- default value: 100 (todo check unit)
+- default value: 100 (s)
 
 - semantics: the absolute tail age difference between the chosen victim and receiver must be above this threshold
 
@@ -221,13 +216,13 @@ In addition to hit count, it also uses tail age as filters (to ensure some level
 
 -  **minLruTailAge**
 
-- default value: 0
+- default value: 0 (means disabled)
 
 - semantics: min tail age for an AC to be eligible to be a victim
 
 -  **maxLruTailAge**
 
-- default value: 0
+- default value: 0 (means disabled)
 
 - semantics: max tail age for an allocation class to be excluded from being a receiver
 

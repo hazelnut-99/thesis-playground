@@ -28,7 +28,7 @@ rebalance_configs = [
 ]
 # disable rebalancing 
 rebalance_configs.append(
-    { "disablepoolRebalancer": True, "poolRebalancerDisableForcedWakeUp": True}
+    { "disablepoolRebalancer": True, "poolRebalancerDisableForcedWakeUp": True, "rebalanceStrategy": "disabled"}
 )
 
 alloc_factor_configs = [
@@ -172,6 +172,7 @@ test_configs.extend(lru_tail_configs)
 test_configs.extend(hits_configs)
 test_configs.extend(marginal_hits_configs)
 test_configs.extend(free_mem_configs)
+test_configs.extend(random_configs)
 
 print(f"total number of configs: {len(test_configs)}")
 
