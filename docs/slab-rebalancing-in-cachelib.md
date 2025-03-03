@@ -41,7 +41,7 @@ Internally, CacheLib maintains many other counters that might be useful for slab
 After locating a victim AC, the logic of choosing a slab to release within the victim AC works as follows:  
 [source code](https://github.com/facebook/CacheLib/blob/6a832fb2bf6c47b82493f43684987bdc2d43872a/cachelib/allocator/memory/AllocationClass.cpp#L204)
 - if there are `freeSlabs`: return the first free slab
-- otherwise pick a random `allocatedSlab` (can we change to the slab holding the oldest item?)
+- otherwise pick a random `allocatedSlab`
 
 After locating the slab to release, the execution of release has two options:  
 [source code](https://github.com/facebook/CacheLib/blob/6a832fb2bf6c47b82493f43684987bdc2d43872a/cachelib/allocator/CacheAllocator.h#L4985)
