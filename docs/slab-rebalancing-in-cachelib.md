@@ -49,8 +49,37 @@ After locating the slab to release, the execution of release has two options:
 - by default, directly evict all active allocations in this slab (we might be kicking out popular items)
 - alternatively, by passing in a user provided callback, we can copy the active allocation to release and evict the LRU tail (such that the oldest item is kicked out).
 
+## Overall Workflow
+[\[source code\]](https://github.com/facebook/CacheLib/blob/fb79d6619cb4f0a5546b4cd6436a9ecdced0c32f/cachelib/allocator/PoolRebalancer.cpp#L104)
 
 
+1. (If poolRebalancerFreeAllocThreshold > 0), Free Memory Check
+
+- identify ACs with free memory above threshold
+
+- Release slab from AC with most free memory
+
+- Exit if pool has unallocated slabs
+
+  
+
+2. Allocation Failure Resolution
+
+- Select AC with most allocation failures as receiver
+
+- For victim selection:
+
+- Default: Choose AC with most slabs
+
+- Otherwise: Use strategy-specific impl of victim selection
+
+- Exit if both victim and receiver identified
+
+  
+
+3. Strategy-Specific Rebalancing
+
+- Apply strategy-specific imp for selecting the victim and receiver AC.
 
   
 
@@ -104,47 +133,6 @@ based on total hit count of ACs and uses a *`delta_hit`* metric (average hit cou
 
 - Doesn't specify receiver
 
-
-  
-
-## Overall Workflow
-
-  
-
-[\[source code\]](https://github.com/facebook/CacheLib/blob/fb79d6619cb4f0a5546b4cd6436a9ecdced0c32f/cachelib/allocator/PoolRebalancer.cpp#L104)
-
-  
-  
-
-1. (If poolRebalancerFreeAllocThreshold > 0), Free Memory Check
-
-- identify ACs with free memory above threshold
-
-- Release slab from AC with most free memory
-
-- Exit if pool has unallocated slabs
-
-  
-
-2. Allocation Failure Resolution
-
-- Select AC with most allocation failures as receiver
-
-- For victim selection:
-
-- Default: Choose AC with most slabs
-
-- Otherwise: Use strategy-specific impl of victim selection
-
-- Exit if both victim and receiver identified
-
-  
-
-3. Strategy-Specific Rebalancing
-
-- Apply strategy-specific imp for selecting the victim and receiver AC.
-
-  
   
   
 
