@@ -77,7 +77,7 @@ After locating the slab to release, the execution of release has two options:
 
   
 
-1. Strategy-Specific Rebalancing
+3. Strategy-Specific Rebalancing
 
 - Apply strategy-specific imp for selecting the victim and receiver AC.
 
