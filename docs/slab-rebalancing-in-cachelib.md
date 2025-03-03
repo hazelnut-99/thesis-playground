@@ -158,6 +158,9 @@ based on total hit count of ACs and uses a *`delta_hit`* metric (average hit cou
 
 - semantics: if false, upon detecting allocation failures, the `PoolRebalancer` will be waked up (event-driven wake-up in addition to periodic wake-ups)
 
+-  **moveOnSlabRelease**
+-  default value: false
+-  semantics: if false, directly evict the victim slab when releasing, otherwise copy the items, kick out the oldest items to make room for them.
   
 
 ### Strategy-specific
