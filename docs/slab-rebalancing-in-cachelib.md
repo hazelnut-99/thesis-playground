@@ -69,15 +69,15 @@ After locating the slab to release, the execution of release has two options:
 
 - For victim selection:
 
-- Default: Choose AC with most slabs
+  - Default: Choose AC with most slabs
 
-- Otherwise: Use strategy-specific impl of victim selection
+  - Otherwise: Use strategy-specific impl of victim selection
 
 - Exit if both victim and receiver identified
 
   
 
-3. Strategy-Specific Rebalancing
+1. Strategy-Specific Rebalancing
 
 - Apply strategy-specific imp for selecting the victim and receiver AC.
 
