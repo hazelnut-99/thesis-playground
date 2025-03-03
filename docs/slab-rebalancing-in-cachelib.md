@@ -41,13 +41,13 @@ Internally, CacheLib maintains many other counters that might be useful for slab
 After locating a victim AC, the logic of choosing a slab to release within the victim AC works as follows:  
 [source code](https://github.com/facebook/CacheLib/blob/6a832fb2bf6c47b82493f43684987bdc2d43872a/cachelib/allocator/memory/AllocationClass.cpp#L204)
 - if there are `freeSlabs`: return the first free slab
-- otherwise pick a random `allocatedSlab` (can this logic be improved?)
-- alternatively, the call-site can specify a hint address (explicitly specify which slab to release, by default this isn't specified, can we specify this as the slab where the lru tail item lives in?)
+- otherwise pick a random `allocatedSlab` 
 
 After locating the slab to release, the execution of release has two options:  
 [source code](https://github.com/facebook/CacheLib/blob/6a832fb2bf6c47b82493f43684987bdc2d43872a/cachelib/allocator/CacheAllocator.h#L4985)
 - by default, directly evict all active allocations in this slab (we might be kicking out popular items)
-- alternatively, by passing in a user provided callback, we can copy the active allocation to release and evict the LRU tail (such that the oldest item is kicked out).
+- alternatively, evict from the tail of the LRU to make room for the item we're "moving". (ensure only the least useful items are evicted when we move slab memory around, this is configurable)
+
 
 ## Overall Workflow
 [\[source code\]](https://github.com/facebook/CacheLib/blob/fb79d6619cb4f0a5546b4cd6436a9ecdced0c32f/cachelib/allocator/PoolRebalancer.cpp#L104)
