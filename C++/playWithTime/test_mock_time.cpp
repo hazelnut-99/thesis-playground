@@ -39,6 +39,19 @@ int main() {
         std::cout << "❌ Test Failed: std::chrono does not match the mock time!\n";
     }
 
+    // Retrieve time using std::time(nullptr)
+    std::time_t time_now = std::time(nullptr);
+
+    // Print the retrieved time
+    std::cout << "std::time(nullptr) retrieved: " << time_now << " (Epoch seconds)\n";
+
+    // Verify if the times match
+    if (time_now == 1700000000) {
+        std::cout << "✅ Test Passed: std::time reflects the mock time!\n";
+    } else {
+        std::cout << "❌ Test Failed: std::time does not match the mock time!\n";
+    }
+
     // Close the shared library
     dlclose(handle);
     return 0;
