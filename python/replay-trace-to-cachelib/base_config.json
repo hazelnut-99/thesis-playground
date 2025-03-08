@@ -5,9 +5,10 @@
         "maxAllocSize": 4194304,
         "minAllocSize": 72,
         "htBucketPower": 29,
+        "disablePoolRebalancer": false,
         "moveOnSlabRelease": false,
         "poolRebalanceIntervalSec": 1,
-        "poolResizeIntervalSec": 1,
+        "poolResizeIntervalSec": 0,
         "rebalanceStrategy": "lru-tail"
     },
     "test_config": {

@@ -1,0 +1,607 @@
+[
+  {
+    "rebalanceStrategy": "default",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 256,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "default",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 256,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "default",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 256,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "default",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 512,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "default",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 512,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "default",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 512,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "default",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 1024,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "default",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 1024,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "default",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 1024,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "default",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 2048,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "default",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 2048,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "default",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 2048,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "default",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 8192,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "default",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 8192,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "default",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 8192,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "lru-tail",
+    "rebalanceDiffRatio": 0.25,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 256,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "lru-tail",
+    "rebalanceDiffRatio": 0.25,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 256,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "lru-tail",
+    "rebalanceDiffRatio": 0.25,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 256,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "lru-tail",
+    "rebalanceDiffRatio": 0.25,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 512,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "lru-tail",
+    "rebalanceDiffRatio": 0.25,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 512,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "lru-tail",
+    "rebalanceDiffRatio": 0.25,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 512,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "lru-tail",
+    "rebalanceDiffRatio": 0.25,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 1024,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "lru-tail",
+    "rebalanceDiffRatio": 0.25,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 1024,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "lru-tail",
+    "rebalanceDiffRatio": 0.25,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 1024,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "lru-tail",
+    "rebalanceDiffRatio": 0.25,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 2048,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "lru-tail",
+    "rebalanceDiffRatio": 0.25,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 2048,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "lru-tail",
+    "rebalanceDiffRatio": 0.25,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 2048,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "lru-tail",
+    "rebalanceDiffRatio": 0.25,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 8192,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "lru-tail",
+    "rebalanceDiffRatio": 0.25,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 8192,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "lru-tail",
+    "rebalanceDiffRatio": 0.25,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 8192,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "free-mem",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 256,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "free-mem",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 256,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "free-mem",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 256,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "free-mem",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 512,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "free-mem",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 512,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "free-mem",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 512,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "free-mem",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 1024,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "free-mem",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 1024,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "free-mem",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 1024,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "free-mem",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 2048,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "free-mem",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 2048,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "free-mem",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 2048,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "free-mem",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 8192,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "free-mem",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 8192,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "free-mem",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 8192,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "marginal-hits",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 256,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "marginal-hits",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 512,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "marginal-hits",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 1024,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "marginal-hits",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 2048,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "marginal-hits",
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 8192,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "hits",
+    "rebalanceDiffRatio": 0.1,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 256,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "hits",
+    "rebalanceDiffRatio": 0.1,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 256,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "hits",
+    "rebalanceDiffRatio": 0.1,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 256,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "hits",
+    "rebalanceDiffRatio": 0.1,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 512,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "hits",
+    "rebalanceDiffRatio": 0.1,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 512,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "hits",
+    "rebalanceDiffRatio": 0.1,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 512,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "hits",
+    "rebalanceDiffRatio": 0.1,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 1024,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "hits",
+    "rebalanceDiffRatio": 0.1,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 1024,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "hits",
+    "rebalanceDiffRatio": 0.1,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 1024,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "hits",
+    "rebalanceDiffRatio": 0.1,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 2048,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "hits",
+    "rebalanceDiffRatio": 0.1,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 2048,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "hits",
+    "rebalanceDiffRatio": 0.1,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 2048,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "hits",
+    "rebalanceDiffRatio": 0.1,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 8192,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "hits",
+    "rebalanceDiffRatio": 0.1,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 8192,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "rebalanceStrategy": "hits",
+    "rebalanceDiffRatio": 0.1,
+    "disablePoolRebalancer": false,
+    "cacheSizeMB": 8192,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "disablePoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "rebalanceStrategy": "disabled",
+    "cacheSizeMB": 256,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "disablePoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "rebalanceStrategy": "disabled",
+    "cacheSizeMB": 256,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "disablePoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "rebalanceStrategy": "disabled",
+    "cacheSizeMB": 256,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "disablePoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "rebalanceStrategy": "disabled",
+    "cacheSizeMB": 512,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "disablePoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "rebalanceStrategy": "disabled",
+    "cacheSizeMB": 512,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "disablePoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "rebalanceStrategy": "disabled",
+    "cacheSizeMB": 512,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "disablePoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "rebalanceStrategy": "disabled",
+    "cacheSizeMB": 1024,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "disablePoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "rebalanceStrategy": "disabled",
+    "cacheSizeMB": 1024,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "disablePoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "rebalanceStrategy": "disabled",
+    "cacheSizeMB": 1024,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "disablePoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "rebalanceStrategy": "disabled",
+    "cacheSizeMB": 2048,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "disablePoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "rebalanceStrategy": "disabled",
+    "cacheSizeMB": 2048,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "disablePoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "rebalanceStrategy": "disabled",
+    "cacheSizeMB": 2048,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  },
+  {
+    "disablePoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "rebalanceStrategy": "disabled",
+    "cacheSizeMB": 8192,
+    "allocator": "LRU",
+    "test_group": "general"
+  },
+  {
+    "disablePoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "rebalanceStrategy": "disabled",
+    "cacheSizeMB": 8192,
+    "allocator": "LRU2Q",
+    "test_group": "general"
+  },
+  {
+    "disablePoolRebalancer": true,
+    "poolRebalancerDisableForcedWakeUp": true,
+    "rebalanceStrategy": "disabled",
+    "cacheSizeMB": 8192,
+    "allocator": "TINYLFU",
+    "test_group": "general"
+  }
+]

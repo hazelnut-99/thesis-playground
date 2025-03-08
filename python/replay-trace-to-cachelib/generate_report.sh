@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Output CSV file
-output_csv="outcome_w06/report.csv"
+output_csv="outcome_w06_0303/report.csv"
 
 # Write the header to the CSV file
 echo "directory,cacheSizeMB,rebalanceStrategy,poolRebalanceIntervalSec,poolRebalancerFreeAllocThreshold,disablepoolRebalancer,allocFactor,allocator,rebalanceDiffRatio,ltaMinTailAgeDifference,rebalanceMinSlabs,ltaNumSlabsFreeMem,ltaSlabProjectionLength,test_group,hpsMinDiff,hpsNumSlabsFreeMem,hpsMinLruTailAge,hpsMaxLruTailAge,mhMovingAverageParam,mhMaxFreeMemSlabs,fmNumFreeSlabs,fmMaxUnAllocatedSlabs,numCacheGet,numCacheGetMisses,allocSuccessRate,rebalanceNumRebalancedSlabs,getPerSec" > $output_csv
@@ -52,6 +52,6 @@ export -f process_dir
 export output_csv
 
 # Use GNU Parallel to process directories in parallel
-find outcome_w06/*/ -maxdepth 0 -type d | parallel process_dir
+find outcome_w06_0303/*/ -maxdepth 0 -type d | parallel process_dir
 
 echo "Report generated: $output_csv"

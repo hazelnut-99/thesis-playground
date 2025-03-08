@@ -39,13 +39,7 @@ typedef struct ZstdReader {
     int readDirection;
 } ZstdReader;
 
-typedef struct OracleGeneralBinRequest {
-    uint32_t clockTime;
-    uint64_t objId;
-    uint32_t objSize;
-    int64_t nextAccessVtime;
-    bool valid;
-} OracleGeneralBinRequest;
+n
 
 ZstdReader *createZstdReader(const char *tracePath);
 void freeZstdReader(ZstdReader *reader);

@@ -189,12 +189,13 @@ int oracleGeneralBinReadOneReq(ZstdReader *reader, OracleGeneralBinRequest *req)
 
 int main(int argc, char *argv[]) {
     if (argc < 2) {
-        std::cerr << "Usage: " << argv[0] << " <input_file_path> [output_file_path]" << std::endl;
+        std::cerr << "Usage: " << argv[0] << " <input_file_path> [output_file_path] [max_record_cnt]" << std::endl;
         return 1;
     }
 
     const char *inputFilePath = argv[1];
     const char *outputFilePath = (argc >= 3) ? argv[2] : nullptr;
+    int maxRecordCnt = (argc >= 4) ? std::atoi(argv[3]) : -1; // Default to -1 if not provided
 
     ZstdReader *reader = createZstdReader(inputFilePath);
     if (!reader) {
@@ -213,6 +214,7 @@ int main(int argc, char *argv[]) {
         outputFile << "clock_time,object_id,object_size,next_access_vtime\n";
     }
     OracleGeneralBinRequest req;
+    int recordCount = 0;
     while (oracleGeneralBinReadOneReq(reader, &req) == 0) {
         if (outputFilePath) {
             outputFile << req.clockTime << ","
@@ -224,6 +226,10 @@ int main(int argc, char *argv[]) {
             std::cout << "Object ID: " << req.objId << std::endl;
             std::cout << "Object Size: " << req.objSize << std::endl;
             std::cout << "Next Access VTime: " << req.nextAccessVtime << std::endl;
+            break;
+        }
+        recordCount++;
+        if (maxRecordCnt != -1 && recordCount >= maxRecordCnt) {
             break;
         }
     }

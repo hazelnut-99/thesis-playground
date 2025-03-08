@@ -119,7 +119,7 @@ based on total hit count of ACs and uses a *`delta_hit`* metric (average hit cou
 
   
 
-**Marginal Hits strategy**: similar to HitsPerSlab, but instead of considering the toal hit count of ACs, it considers the hit count of the *tail* of each AC. (only works in combination with LRU2Q)
+**Marginal Hits strategy**: similar to HitsPerSlab, but instead of considering the toal hit count of ACs, it considers the hit count of the *tail slab* of each AC (warm tail + cold tail). (only works in combination with LRU2Q) 
 
 - Receiver: AC with highest tail delta_hit (indicating increasing popularity)
 
@@ -267,3 +267,6 @@ This strategy ranks ACs using the `tail delta hit`, pick the higest and lowest r
 - ACs with free slabs won't be chosen as receivers
 
 - ACs that recently received slabs won't be chosen as victims (holdOff)
+
+- Allocation size by default:
+  - min: 72 bytes, max: 4MB, allocFactor: 1.25

@@ -7,7 +7,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 
 base_config_path = 'base_config.json'
 cachebench_path = '/users/Hongshu/CacheLib/opt/cachelib/bin/cachebench'
-test_configs_path = 'w06_trace_test_configs.json'
+test_configs_path = 'w06_configs_0303.json'
 
 # Load test configurations from JSON file
 with open(test_configs_path, 'r') as f:
@@ -24,7 +24,7 @@ def run_test(config, idx):
     test_config = base_config.copy()
     test_config['cache_config'].update(config)
 
-    test_dir = 'outcome_w06/' + str(uuid.uuid4())
+    test_dir = 'outcome_w06_0303/' + str(uuid.uuid4())
     os.makedirs(test_dir)
 
     # Dump the test_config to a JSON file
@@ -43,7 +43,7 @@ def run_test(config, idx):
     print(f"Test completed for configuration: {config}. Output written to {std_out_path}, return code: {result.returncode}")
 
 # Run tests in parallel using ProcessPoolExecutor
-with ProcessPoolExecutor(max_workers=20) as executor:
+with ProcessPoolExecutor(max_workers=1) as executor:
     futures = [executor.submit(run_test, config, idx) for idx, config in enumerate(test_configs, start=1)]
     for future in as_completed(futures):
         future.result()  # This will raise an exception if the test failed
