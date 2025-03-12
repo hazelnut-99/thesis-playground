@@ -1,7 +1,10 @@
 #!/bin/bash
 
-# Loop through synth_1.csv to synth_5.csv
-for i in {1..5}; do
-    dataname="synth_${i}.csv"
-    python3 /users/Hongshu/libCacheSim/scripts/traceAnalysis/size_heatmap.py "${dataname}.sizeWindow_w300"
+trace_dir="/users/Hongshu/traces"
+for csv_file in "$trace_dir"/synth_*.csv; do
+    base_name=$(basename "$csv_file" .csv)
+    python3 /users/Hongshu/libCacheSim/scripts/traceAnalysis/size_heatmap.py "outcome/${base_name}.csv.sizeWindow_w300"
 done
+
+
+

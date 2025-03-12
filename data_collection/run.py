@@ -2,8 +2,8 @@ import json
 import concurrent.futures
 from util import run_experiment_with_config
 
-WORK_DIR = 'work_dir_3/'
-PARALLELISM = 4
+WORK_DIR = 'work_dir_4/'
+PARALLELISM = 8
 
 with open(WORK_DIR + 'exp_configs.json', 'r') as f:
     experiment_configs = json.load(f)

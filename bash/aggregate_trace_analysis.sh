@@ -37,9 +37,10 @@ json_dir=$2
 echo "trace_name,number_of_requests,number_of_objects,number_of_req_GiB,number_of_obj_GiB,compulsory_miss_ratio_req,compulsory_miss_ratio_byte,frequency_mean,time_span,zipf_slope,zipf_intercept,zipf_r2" > "$output_csv"
 
 # Process each JSON file in the directory
-for json_file in "$json_dir"/*.json; do
+for json_file in "$json_dir"/synth*.json; do
     trace_name=$(basename "$json_file" .json)
     json_to_csv "$json_file" "$trace_name" "$output_csv"
 done
+
 
 echo "CSV file generated: $output_csv"

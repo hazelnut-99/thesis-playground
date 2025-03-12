@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-base_dir="work_dir_3/outcome"
+base_dir="work_dir_4/outcome"
 df = pd.read_csv(f"{base_dir}/report_raw.csv")
 
 def read_cachebench_config(dir):

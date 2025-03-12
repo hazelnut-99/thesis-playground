@@ -81,20 +81,23 @@ def generate_alloc_sizes(factor, max_size, min_size, alignment=8):
     alloc_sizes.add(get_aligned_size(max_size, alignment))
     return len(alloc_sizes) * 4
 
-def can_work(allocFactor, maxAllocSize, cacheSizeMB, minAllocSize):
+def can_work(allocFactor, maxAllocSize, cacheSizeMB, minAllocSize, allocSizes):
+    if allocSizes:
+        return len(allocSizes) * 4 <= cacheSizeMB
     return generate_alloc_sizes(allocFactor, maxAllocSize, minAllocSize) <= cacheSizeMB
 
 def is_valid_config(config):
     allocator = config["cache_config"]["allocator"]
     rebalanceStrategy = config["cache_config"]["rebalanceStrategy"]
-    maxAllocSize = config["cache_config"]["maxAllocSize"]
-    minAllocSize = config["cache_config"]["minAllocSize"]
-    allocFactor = config["cache_config"]["allocFactor"]
+    maxAllocSize = config["cache_config"].get("maxAllocSize", None)
+    minAllocSize = config["cache_config"].get("minAllocSize", None)
+    allocFactor = config["cache_config"].get("allocFactor", None)
+    allocSizes = config["cache_config"].get("allocSizes", None)
     cacheSizeMB = config["cache_config"]["cacheSizeMB"]
     poolRebalanceIntervalSec = config["cache_config"]["poolRebalanceIntervalSec"]
 
     return (
-        can_work(allocFactor, maxAllocSize, cacheSizeMB, minAllocSize) and
+        can_work(allocFactor, maxAllocSize, cacheSizeMB, minAllocSize, allocSizes) and
         (rebalanceStrategy != "marginal-hits" or allocator == "LRU2Q") and
         not (
             (rebalanceStrategy == "disabled" and poolRebalanceIntervalSec != 0) or
