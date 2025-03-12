@@ -14,36 +14,7 @@ rebalance_strategies = {
     "hits": [{"rebalanceDiffRatio": 0.1}]
 }
 
-rebalance_configs = [
-    {"rebalanceStrategy": strategy, **params, "disablePoolRebalancer": False}
-    for strategy, params_list in rebalance_strategies.items()
-    for params in params_list
-]
 
-# disable rebalancing 
-rebalance_configs.append(
-    { "disablePoolRebalancer": True, "poolRebalancerDisableForcedWakeUp": True, "rebalanceStrategy": "disabled"}
-)
-
-# pool_rebalance_intervals = [1, 2]
-# free_alloc_thresholds = [0, 1, 2]
-
-# rebalance_configs = [
-#     {"rebalanceStrategy": strategy, "poolRebalanceIntervalSec": interval, 
-#      "poolRebalancerFreeAllocThreshold": free_alloc, **params}
-#     for strategy, params_list in rebalance_strategies.items()
-#     for params in params_list
-#     for free_alloc in free_alloc_thresholds
-#     for interval in pool_rebalance_intervals
-# ]
-# # disable rebalancing 
-# rebalance_configs.append(
-#     { "disablePoolRebalancer": True, "poolRebalancerDisableForcedWakeUp": True, "rebalanceStrategy": "disabled"}
-# )
-
-# alloc_factor_configs = [
-#     {"allocFactor": val} for val in [1.2, 1.25, 1.5]
-# ]
 
 cache_size_configs = [
     {"cacheSizeMB": 256},
@@ -51,6 +22,8 @@ cache_size_configs = [
     {"cacheSizeMB": 1024},
     {"cacheSizeMB": 2048},
     {"cacheSizeMB": 8192},
+    {"cacheSizeMB": 16384},
+    {"cacheSizeMB": 32768},
 ]
 
 cache_eviction_configs = [
@@ -64,8 +37,8 @@ cache_eviction_configs = [
 Tail hits tracking cannot be enabled on MMTypes except MM2Q.
 """
 test_configs = [
-    {**rebalance, **cache_size, **eviction, "test_group": "general"}
-    for rebalance, cache_size, eviction in product(rebalance_configs, cache_size_configs, cache_eviction_configs)
+    {**rebalance, **cache_size, **eviction}
+    for rebalance, cache_size, eviction in product(rebalance_strategies, cache_size_configs, cache_eviction_configs)
     if "rebalanceStrategy" in rebalance and not (rebalance["rebalanceStrategy"] == "marginal-hits" and eviction["allocator"] != "LRU2Q")
 ] 
 

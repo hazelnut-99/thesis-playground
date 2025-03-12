@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the base directory
-base_dir="work_dir_0/outcome"
+base_dir="work_dir_3/outcome"
 
 # Output CSV file
 output_csv="$base_dir/report_raw.csv"

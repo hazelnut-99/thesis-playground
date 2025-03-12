@@ -3,12 +3,21 @@ import json
 import subprocess
 
 def run_cachebench(config_file, output_file):
-    command = [
-        "LD_PRELOAD=/users/Hongshu/libmock_time.so",
-        "/users/Hongshu/CacheLib/opt/cachelib/bin/cachebench",
-        "--json_test_config", config_file,
-        "-progress=50000"
-    ]
+    with open(config_file, 'r') as f:
+        config_content = json.load(f)
+    if config_content["test_config"]["useTraceTimer"]:
+        command = [
+            "LD_PRELOAD=/users/Hongshu/libmock_time.so",
+            "/users/Hongshu/CacheLib/opt/cachelib/bin/cachebench",
+            "--json_test_config", config_file,
+            "-progress=50000"
+        ]
+    else:
+        command = [
+            "/users/Hongshu/CacheLib/opt/cachelib/bin/cachebench",
+            "--json_test_config", config_file,
+            "-progress=50000"
+        ]
     
     with open(output_file, 'w') as out:
         result = subprocess.run(" ".join(command), shell=True, stdout=out, stderr=subprocess.STDOUT)
