@@ -31,7 +31,7 @@ def add_config_columns(df):
         df[k] = v
 
     return df
-
+print(df.columns)
 df = add_config_columns(df)
 df.rename(columns={'wss': 'wss_MiB'}, inplace=True)
 df['_missRatio'] = df['_numCacheGetMisses'] / df['_numCacheGet']

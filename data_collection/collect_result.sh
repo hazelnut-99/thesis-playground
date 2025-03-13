@@ -7,7 +7,7 @@ base_dir="work_dir_5/outcome"
 output_csv="$base_dir/report_raw.csv"
 
 # Write the header to the CSV file
-echo -e "directory,_numCacheGet,_numCacheGetMisses,_allocFailures,_allocSuccessRate,_numRebalancedSlabs,_getPerSec,_poolUsedFrac,_ramEvictions,_rebalanceNumRuns,_rebalanceAvgTimeMs" > $output_csv
+echo -e "directory,_numCacheGet,_numCacheGetMisses,_allocFailures,_allocSuccessRate,_numRebalancedSlabs,_getPerSec,_poolUsedFrac,_ramEvictions,_rebalanceNumRuns,_rebalanceAvgTimeMs,_acStats" > $output_csv
 
 # Function to process each directory
 process_dir() {
@@ -28,9 +28,14 @@ process_dir() {
         rebalanceNumRuns=$(grep -m 1 "Rebalance Num Runs  :" "$dir/std.out" | awk -F': ' '{print $2}' | tr -d ' ' | tr -d ',')
         rebalanceAvgTimeMs=$(grep -m 1 "Rebalance Avg Rebalance TimeMs  :" "$dir/std.out" | awk -F': ' '{print $2}' | tr -d ' ' | tr -d ',')
 
+        # Extract AC_Miss_rate lines and format them as a simple string
+        acStats=$(grep "^AC_Miss_rate:" "$dir/std.out" | awk -F'[ ,:]+' '
+        {
+            printf("allocSize:%d;gets:%d;missRatio:%.2f;totalSlabs:%d\\n", $7, $9, $11, $13)
+        }' | tr -d '\n')
 
         # Write the values to the CSV file
-        echo -e "$directory,$numCacheGet,$numCacheGetMisses,$allocFailures,$allocSuccessRate,$rebalanceNumRebalancedSlabs,$getPerSec,$poolUsedFrac,$ramEvictions,$rebalanceNumRuns,$rebalanceAvgTimeMs" >> $output_csv
+        echo -e "$directory,$numCacheGet,$numCacheGetMisses,$allocFailures,$allocSuccessRate,$rebalanceNumRebalancedSlabs,$getPerSec,$poolUsedFrac,$ramEvictions,$rebalanceNumRuns,$rebalanceAvgTimeMs,\"$acStats\"" >> $output_csv
     fi
 }
 
