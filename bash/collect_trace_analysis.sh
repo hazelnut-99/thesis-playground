@@ -8,7 +8,7 @@ analysis_dir="/users/Hongshu/traces/analysis"
 mkdir -p "$analysis_dir"
 
 # Loop through all files with names starting with synth_ under the trace directory
-for csv_file in "$trace_dir"/synth_*.csv; do
+for csv_file in "$trace_dir"/synth_periodic*.csv; do
     # Extract the base name of the file (without the directory and extension)
     base_name=$(basename "$csv_file" .csv)
     analysis_txt="$analysis_dir/${base_name}_analysis.txt"
