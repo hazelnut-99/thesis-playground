@@ -6,6 +6,9 @@ import csv
 from argparse import ArgumentParser
 import json
 from concurrent.futures import ProcessPoolExecutor, as_completed
+import os
+
+force_overwrite = False
 
 class ZipfGenerator:
     def __init__(self, m, alpha, base_id=0):
@@ -26,11 +29,39 @@ class ZipfGenerator:
         return (np.searchsorted(self.distMap, u) + self.base_id).item()
 
 
-class MergedStaticZipfGenerator:
+class UniformGenerator:
+    def __init__(self, m, base_id=0):
+        self.m = m
+        self.base_id = base_id
+        print(f"Generating uniform distribution with m={m}")
+    
+    def next(self):
+        return np.random.randint(0, self.m) + self.base_id
+
+
+def gen_uniform(m: int, n: int, start: int = 0) -> np.ndarray:
+    """generate uniform distributed workload
+
+    Args:
+        m (int): the number of objects
+        n (int): the number of requests
+        start (int, optional): start obj_id. Defaults to 0.
+
+    Returns:
+        requests that are uniform distributed
+    """
+
+    return np.random.uniform(0, m, n).astype(int) + start
+
+class MergedStaticGenerator:
     def __init__(self, generators_config, base_id=0):
         self.generators = []
         for config in generators_config:
-            generator = ZipfGenerator(config['m'], config['alpha'], base_id)
+            print(config)
+            if 'type' in config and config['type'] == 'uniform':
+                generator = UniformGenerator(config['m'], base_id)
+            else:
+                generator = ZipfGenerator(config['m'], config['alpha'], base_id)
             self.generators.append(generator)
             # make sure that obj ids don't overlap
             base_id += config['m']
@@ -58,13 +89,13 @@ class MergedStaticZipfGenerator:
         return obj_id, obj_size
 
 
-class PeriodicZipfGenerator:
+class PeriodicGenerator:
     def __init__(self, static_generator_configs, weight_array, request_per_cycle, base_id = 0):
         self.requests_per_generator_per_cycle = [weight/(sum(weight_array)) * request_per_cycle for weight in weight_array]
         
         self.generators = []
         for static_generator_config in static_generator_configs:
-            generator = MergedStaticZipfGenerator(static_generator_config, base_id)
+            generator = MergedStaticGenerator(static_generator_config, base_id)
             # make sure that obj ids don't overlap
             base_id += sum([config['m'] for config in static_generator_config])
             self.generators.append(generator)
@@ -128,11 +159,14 @@ def generate(generator, total_requests, time_span=86400 * 7, output_file=None):
 
 def process_config(config):
     if config['type'] == 'static':
-        generator = MergedStaticZipfGenerator(config['generators_config'], config['total_requests'])
+        generator = MergedStaticGenerator(config['generators_config'], config['total_requests'])
     elif config['type'] == 'periodic':
-        generator = PeriodicZipfGenerator(config['generators_config'], config['weight_array'], config['request_per_cycle'])
+        generator = PeriodicGenerator(config['generators_config'], config['weight_array'], config['request_per_cycle'])
     else:
         raise ValueError(f"Unknown generator type: {config['type']}")
+    if not force_overwrite and os.path.exists(config['output_file']):
+        print(f"File {config['output_file']} already exists. Skipping...")
+        return
     generate(generator, config['total_requests'], config['time_span'], config['output_file'])
     print(f"Generated data for {config['output_file']}")
 
@@ -151,19 +185,19 @@ def generate_based_on_config_file(config_file_path):
 # Example usage
 if __name__ == "__main__":
     static_generators_config1 = [
-        {'m': 1000000, 'alpha': 1.0, 'share': 2, 'size': 30},
-        {'m': 1000000, 'alpha': 0.8, 'share': 2, 'size': 50},
-        {'m': 1000000, 'alpha': 1.2, 'share': 1, 'size': 80}
+        {'m': 1000000, 'alpha': 1.0, 'share': 2, 'size': 30, 'type': 'zipf'},
+        {'m': 1000000, 'alpha': 0.8, 'share': 2, 'size': 50, 'type': 'zipf'},
+        {'m': 1000000, 'alpha': 1.2, 'share': 1, 'size': 80, 'type': 'zipf'}
     ]
     static_generators_config2 = [
-        {'m': 1000000, 'alpha': 1.0, 'share': 2, 'size': 300},
-        {'m': 1000000, 'alpha': 0.8, 'share': 2, 'size': 500},
-        {'m': 1000000, 'alpha': 1.2, 'share': 1, 'size': 800}
+        {'m': 1000000, 'alpha': 1.0, 'share': 2, 'size': 300, 'type': 'zipf'},
+        {'m': 1000000, 'alpha': 0.8, 'share': 2, 'size': 500, 'type': 'zipf'},
+        {'m': 1000000, 'alpha': 1.2, 'share': 1, 'size': 800, 'type': 'zipf'}
     ]
     
-    periodic_generator = PeriodicZipfGenerator([static_generators_config1, static_generators_config2], [4, 1], 10)
+    periodic_generator = PeriodicGenerator([static_generators_config1, static_generators_config2], [4, 1], 10)
     generate(periodic_generator, 50)
     
-    generate_based_on_config_file("periodic_config.json")
+    generate_based_on_config_file("benchmark_static_optim_strategy.json")
     
     

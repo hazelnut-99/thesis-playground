@@ -7,7 +7,8 @@ base_dir="work_dir_5/outcome"
 output_csv="$base_dir/report_raw.csv"
 
 # Write the header to the CSV file
-echo -e "directory,_numCacheGet,_numCacheGetMisses,_allocFailures,_allocSuccessRate,_numRebalancedSlabs,_getPerSec,_poolUsedFrac,_ramEvictions,_rebalanceNumRuns,_rebalanceAvgTimeMs,_acStats" > $output_csv
+#echo -e "directory,_numCacheGet,_numCacheGetMisses,_allocFailures,_allocSuccessRate,_numRebalancedSlabs,_getPerSec,_poolUsedFrac,_ramEvictions,_rebalanceNumRuns,_rebalanceAvgTimeMs,_acStats" > $output_csv
+echo -e "directory,_numCacheGet,_numCacheGetMisses,_allocFailures,_allocSuccessRate,_numRebalancedSlabs,_getPerSec,_poolUsedFrac,_ramEvictions,_rebalanceNumRuns,_rebalanceAvgTimeMs" > $output_csv
 
 # Function to process each directory
 process_dir() {
@@ -35,7 +36,8 @@ process_dir() {
         }' | tr -d '\n')
 
         # Write the values to the CSV file
-        echo -e "$directory,$numCacheGet,$numCacheGetMisses,$allocFailures,$allocSuccessRate,$rebalanceNumRebalancedSlabs,$getPerSec,$poolUsedFrac,$ramEvictions,$rebalanceNumRuns,$rebalanceAvgTimeMs,\"$acStats\"" >> $output_csv
+        #echo -e "$directory,$numCacheGet,$numCacheGetMisses,$allocFailures,$allocSuccessRate,$rebalanceNumRebalancedSlabs,$getPerSec,$poolUsedFrac,$ramEvictions,$rebalanceNumRuns,$rebalanceAvgTimeMs,\"$acStats\"" >> $output_csv
+        echo -e "$directory,$numCacheGet,$numCacheGetMisses,$allocFailures,$allocSuccessRate,$rebalanceNumRebalancedSlabs,$getPerSec,$poolUsedFrac,$ramEvictions,$rebalanceNumRuns,$rebalanceAvgTimeMs" >> $output_csv
     fi
 }
 
