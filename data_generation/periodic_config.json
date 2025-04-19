@@ -2,81 +2,73 @@
     {
         "type": "periodic",
         "time_span": 604800,
-        "total_requests": 21000000,
-        "output_file": "/users/Hongshu/traces/synth_periodic_1.csv",
+        "total_requests": 80000000,
+        "output_file": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv",
         "generators_config": [
             [
-                {"m": 700000, "alpha": 1.0, "share": 1, "size": 86}
+                {"m": 1600000, "alpha": 0.25, "share": 1, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 1, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 1, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 1, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 4, "size": 4054}
             ],
             [
-                {"m": 700000, "alpha": 1.0, "share": 1, "size": 982}
+                {"m": 1600000, "alpha": 0.25, "share": 1, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 1, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 4, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 1, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 1, "size": 4054}
             ]
         ],
         "weight_array": [1, 1],
-        "request_per_cycle": 21000000
+        "request_per_cycle": 80000000
     },
     {
         "type": "periodic",
         "time_span": 604800,
-        "total_requests": 21000000,
-        "output_file": "/users/Hongshu/traces/synth_periodic_2.csv",
+        "total_requests": 80000000,
+        "output_file": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv",
         "generators_config": [
             [
-                {"m": 700000, "alpha": 1.0, "share": 1, "size": 86}
+                {"m": 1600000, "alpha": 0.25, "share": 1, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 1, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 1, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 1, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 4, "size": 4054}
             ],
             [
-                {"m": 700000, "alpha": 1.0, "share": 1, "size": 982}
+                {"m": 1600000, "alpha": 0.25, "share": 1, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 1, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 4, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 1, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 1, "size": 4054}
             ]
         ],
         "weight_array": [1, 1],
-        "request_per_cycle": 10500000
+        "request_per_cycle": 40000000
     },
     {
         "type": "periodic",
         "time_span": 604800,
-        "total_requests": 21000000,
-        "output_file": "/users/Hongshu/traces/synth_periodic_3.csv",
+        "total_requests": 80000000,
+        "output_file": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_402.csv",
         "generators_config": [
             [
-                {"m": 700000, "alpha": 1.0, "share": 1, "size": 86}
+                {"m": 1600000, "alpha": 0.25, "share": 1, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 1, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 1, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 1, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 4, "size": 4054}
             ],
             [
-                {"m": 700000, "alpha": 1.0, "share": 1, "size": 982}
+                {"m": 1600000, "alpha": 0.25, "share": 1, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 1, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 4, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 1, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 1, "size": 4054}
             ]
         ],
         "weight_array": [1, 1],
-        "request_per_cycle": 3000000
-    },
-    {
-        "type": "periodic",
-        "time_span": 604800,
-        "total_requests": 21000000,
-        "output_file": "/users/Hongshu/traces/synth_periodic_4.csv",
-        "generators_config": [
-            [
-                {"m": 700000, "alpha": 1.0, "share": 1, "size": 86}
-            ],
-            [
-                {"m": 700000, "alpha": 1.0, "share": 1, "size": 982}
-            ]
-        ],
-        "weight_array": [23, 1],
-        "request_per_cycle": 10500000
-    },
-    {
-        "type": "periodic",
-        "time_span": 604800,
-        "total_requests": 21000000,
-        "output_file": "/users/Hongshu/traces/synth_periodic_5.csv",
-        "generators_config": [
-            [
-                {"m": 700000, "alpha": 1.0, "share": 1, "size": 86}
-            ],
-            [
-                {"m": 700000, "alpha": 1.0, "share": 1, "size": 982}
-            ]
-        ],
-        "weight_array": [23, 1],
-        "request_per_cycle": 3000000
+        "request_per_cycle": 20000000
     }
 ]

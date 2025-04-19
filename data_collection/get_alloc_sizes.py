@@ -32,4 +32,5 @@ def generate_alloc_sizes(factor, max_size, min_size, alignment=8):
 
 
 
-print(len(generate_alloc_sizes(2.5, 523350, 72)))
+print(len(generate_alloc_sizes(1.5, 6300, 72)))
+print(sorted(generate_alloc_sizes(1.5, 6300, 72)))

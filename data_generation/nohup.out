@@ -1,0 +1,105 @@
+{'m': 1000000, 'alpha': 1.0, 'share': 2, 'size': 30, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=1.0
+{'m': 1000000, 'alpha': 0.8, 'share': 2, 'size': 50, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=0.8
+{'m': 1000000, 'alpha': 1.2, 'share': 1, 'size': 80, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=1.2
+{'m': 1000000, 'alpha': 1.0, 'share': 2, 'size': 300, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=1.0
+{'m': 1000000, 'alpha': 0.8, 'share': 2, 'size': 500, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=0.8
+{'m': 1000000, 'alpha': 1.2, 'share': 1, 'size': 800, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=1.2
+12096 163541 30
+24192 409 30
+36288 1271304 50
+48384 1811799 50
+60480 2000000 80
+72576 14099 30
+84672 1944 30
+96768 1078328 50
+108864 3000001 300
+120960 3015565 300
+133056 1003563 50
+145152 2000027 80
+157248 1 30
+169344 6 30
+181440 1445463 50
+193536 1034229 50
+205632 2031310 80
+217728 167773 30
+229824 4125670 500
+241920 4000006 500
+254016 5 30
+266112 1000003 50
+278208 1000172 50
+290304 2000128 80
+302400 7 30
+314496 129 30
+326592 1005631 50
+338688 1000061 50
+350784 5000039 800
+362880 3076625 300
+374976 2000004 80
+387072 209932 30
+399168 92 30
+411264 1028104 50
+423360 1030912 50
+435456 2000026 80
+447552 7510 30
+459648 33 30
+471744 3345287 300
+483840 4061051 500
+495936 1787765 50
+508032 1006420 50
+520128 2000002 80
+532224 649944 30
+544320 629302 30
+556416 1516019 50
+568512 1887133 50
+580608 2000037 80
+592704 4000001 500
+604800 5000030 800
+{'m': 1600000, 'alpha': 0.25, 'share': 1, 'size': 214}
+Generating Zipf distribution with m=1600000, alpha=0.25
+{'m': 800000, 'alpha': 0.85, 'share': 1, 'size': 470}
+Generating Zipf distribution with m=800000, alpha=0.85
+{'m': 400000, 'alpha': 0.25, 'share': 1, 'size': 982}
+Generating Zipf distribution with m=400000, alpha=0.25
+{'m': 200000, 'alpha': 0.85, 'share': 1, 'size': 2006}
+Generating Zipf distribution with m=200000, alpha=0.85
+{'m': 100000, 'alpha': 1.0, 'share': 4, 'size': 4054}
+Generating Zipf distribution with m=100000, alpha=1.0
+{'m': 1600000, 'alpha': 0.25, 'share': 1, 'size': 214}
+Generating Zipf distribution with m=1600000, alpha=0.25
+{'m': 800000, 'alpha': 0.85, 'share': 1, 'size': 470}
+Generating Zipf distribution with m=800000, alpha=0.85
+{'m': 400000, 'alpha': 0.25, 'share': 4, 'size': 982}
+Generating Zipf distribution with m=400000, alpha=0.25
+{'m': 200000, 'alpha': 0.85, 'share': 1, 'size': 2006}
+Generating Zipf distribution with m=200000, alpha=0.85
+{'m': 100000, 'alpha': 1.0, 'share': 1, 'size': 4054}
+Generating Zipf distribution with m=100000, alpha=1.0
+Generated data for /proj/latencymodel-PG0/hongshu/traces/synth_dynamic_302.csv
+{'m': 1600000, 'alpha': 1.0, 'share': 1, 'size': 214}
+Generating Zipf distribution with m=1600000, alpha=1.0
+{'m': 800000, 'alpha': 1.0, 'share': 1, 'size': 470}
+Generating Zipf distribution with m=800000, alpha=1.0
+{'m': 400000, 'alpha': 1.0, 'share': 1, 'size': 982}
+Generating Zipf distribution with m=400000, alpha=1.0
+{'m': 200000, 'alpha': 1.0, 'share': 1, 'size': 2006}
+Generating Zipf distribution with m=200000, alpha=1.0
+{'m': 100000, 'alpha': 1.0, 'share': 1, 'size': 4054}
+Generating Zipf distribution with m=100000, alpha=1.0
+Generated data for /proj/latencymodel-PG0/hongshu/traces/synth_dynamic_300.csv
+{'m': 1600000, 'alpha': 1.0, 'share': 1, 'size': 214}
+Generating Zipf distribution with m=1600000, alpha=1.0
+{'m': 800000, 'alpha': 1.0, 'share': 1, 'size': 470}
+Generating Zipf distribution with m=800000, alpha=1.0
+{'m': 400000, 'alpha': 1.0, 'share': 1, 'size': 982}
+Generating Zipf distribution with m=400000, alpha=1.0
+{'m': 200000, 'alpha': 1.0, 'share': 1, 'size': 2006}
+Generating Zipf distribution with m=200000, alpha=1.0
+{'m': 100000, 'alpha': 1.0, 'share': 1, 'size': 4054}
+Generating Zipf distribution with m=100000, alpha=1.0
+Generated data for /proj/latencymodel-PG0/hongshu/traces/synth_dynamic_301.csv

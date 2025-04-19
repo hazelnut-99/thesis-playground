@@ -138,7 +138,38 @@ def process_csv_and_generate_subtraces(csv_file_path, output_dir, factor, max_si
             file.close()
     
     return alloc_size_files.values()
-            
+
+
+def subtrace_statistics_helper(object_ids):
+    # Total number of records in the subtrace
+    record_count = len(object_ids)
+
+    # Count distinct object IDs
+    distinct_object_count = len(set(object_ids))
+
+    # Perform Zipf linear fitting
+    if distinct_object_count > 0:
+        # Use NumPy to calculate frequencies
+        object_ids_array = np.array(object_ids)
+        _, frequencies = np.unique(object_ids_array, return_counts=True)
+
+        # Sort frequencies in descending order
+        frequencies = np.sort(frequencies)[::-1]
+
+        # Generate ranks
+        ranks = np.arange(1, len(frequencies) + 1)
+
+        # Perform linear regression on log-log scale
+        log_ranks = np.log(ranks)
+        log_frequencies = np.log(frequencies)
+        slope, intercept, r_value, p_value, stderr = linregress(log_ranks, log_frequencies)
+        zipf_r2 = r_value**2
+    else:
+        # If no distinct objects, set Zipf fitting values to None
+        slope, intercept, zipf_r2, p_value = None, None, None, None
+    
+    return record_count, distinct_object_count, slope, intercept, zipf_r2, p_value
+
 
 
 def get_subtrace_statistics(directory, output_file="subtrace_stat.csv"):
@@ -164,35 +195,9 @@ def get_subtrace_statistics(directory, output_file="subtrace_stat.csv"):
                 with open(subtrace_path, 'r') as subtrace_file:
                     reader = csv.DictReader(subtrace_file)
                     object_ids = [row['object_id'] for row in reader]
-
-                # Total number of records in the subtrace
-                record_count = len(object_ids)
-
-                # Count distinct object IDs
-                distinct_object_count = len(set(object_ids))
-
-                # Perform Zipf linear fitting
-                if distinct_object_count > 0:
-                    # Use NumPy to calculate frequencies
-                    object_ids_array = np.array(object_ids)
-                    _, frequencies = np.unique(object_ids_array, return_counts=True)
-
-                    # Sort frequencies in descending order
-                    frequencies = np.sort(frequencies)[::-1]
-
-                    # Generate ranks
-                    ranks = np.arange(1, len(frequencies) + 1)
-
-                    # Perform linear regression on log-log scale
-                    log_ranks = np.log(ranks)
-                    log_frequencies = np.log(frequencies)
-                    slope, intercept, r_value, p_value, stderr = linregress(log_ranks, log_frequencies)
-                    zipf_r2 = r_value**2
-                else:
-                    # If no distinct objects, set Zipf fitting values to None
-                    slope, intercept, zipf_r2, p_value = None, None, None, None
-
-                # Write the result to the output CSV
+                
+                record_count, distinct_object_count, slope, intercept, zipf_r2, p_value = subtrace_statistics_helper(object_ids)
+                
                 writer.writerow([filename, record_count, distinct_object_count, slope, intercept, zipf_r2, p_value])
 
 
@@ -273,19 +278,19 @@ def clean_up_subtrace_files(subtrace_files):
 
 # Example usage
 if __name__ == "__main__":
-    csv_file_path = "/proj/latencymodel-PG0/hongshu/traces/meta2024_500m.csv"
-    output_dir = '/proj/latencymodel-PG0/hongshu/traces/subtraces/meta2024_500m'
+    csv_file_path = "/proj/latencymodel-PG0/hongshu/traces/synth_static_204.csv"
+    output_dir = '/proj/latencymodel-PG0/hongshu/traces/subtraces/synth_static_204'
     
     subtrace_files = process_csv_and_generate_subtraces(
         csv_file_path=csv_file_path,
         output_dir=output_dir,
-        factor=1.5,
-        max_size=523350,
-        min_size=72,
-        # factor=None,
-        # max_size=None,
-        # min_size=None,
-        # alloc_sizes=[256, 512, 1024, 2048, 4096]
+        # factor=1.5,
+        # max_size=523350,
+        # min_size=72,
+        factor=None,
+        max_size=None,
+        min_size=None,
+        alloc_sizes=[256, 512, 1024, 2048, 4096]
     )
     calculate_miss_ratios(output_dir)
     get_subtrace_statistics(output_dir)
