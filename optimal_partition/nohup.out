@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/users/Hongshu/thesis-playground/optimal_partition/gen_sub_traces.py", line 284, in <module>
+    subtrace_files = process_csv_and_generate_subtraces(
+  File "/users/Hongshu/thesis-playground/optimal_partition/gen_sub_traces.py", line 123, in process_csv_and_generate_subtraces
+    for row in reader:
+  File "/usr/lib/python3.10/csv.py", line 120, in __next__
+    lf = len(self.fieldnames)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/users/Hongshu/thesis-playground/optimal_partition/gen_sub_traces.py", line 298, in <module>
+    clean_up_subtrace_files(subtrace_files)
+  File "/users/Hongshu/thesis-playground/optimal_partition/gen_sub_traces.py", line 275, in clean_up_subtrace_files
+    if os.path.exists(file_path):
+  File "/usr/lib/python3.10/genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not TextIOWrapper

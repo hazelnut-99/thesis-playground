@@ -186,16 +186,17 @@ int oracleGeneralBinReadOneReq(ZstdReader *reader, OracleGeneralBinRequest *req)
     return 0;
 }
 
-
 int main(int argc, char *argv[]) {
     if (argc < 2) {
-        std::cerr << "Usage: " << argv[0] << " <input_file_path> [output_file_path] [max_record_cnt]" << std::endl;
+        std::cerr << "Usage: " << argv[0] << " <input_file_path> [output_file_path] [max_record_cnt] [print_min_max_size]" << std::endl;
         return 1;
     }
 
     const char *inputFilePath = argv[1];
-    const char *outputFilePath = (argc >= 3) ? argv[2] : nullptr;
-    int maxRecordCnt = (argc >= 4) ? std::atoi(argv[3]) : -1; // Default to -1 if not provided
+    const char *outputFilePath = (argc >= 3 && std::string(argv[2]) != "print_min_max_size") ? argv[2] : nullptr;
+    int maxRecordCnt = (argc >= 4 && std::string(argv[3]) != "print_min_max_size") ? std::atoi(argv[3]) : -1; // Default to -1 if not provided
+    bool printMinMaxSize = (argc >= 3 && std::string(argv[2]) == "print_min_max_size") || 
+                           (argc >= 4 && std::string(argv[3]) == "print_min_max_size");
 
     ZstdReader *reader = createZstdReader(inputFilePath);
     if (!reader) {
@@ -204,7 +205,7 @@ int main(int argc, char *argv[]) {
     }
 
     std::ofstream outputFile;
-    if (outputFilePath) {
+    if (outputFilePath && !printMinMaxSize) {
         outputFile.open(outputFilePath);
         if (!outputFile.is_open()) {
             std::cerr << "Failed to open output file: " << outputFilePath << std::endl;
@@ -213,10 +214,22 @@ int main(int argc, char *argv[]) {
         }
         outputFile << "clock_time,object_id,object_size,next_access_vtime\n";
     }
+
     OracleGeneralBinRequest req;
     int recordCount = 0;
+    int minSize = INT_MAX;
+    int maxSize = 0;
+
     while (oracleGeneralBinReadOneReq(reader, &req) == 0) {
-        if (outputFilePath) {
+        if (printMinMaxSize) {
+            // Update min and max object sizes
+            if (req.objSize < minSize) {
+                minSize = req.objSize;
+            }
+            if (req.objSize > maxSize) {
+                maxSize = req.objSize;
+            }
+        } else if (outputFilePath) {
             outputFile << req.clockTime << ","
                        << req.objId << ","
                        << req.objSize << ","
@@ -234,7 +247,12 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    if (outputFilePath) {
+    if (printMinMaxSize) {
+        std::cout << "Min Object Size: " << minSize << std::endl;
+        std::cout << "Max Object Size: " << maxSize << std::endl;
+    }
+
+    if (outputFilePath && !printMinMaxSize) {
         outputFile.close();
     }
 
