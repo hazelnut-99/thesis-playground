@@ -10,6 +10,8 @@ import pandas as pd
 import bisect
 from collections import defaultdict
 from calc_optimal import calc_optimal_allocation
+import subprocess
+import re
 
 
 def get_aligned_size(size, alignment):
@@ -276,25 +278,72 @@ def clean_up_subtrace_files(subtrace_files):
             os.remove(file_path)
 
 
+def simulate_miss_ratio(trace_path: str, cache_size_mb: int) -> float:
+    command = [
+        "/users/Hongshu/libCacheSim/_build/bin/cachesim",
+        trace_path,
+        "csv",
+        "lru",
+        f"{cache_size_mb}mb",
+        "-t",
+        "time-col=1,obj-id-col=2,obj-size-col=3,obj-id-is-num=1"
+    ]
+    
+    try:
+        # Run the command and capture output
+        result = subprocess.run(command, capture_output=True, text=True, check=True)
+        output = result.stdout + result.stderr  # cachesim might output to stderr
+        
+        # Find the final line with the total miss ratio
+        match = re.search(r"miss ratio ([0-9.]+)", output)
+        if match:
+            return float(match.group(1))
+        else:
+            raise ValueError("Miss ratio not found in output.")
+    except subprocess.CalledProcessError as e:
+        print("Error running cachesim:", e.stderr)
+        raise
+
+
+def simulate_lru_cache_miss_ratios(csv_file_path, total_slabs, directory, output_file="global_lru_miss_ratios.csv"):
+    cache_sizes = [s * 4 for s in total_slabs]
+    output_path = os.path.join(directory, output_file)
+    with open(output_path, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(['trace_path', 'cache_size', 'slab_cnt',  'miss_ratio'])
+
+        for index, cache_size in enumerate(cache_sizes):
+            miss_ratio = simulate_miss_ratio(csv_file_path, cache_size)
+            writer.writerow([csv_file_path, cache_size, total_slabs[index], miss_ratio])
+        
+
+
 # Example usage
 if __name__ == "__main__":
-    csv_file_path = "/proj/latencymodel-PG0/hongshu/traces/synth_static_204.csv"
-    output_dir = '/proj/latencymodel-PG0/hongshu/traces/subtraces/synth_static_204'
+    csv_file_path = "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    output_dir = '/proj/latencymodel-PG0/hongshu/traces/subtraces/synth_dynamic_401'
     
-    subtrace_files = process_csv_and_generate_subtraces(
-        csv_file_path=csv_file_path,
-        output_dir=output_dir,
-        # factor=1.5,
-        # max_size=523350,
-        # min_size=72,
-        factor=None,
-        max_size=None,
-        min_size=None,
-        alloc_sizes=[256, 512, 1024, 2048, 4096]
+    # subtrace_files = process_csv_and_generate_subtraces(
+    #     csv_file_path=csv_file_path,
+    #     output_dir=output_dir,
+    #     # factor=1.5,
+    #     # max_size=523350,
+    #     # min_size=72,
+    #     factor=None,
+    #     max_size=None,
+    #     min_size=None,
+    #     alloc_sizes=[256, 512, 1024]
+    # )
+    # calculate_miss_ratios(output_dir)
+    # get_subtrace_statistics(output_dir)
+    # #calc_optimal_allocation(output_dir)
+    # clean_up_subtrace_files(subtrace_files)
+    
+    
+    simulate_lru_cache_miss_ratios(csv_file_path,
+        total_slabs=[32, 64, 128, 256, 512],
+        directory=output_dir,
+        output_file="global_lru_miss_ratios.csv"
     )
-    calculate_miss_ratios(output_dir)
-    get_subtrace_statistics(output_dir)
-    #calc_optimal_allocation(output_dir)
-    clean_up_subtrace_files(subtrace_files)
     
     
