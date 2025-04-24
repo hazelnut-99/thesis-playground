@@ -1,0 +1,5 @@
+/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv LRU cache size   128MiB,         80000000 req, miss ratio 0.5962, throughput 0.86 MQPS
+/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv LRU cache size   256MiB,         80000000 req, miss ratio 0.4983, throughput 0.91 MQPS
+/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv LRU cache size   512MiB,         80000000 req, miss ratio 0.3520, throughput 0.89 MQPS
+/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv LRU cache size     1GiB,         80000000 req, miss ratio 0.1786, throughput 0.85 MQPS
+/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv LRU cache size     2GiB,         80000000 req, miss ratio 0.0722, throughput 0.84 MQPS

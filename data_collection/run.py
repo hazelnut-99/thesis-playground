@@ -2,8 +2,8 @@ import json
 import concurrent.futures
 from util import run_experiment_with_config
 
-WORK_DIR = 'work_dir_6/'
-PARALLELISM = 9
+WORK_DIR = 'work_dir_10_prod/'
+PARALLELISM = 8
 category = "default"
 
 with open(WORK_DIR + 'exp_configs.json', 'r') as f:

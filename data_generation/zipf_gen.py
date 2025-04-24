@@ -29,6 +29,17 @@ class ZipfGenerator:
         return (np.searchsorted(self.distMap, u) + self.base_id).item()
 
 
+class NonConvexScanGenerator:
+    def __init__(self, m, base_id):
+        self.m = m
+        self.base_id = base_id
+        self.current_index = -1
+    
+    def next(self):
+        self.current_index = (self.current_index + 1) % self.m
+        return self.current_index + self.base_id
+
+
 class UniformGenerator:
     def __init__(self, m, base_id=0):
         self.m = m
@@ -60,6 +71,8 @@ class MergedStaticGenerator:
             print(config)
             if 'type' in config and config['type'] == 'uniform':
                 generator = UniformGenerator(config['m'], base_id)
+            elif 'type' in config and config['type'] == 'non_convex':
+                generator = NonConvexScanGenerator(config['m'], base_id)
             else:
                 generator = ZipfGenerator(config['m'], config['alpha'], base_id)
             self.generators.append(generator)
@@ -198,6 +211,6 @@ if __name__ == "__main__":
     periodic_generator = PeriodicGenerator([static_generators_config1, static_generators_config2], [4, 1], 10)
     generate(periodic_generator, 50)
     
-    generate_based_on_config_file("periodic_config.json")
+    generate_based_on_config_file("benchmark_static_optim_strategy.json")
     
     

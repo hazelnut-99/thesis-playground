@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import os
 
-top_dir = "work_dir_9_meta/"
+top_dir = "work_dir_6/"
 base_dir=f"{top_dir}/outcome"
 
 
