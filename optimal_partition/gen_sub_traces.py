@@ -320,8 +320,8 @@ def simulate_lru_cache_miss_ratios(csv_file_path, total_slabs, directory, output
 
 # Example usage
 if __name__ == "__main__":
-    csv_file_path = "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
-    output_dir = '/proj/latencymodel-PG0/hongshu/traces/subtraces/synth_dynamic_401'
+    csv_file_path = "/users/Hongshu/traces/w75.csv"
+    output_dir = '/proj/latencymodel-PG0/hongshu/traces/subtraces/w75'
     
     # subtrace_files = process_csv_and_generate_subtraces(
     #     csv_file_path=csv_file_path,
@@ -332,7 +332,7 @@ if __name__ == "__main__":
     #     factor=None,
     #     max_size=None,
     #     min_size=None,
-    #     alloc_sizes=[256, 512, 1024]
+    #     alloc_sizes=[72, 112, 168, 256, 384, 576, 864, 1296, 1944, 2920, 4384, 6576, 9864, 14800, 22200, 33304, 49960, 74944, 112416, 168624, 252936, 379408, 569112, 853672, 1280512, 1920768, 2000000]
     # )
     # calculate_miss_ratios(output_dir)
     # get_subtrace_statistics(output_dir)
@@ -341,7 +341,7 @@ if __name__ == "__main__":
     
     
     simulate_lru_cache_miss_ratios(csv_file_path,
-        total_slabs=[32, 64, 128, 256, 512],
+        total_slabs=[64, 128, 256, 512, 1024],
         directory=output_dir,
         output_file="global_lru_miss_ratios.csv"
     )

@@ -1,0 +1,8 @@
+/users/Hongshu/traces/w75.csv LRU cache size   256MiB,          6152624 req, miss ratio 0.2698, throughput 0.50 MQPS
+/users/Hongshu/traces/w75.csv LRU cache size   512MiB,          6152624 req, miss ratio 0.2284, throughput 0.61 MQPS
+/users/Hongshu/traces/w75.csv LRU cache size     1GiB,          6152624 req, miss ratio 0.1862, throughput 0.53 MQPS
+/users/Hongshu/traces/w75.csv LRU cache size   256MiB,          6152624 req, miss ratio 0.2698, throughput 0.52 MQPS
+/users/Hongshu/traces/w75.csv LRU cache size   512MiB,          6152624 req, miss ratio 0.2284, throughput 0.53 MQPS
+/users/Hongshu/traces/w75.csv LRU cache size     1GiB,          6152624 req, miss ratio 0.1862, throughput 0.56 MQPS
+/users/Hongshu/traces/w75.csv LRU cache size     2GiB,          6152624 req, miss ratio 0.1389, throughput 0.53 MQPS
+/users/Hongshu/traces/w75.csv LRU cache size     4GiB,          6152624 req, miss ratio 0.0977, throughput 0.54 MQPS
