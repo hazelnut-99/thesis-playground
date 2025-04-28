@@ -39,6 +39,145 @@ class NonConvexScanGenerator:
         self.current_index = (self.current_index + 1) % self.m
         return self.current_index + self.base_id
 
+class NonConvexTraceGenerator:
+    """
+    Generates a stream of object IDs designed to produce a non-convex 
+    miss ratio curve under LRU caching.
+
+    The trace alternates between accessing two working sets (WS1, WS2) of 
+    different sizes with potentially different repetition counts, mimicking 
+    access patterns that cause plateaus and cliffs in LRU performance.
+
+    Acts as an iterator, yielding the next object ID on each call to next().
+    """
+
+    def __init__(self, m, n, s1_ratio=0.6, s2_ratio=0.2, rep1=5, rep2=1):
+        """
+        Initializes the trace generator.
+
+        Args:
+            m (int): The total number of distinct objects available. 
+                     The generated trace will use s1_size + s2_size distinct 
+                     objects, where s1_size + s2_size <= m.
+            n (int): The total number of requests (length of the trace).
+            s1_ratio (float, optional): Ratio of 'm' to use for the size of 
+                                       the primary working set (WS1). 
+                                       Defaults to 0.6. The cliff in the 
+                                       miss curve typically occurs around this size.
+            s2_ratio (float, optional): Ratio of 'm' to use for the size of 
+                                       the secondary working set (WS2). 
+                                       Defaults to 0.2. Influences the start 
+                                       of the first plateau.
+            rep1 (int, optional): Number of times to iterate through WS1 
+                                  sequentially before switching to WS2. 
+                                  Defaults to 5. Controls WS1 access frequency.
+            rep2 (int, optional): Number of times to iterate through WS2 
+                                  sequentially before switching back to WS1. 
+                                  Defaults to 1. Controls WS2 access frequency.
+
+        Raises:
+            ValueError: If parameters are invalid (e.g., m, n <= 0, ratios 
+                        invalid, resulting working set sizes <= 0, or 
+                        s1_size + s2_size > m, rep1/rep2 < 1).
+        """
+        if not isinstance(m, int) or m <= 0:
+            raise ValueError("m (total distinct objects) must be a positive integer.")
+        if not isinstance(n, int) or n < 0: # n=0 is technically valid (empty trace)
+            raise ValueError("n (total requests) must be a non-negative integer.")
+        if not (0 < s1_ratio <= 1):
+             raise ValueError("s1_ratio must be between 0 (exclusive) and 1 (inclusive).")
+        if not (0 < s2_ratio <= 1):
+             raise ValueError("s2_ratio must be between 0 (exclusive) and 1 (inclusive).")
+        if not isinstance(rep1, int) or rep1 < 1:
+             raise ValueError("rep1 must be an integer >= 1.")
+        if not isinstance(rep2, int) or rep2 < 1:
+             raise ValueError("rep2 must be an integer >= 1.")
+
+        self.m = m
+        self.n = n
+        self.rep1 = rep1
+        self.rep2 = rep2
+
+        # Calculate working set sizes based on ratios
+        # Use floor to ensure integer sizes and guarantee <= m
+        self.s1_size = math.floor(m * s1_ratio)
+        self.s2_size = math.floor(m * s2_ratio)
+
+        # Validation of calculated sizes
+        if self.s1_size <= 0:
+            raise ValueError(f"Resulting s1_size ({self.s1_size}) is not positive. Adjust m or s1_ratio.")
+        if self.s2_size <= 0:
+             raise ValueError(f"Resulting s2_size ({self.s2_size}) is not positive. Adjust m or s2_ratio.")
+        if self.s1_size + self.s2_size > m:
+            # This shouldn't happen with floor if ratios are <= 1, but check just in case
+            raise ValueError(f"Calculated s1_size ({self.s1_size}) + s2_size ({self.s2_size}) exceeds m ({m}). Adjust ratios.")
+        
+        print(f"Generator Initialized: m={m}, n={n}")
+        print(f"  WS1 Size (s1_size): {self.s1_size} (Objects 0 to {self.s1_size - 1})")
+        print(f"  WS2 Size (s2_size): {self.s2_size} (Objects {self.s1_size} to {self.s1_size + self.s2_size - 1})")
+        print(f"  Repetitions per cycle: REP1={self.rep1}, REP2={self.rep2}")
+        print(f"  Total distinct objects used: {self.s1_size + self.s2_size}")
+
+        # Internal state for iteration
+        self._requests_generated = 0
+        self._current_set = 1  # Start with WS1
+        self._set_repetitions_left = self.rep1
+        self._position_in_set = 0 # Next object index within the current set
+
+    def __iter__(self):
+        """Return the iterator object itself."""
+        # Reset state if iteration is restarted
+        self._requests_generated = 0
+        self._current_set = 1 
+        self._set_repetitions_left = self.rep1
+        self._position_in_set = 0
+        return self
+
+    def __next__(self):
+        """Returns the next object ID in the trace stream."""
+        if self._requests_generated >= self.n:
+            raise StopIteration
+
+        # 1. Determine the object_id for the current state
+        if self._current_set == 1:
+            object_id = self._position_in_set
+        else: # _current_set == 2
+            object_id = self.s1_size + self._position_in_set
+
+        # 2. Increment count and advance state for the *next* call
+        self._requests_generated += 1
+        self._position_in_set += 1
+
+        current_set_size = self.s1_size if self._current_set == 1 else self.s2_size
+
+        if self._position_in_set >= current_set_size:
+            # Finished one full pass/repetition of the current set
+            self._position_in_set = 0 # Reset position for next pass (if any)
+            self._set_repetitions_left -= 1
+            
+            if self._set_repetitions_left <= 0:
+                # Finished all repetitions for this set, switch to the other set
+                if self._current_set == 1:
+                    self._current_set = 2
+                    self._set_repetitions_left = self.rep2
+                    # Check if WS2 has size > 0 before proceeding
+                    if self.s2_size <= 0:
+                        # Should have been caught by init, but safety check
+                        # If s2 is empty, switch back immediately (or stop?)
+                        # Let's assume sizes > 0 based on init checks. 
+                        pass 
+                else: # _current_set == 2
+                    self._current_set = 1
+                    self._set_repetitions_left = self.rep1
+                    # Check if WS1 has size > 0
+                    if self.s1_size <= 0:
+                         pass # Assume sizes > 0
+
+        return object_id
+
+    # Optional: Alias next() for convenience if desired, though __next__ is standard
+    def next(self):
+        return self.__next__()
 
 class UniformGenerator:
     def __init__(self, m, base_id=0):

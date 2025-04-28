@@ -181,16 +181,16 @@ def process_binary_and_generate_subtraces(binary_file_path, output_dir, factor, 
     subtrace_stat_output_path = os.path.join(output_dir, "subtrace_stat.csv")
     miss_ratio_output_path = os.path.join(output_dir, "miss_ratios.csv")
     
-    with open(subtrace_stat_output_path, 'w', newline='') as stat_file:
-         #open(miss_ratio_output_path, 'w', newline='') as miss_ratio_file:
+    with open(subtrace_stat_output_path, 'w', newline='') as stat_file,\
+         open(miss_ratio_output_path, 'w', newline='') as miss_ratio_file:
 
         # Prepare the CSV writers
         stat_writer = csv.writer(stat_file)
-        #miss_ratio_writer = csv.writer(miss_ratio_file)
+        miss_ratio_writer = csv.writer(miss_ratio_file)
 
         # Write headers to the output files
         stat_writer.writerow(['subtrace_name', 'record_count', 'distinct_object_count', 'zipf_slope', 'zipf_intercept', 'zipf_r2', 'p_value'])
-        #miss_ratio_writer.writerow(['subtrace_name', 'cache_size', 'slab_cnt', 'miss_count', 'miss_ratio', 'miss_ratio_delta'])
+        miss_ratio_writer.writerow(['subtrace_name', 'cache_size', 'slab_cnt', 'miss_count', 'miss_ratio', 'miss_ratio_delta'])
 
         # Process each allocation size
         for alloc_size in alloc_sizes:
@@ -202,35 +202,32 @@ def process_binary_and_generate_subtraces(binary_file_path, output_dir, factor, 
             stat_writer.writerow([os.path.basename(subtrace_path), record_count, distinct_object_count, slope, intercept, zipf_r2, p_value])
             
             # Compute reuse distance histogram
-            # reuse_distance_histogram = compute_reuse_distances(object_ids)
+            reuse_distance_histogram = compute_reuse_distances(object_ids)
 
-            # # Total number of records in the subtrace
-            # total_records = sum(reuse_distance_histogram.values())
-            # if total_records == 0:
-            #     print(f"Skipping file {subtrace_path}: No records found.")
-            #     continue
+            # Total number of records in the subtrace
+            total_records = record_count
 
-            # # Initialize the last miss ratio to 1
-            # last_miss_ratio = 1
+            # Initialize the last miss ratio to 1
+            last_miss_ratio = 1
 
-            # # Define memory size range (4MB to 4GB in steps of 4MB)
-            # memory_sizes = np.arange(4 * 1024 * 1024, 4 * 1024 * 1024 * 1025, 4 * 1024 * 1024)  # 4MB to 4GB
+            # Define memory size range (4MB to 4GB in steps of 4MB)
+            memory_sizes = np.arange(4 * 1024 * 1024, 4 * 1024 * 1024 * 1025, 4 * 1024 * 1024)  # 4MB to 4GB
 
-            # # Calculate miss ratios for each memory size
-            # for memory_size in memory_sizes:
-            #     slab_cnt = memory_size // (4 * 1024 * 1024)  # Number of 4MB slabs
-            #     max_objects = memory_size // alloc_size  # Maximum objects that can fit in the cache
+            # Calculate miss ratios for each memory size
+            for memory_size in memory_sizes:
+                slab_cnt = memory_size // (4 * 1024 * 1024)  # Number of 4MB slabs
+                max_objects = memory_size // alloc_size  # Maximum objects that can fit in the cache
 
-            #     # Calculate miss count by filtering the histogram
-            #     miss_count = sum(count for reuse_distance, count in reuse_distance_histogram.items() if (reuse_distance >= max_objects or reuse_distance == -1))
-            #     miss_ratio = miss_count / total_records
-            #     miss_ratio_delta = last_miss_ratio - miss_ratio
+                # Calculate miss count by filtering the histogram
+                miss_count = sum(count for reuse_distance, count in reuse_distance_histogram.items() if (reuse_distance >= max_objects or reuse_distance == -1))
+                miss_ratio = miss_count / total_records
+                miss_ratio_delta = last_miss_ratio - miss_ratio
 
-            #     # Write the result to the miss ratios file
-            #     miss_ratio_writer.writerow([os.path.basename(subtrace_path), memory_size, slab_cnt, miss_count, miss_ratio, miss_ratio_delta])
+                # Write the result to the miss ratios file
+                miss_ratio_writer.writerow([os.path.basename(subtrace_path), memory_size, slab_cnt, miss_count, miss_ratio, miss_ratio_delta])
 
-            #     # Update the last miss ratio
-            #     last_miss_ratio = miss_ratio
+                # Update the last miss ratio
+                last_miss_ratio = miss_ratio
 
         
         
@@ -244,12 +241,12 @@ if __name__ == "__main__":
         #     "maxsize": 6300,
         #     "name": "cluster52_sample10"
         # },
-        {
-            "input_path": "/proj/latencymodel-PG0/hongshu/traces/202210_kv_traces_all_sort.csv.oracleGeneral.zst",
-            "output_dir": "/proj/latencymodel-PG0/hongshu/traces/subtraces/meta_2022",
-            "maxsize": 523350,
-            "name": "meta_2022"
-        },
+        # {
+        #     "input_path": "/proj/latencymodel-PG0/hongshu/traces/202210_kv_traces_all_sort.csv.oracleGeneral.zst",
+        #     "output_dir": "/proj/latencymodel-PG0/hongshu/traces/subtraces/meta_2022",
+        #     "maxsize": 523350,
+        #     "name": "meta_2022"
+        # },
         {
             "input_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
             "output_dir": "/proj/latencymodel-PG0/hongshu/traces/subtraces/meta_2024",
