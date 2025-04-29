@@ -340,10 +340,10 @@ if __name__ == "__main__":
     # clean_up_subtrace_files(subtrace_files)
     
     
-    simulate_lru_cache_miss_ratios(csv_file_path,
-        total_slabs=[64, 128, 256, 512, 1024],
-        directory=output_dir,
-        output_file="global_lru_miss_ratios.csv"
-    )
+    # simulate_lru_cache_miss_ratios(csv_file_path,
+    #     total_slabs=[64, 128, 256, 512, 1024],
+    #     directory=output_dir,
+    #     output_file="global_lru_miss_ratios.csv"
+    # )
     
     
