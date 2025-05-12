@@ -5,7 +5,7 @@ import subprocess
 
 def run_cachebench_and_extract_rebalance_states(config_file, output_file, output_json_file):
     command = (
-        f"LD_PRELOAD=/users/Hongshu/libmock_time.so "
+        f"LD_PRELOAD=/mydata/hongshu/libmock_time.so "
         f"/users/Hongshu/CacheLib/opt/cachelib/bin/cachebench --json_test_config {config_file} "
         f"-progress=50000 --enable_debug_log=true"
     )
