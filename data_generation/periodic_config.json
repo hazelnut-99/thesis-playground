@@ -39,13 +39,27 @@
             [
                 {"m": 1600000, "alpha": 0.25, "share": 1, "size": 214},
                 {"m": 800000, "alpha": 0.85, "share": 1, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 2, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 1, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 3, "size": 4054}
+            ],
+            [
+                {"m": 1600000, "alpha": 0.25, "share": 1, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 1, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 3, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 1, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 2, "size": 4054}
+            ],
+            [
+                {"m": 1600000, "alpha": 0.25, "share": 1, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 1, "size": 470},
                 {"m": 400000, "alpha": 0.25, "share": 4, "size": 982},
                 {"m": 200000, "alpha": 0.85, "share": 1, "size": 2006},
                 {"m": 100000, "alpha": 1.0, "share": 1, "size": 4054}
             ]
         ],
-        "weight_array": [1, 1],
-        "request_per_cycle": 40000000
+        "weight_array": [2, 1, 1, 2],
+        "request_per_cycle": 80000000
     },
     {
         "type": "periodic",
@@ -68,7 +82,7 @@
                 {"m": 100000, "alpha": 1.0, "share": 1, "size": 4054}
             ]
         ],
-        "weight_array": [1, 1],
-        "request_per_cycle": 20000000
+        "weight_array": [4, 1],
+        "request_per_cycle": 40000000
     }
 ]

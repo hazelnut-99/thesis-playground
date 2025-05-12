@@ -2,6 +2,7 @@ import csv
 import os
 import bisect
 import json
+import sys
 import numpy as np
 from collections import Counter
 from multiprocessing import Pool
@@ -76,9 +77,9 @@ def compute_reuse_distances(reference_sequence):
     return dict(hist)
 
 
-def process_csv_and_generate_subtraces(csv_file_path, output_dir, factor, max_size, min_size, alignment=8, alloc_sizes=None):
+def process_csv_and_generate_subtraces(csv_file_path, output_dir, factor, max_size, min_size, alignment=8, alloc_sizes=None, chunk_size=sys.maxsize):
     """
-    Process a CSV file, generate subtrace files for each allocation size, and calculate stack distance.
+    Process a CSV file, optionally in chunks, generate subtrace files for each allocation size, and calculate stack distance.
 
     Args:
         csv_file_path (str): Path to the input CSV file.
@@ -88,6 +89,7 @@ def process_csv_and_generate_subtraces(csv_file_path, output_dir, factor, max_si
         min_size (int): Minimum allocation size.
         alignment (int): Alignment for allocation sizes (default is 8).
         alloc_sizes (list): Predefined allocation sizes (optional).
+        chunk_size (int): Number of rows per chunk. Defaults to sys.maxsize (process entire file at once).
     """
     # Generate allocation sizes using the provided function if not provided
     if alloc_sizes is None:
@@ -102,9 +104,41 @@ def process_csv_and_generate_subtraces(csv_file_path, output_dir, factor, max_si
     # Extract the base name of the input file (without extension)
     input_file_name = os.path.splitext(os.path.basename(csv_file_path))[0]
 
+    # Process the CSV file in chunks
+    chunk_index = 0
+    with open(csv_file_path, 'r') as csv_file:
+        reader = csv.DictReader(csv_file)
+        rows = []
+        for row in reader:
+            rows.append(row)
+            if len(rows) >= chunk_size:
+                # Process the current chunk
+                chunk_dir = os.path.join(output_dir, f"chunk_{chunk_index}")
+                os.makedirs(chunk_dir, exist_ok=True)
+                process_chunk(rows, chunk_dir, input_file_name, alloc_sizes)
+                rows = []
+                chunk_index += 1
+
+        # Process the remaining rows (if any)
+        if rows:
+            chunk_dir = os.path.join(output_dir, f"chunk_{chunk_index}")
+            os.makedirs(chunk_dir, exist_ok=True)
+            process_chunk(rows, chunk_dir, input_file_name, alloc_sizes)
+
+
+def process_chunk(rows, chunk_dir, input_file_name, alloc_sizes):
+    """
+    Process a single chunk of rows and generate subtrace files.
+
+    Args:
+        rows (list): List of rows in the chunk.
+        chunk_dir (str): Directory where the subtrace files will be written.
+        input_file_name (str): Base name of the input file.
+        alloc_sizes (list): List of allocation sizes.
+    """
     # Open a file for each allocation size and write the header row
     alloc_size_files = {
-        size: open(os.path.join(output_dir, f"{input_file_name}_subtrace_{size}.csv"), 'w', newline='')
+        size: open(os.path.join(chunk_dir, f"{input_file_name}_subtrace_{size}.csv"), 'w', newline='')
         for size in alloc_sizes
     }
     alloc_size_writers = {size: csv.writer(file) for size, file in alloc_size_files.items()}
@@ -112,35 +146,23 @@ def process_csv_and_generate_subtraces(csv_file_path, output_dir, factor, max_si
         writer.writerow(['object_id'])  # Add header row
 
     try:
-        # Read the input CSV file
-        with open(csv_file_path, 'r') as csv_file:
-            reader = csv.DictReader(csv_file)
-            
-            # Ensure the input CSV has the required columns
-            required_columns = {'clock_time', 'object_id', 'object_size', 'next_access_vtime'}
-            if not required_columns.issubset(reader.fieldnames):
-                raise ValueError(f"Input CSV must contain the following columns: {required_columns}")
+        # Process each row in the chunk
+        for row in rows:
+            object_id = row['object_id']
+            object_size = int(row['object_size'])
+            object_size = max(24, object_size)
+            # key size and meta-data overhead
+            object_size += (32 + len(str(object_id)))
 
-            # Process each row in the CSV
-            for row in reader:
-                object_id = row['object_id']
-                object_size = int(row['object_size'])
-                object_size = max(24, object_size)
-                # key size and meta-data overhead
-                object_size += (32 + len(str(object_id)))
-                
-                # Find the smallest alloc_size >= object_size using binary search
-                index = bisect.bisect_left(alloc_sizes, object_size)
-                if index < len(alloc_sizes):
-                    alloc_size = alloc_sizes[index]
-                    alloc_size_writers[alloc_size].writerow([object_id])
+            # Find the smallest alloc_size >= object_size using binary search
+            index = bisect.bisect_left(alloc_sizes, object_size)
+            if index < len(alloc_sizes):
+                alloc_size = alloc_sizes[index]
+                alloc_size_writers[alloc_size].writerow([object_id])
     finally:
         # Close all opened files
         for file in alloc_size_files.values():
             file.close()
-    
-    return alloc_size_files.values()
-
 
 def subtrace_statistics_helper(object_ids):
     # Total number of records in the subtrace
@@ -270,12 +292,24 @@ def calculate_miss_ratios(directory, output_file="miss_ratios.csv"):
                     last_miss_ratio = miss_ratio
 
 
-def clean_up_subtrace_files(subtrace_files):
+def clean_up_subtrace_files(directory):
     """
+    Deletes all subtrace files in the specified directory.
+
+    Args:
+        directory (str): Path to the directory containing subtrace files.
     """
-    for file_path in subtrace_files:
-        if os.path.exists(file_path):
-            os.remove(file_path)
+    if not os.path.isdir(directory):
+        raise ValueError(f"The provided path '{directory}' is not a valid directory.")
+
+    for filename in os.listdir(directory):
+        if "_subtrace_" in filename and filename.endswith(".csv"):
+            file_path = os.path.join(directory, filename)
+            try:
+                os.remove(file_path)
+                print(f"Deleted: {file_path}")
+            except Exception as e:
+                print(f"Error deleting file {file_path}: {e}")
 
 
 def simulate_miss_ratio(trace_path: str, cache_size_mb: int) -> float:
@@ -320,30 +354,33 @@ def simulate_lru_cache_miss_ratios(csv_file_path, total_slabs, directory, output
 
 # Example usage
 if __name__ == "__main__":
-    csv_file_path = "/users/Hongshu/traces/w75.csv"
-    output_dir = '/proj/latencymodel-PG0/hongshu/traces/subtraces/w75'
+    csv_file_path = "/proj/latencymodel-PG0/hongshu/traces/meta2024_50m.csv"
+    for alloc_factor in [1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0]:
+        output_dir = f'/proj/latencymodel-PG0/hongshu/traces/subtraces/meta2024_50m_{alloc_factor}'
+        subtrace_files = process_csv_and_generate_subtraces(
+            csv_file_path=csv_file_path,
+            output_dir=output_dir,
+            factor=alloc_factor,
+            max_size=523352,
+            min_size=72,
+            # alloc_sizes=[256, 512, 1024, 2048, 4096],
+            #chunk_size=40_000_000
+        )
+        
+        for chunk_dir in os.listdir(output_dir):
+            chunk_path = os.path.join(output_dir, chunk_dir)
+            if os.path.isdir(chunk_path) and chunk_dir.startswith("chunk_"):
+                print(f"Processing {chunk_path}...")
+
+                # Perform post-processing steps for each chunk
+                calculate_miss_ratios(chunk_path)
+                get_subtrace_statistics(chunk_path)
+                clean_up_subtrace_files(chunk_path)
     
-    # subtrace_files = process_csv_and_generate_subtraces(
-    #     csv_file_path=csv_file_path,
-    #     output_dir=output_dir,
-    #     # factor=1.5,
-    #     # max_size=523350,
-    #     # min_size=72,
-    #     factor=None,
-    #     max_size=None,
-    #     min_size=None,
-    #     alloc_sizes=[72, 112, 168, 256, 384, 576, 864, 1296, 1944, 2920, 4384, 6576, 9864, 14800, 22200, 33304, 49960, 74944, 112416, 168624, 252936, 379408, 569112, 853672, 1280512, 1920768, 2000000]
-    # )
-    # calculate_miss_ratios(output_dir)
-    # get_subtrace_statistics(output_dir)
-    # #calc_optimal_allocation(output_dir)
-    # clean_up_subtrace_files(subtrace_files)
-    
-    
-    # simulate_lru_cache_miss_ratios(csv_file_path,
-    #     total_slabs=[64, 128, 256, 512, 1024],
-    #     directory=output_dir,
-    #     output_file="global_lru_miss_ratios.csv"
-    # )
+        # simulate_lru_cache_miss_ratios(csv_file_path,
+        #     total_slabs=[64, 128, 256, 512, 1024],
+        #     directory=output_dir,
+        #     output_file="global_lru_miss_ratios.csv"
+        # )
     
     

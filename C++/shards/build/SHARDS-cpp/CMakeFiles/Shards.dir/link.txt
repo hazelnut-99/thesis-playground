@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libShards.a CMakeFiles/Shards.dir/src/Shards.cpp.o CMakeFiles/Shards.dir/src/ShardsFixedRate.cpp.o CMakeFiles/Shards.dir/src/ShardsFixedSize.cpp.o CMakeFiles/Shards.dir/src/SplayTree.cpp.o
+/usr/bin/ranlib ../lib/libShards.a

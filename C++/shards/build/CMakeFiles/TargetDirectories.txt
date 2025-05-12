@@ -1,0 +1,14 @@
+/users/Hongshu/thesis-playground/C++/shards/build/CMakeFiles/my_app.dir
+/users/Hongshu/thesis-playground/C++/shards/build/CMakeFiles/edit_cache.dir
+/users/Hongshu/thesis-playground/C++/shards/build/CMakeFiles/rebuild_cache.dir
+/users/Hongshu/thesis-playground/C++/shards/build/CMakeFiles/list_install_components.dir
+/users/Hongshu/thesis-playground/C++/shards/build/CMakeFiles/install.dir
+/users/Hongshu/thesis-playground/C++/shards/build/CMakeFiles/install/local.dir
+/users/Hongshu/thesis-playground/C++/shards/build/CMakeFiles/install/strip.dir
+/users/Hongshu/thesis-playground/C++/shards/build/SHARDS-cpp/CMakeFiles/Shards.dir
+/users/Hongshu/thesis-playground/C++/shards/build/SHARDS-cpp/CMakeFiles/edit_cache.dir
+/users/Hongshu/thesis-playground/C++/shards/build/SHARDS-cpp/CMakeFiles/rebuild_cache.dir
+/users/Hongshu/thesis-playground/C++/shards/build/SHARDS-cpp/CMakeFiles/list_install_components.dir
+/users/Hongshu/thesis-playground/C++/shards/build/SHARDS-cpp/CMakeFiles/install.dir
+/users/Hongshu/thesis-playground/C++/shards/build/SHARDS-cpp/CMakeFiles/install/local.dir
+/users/Hongshu/thesis-playground/C++/shards/build/SHARDS-cpp/CMakeFiles/install/strip.dir

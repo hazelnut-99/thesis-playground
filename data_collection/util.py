@@ -29,6 +29,34 @@ def run_cachebench_and_extract_rebalance_states(config_file, output_file, output
 
     return process.returncode
 
+def run_cachebench_and_extract_miss_ratios(config_file, output_file, output_json_file):
+    command = (
+        f"LD_PRELOAD=/users/Hongshu/libmock_time.so "
+        f"/users/Hongshu/CacheLib/opt/cachelib/bin/cachebench --json_test_config {config_file} "
+        f"-progress=50000 --enable_debug_log=true"
+    )
+
+    json_list = []
+
+    process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+
+    for line in process.stdout:
+        match = re.search(r'miss_ratio_logging:\s*(\{.*\})', line)
+        if match:
+            try:
+                json_obj = json.loads(match.group(1))
+                json_list.append(json_obj)
+            except json.JSONDecodeError as e:
+                print(f"Error decoding JSON: {e}")
+
+    process.wait()
+    with open(output_json_file, "w") as json_out:
+        json.dump(json_list, json_out, indent=2)
+
+    return process.returncode
+
+
+
 def run_cachebench(config_file, output_file, output_json_file):
     with open(config_file, 'r') as f:
         config_content = json.load(f)
@@ -84,6 +112,8 @@ def run_experiment_with_config(index, config, base_config_path, work_dir, catego
     output_json_file = os.path.join(subdir, 'out.json')
     if category == 'collect_rebalance_states':
         return_code =  run_cachebench_and_extract_rebalance_states(cachebench_config_file_path, output_file, output_json_file)
+    elif category == 'collect_miss_ratios':
+        return_code = run_cachebench_and_extract_miss_ratios(cachebench_config_file_path, output_file, output_json_file)
     else:
         return_code = run_cachebench(cachebench_config_file_path, output_file, output_json_file)
     if return_code != 0:

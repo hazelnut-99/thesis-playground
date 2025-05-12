@@ -1,0 +1,69 @@
+nohup: ignoring input
+Processing cluster7.oracleGeneral.sample10.zst
+[36m[DEBUG] 05-08-2025 08:25:48 zstdReader.c:44   (tid=139736418180160): create zstd reader /users/Hongshu/traces/cluster7.oracleGeneral.sample10.zst
+[0m[36m[DEBUG] 05-08-2025 08:27:25 zstdReader.c:53   (tid=139736418180160): free zstd reader
+[0mProcessing cluster8.oracleGeneral.sample10.zst
+[36m[DEBUG] 05-08-2025 08:25:59 zstdReader.c:44   (tid=139791125208128): create zstd reader /users/Hongshu/traces/cluster8.oracleGeneral.sample10.zst
+[0m[36m[DEBUG] 05-08-2025 08:27:50 zstdReader.c:53   (tid=139791125208128): free zstd reader
+[0mProcessing cluster10.oracleGeneral.sample10.zst
+[36m[DEBUG] 05-08-2025 08:27:55 zstdReader.c:44   (tid=140398245801024): create zstd reader /users/Hongshu/traces/cluster10.oracleGeneral.sample10.zst
+[0m[33m[WARN]  05-08-2025 08:28:20 popularity.cpp:66   (tid=140398245801024): popularity: the most popular object has 16 requests 
+[0m[36m[DEBUG] 05-08-2025 08:28:22 zstdReader.c:53   (tid=140398245801024): free zstd reader
+[0mProcessing cluster11.oracleGeneral.sample10.zst
+[36m[DEBUG] 05-08-2025 08:29:03 zstdReader.c:44   (tid=139857306197056): create zstd reader /users/Hongshu/traces/cluster11.oracleGeneral.sample10.zst
+[0m[36m[DEBUG] 05-08-2025 08:33:27 zstdReader.c:53   (tid=139857306197056): free zstd reader
+[0mProcessing cluster9.oracleGeneral.sample10.zst
+[36m[DEBUG] 05-08-2025 08:28:41 zstdReader.c:44   (tid=139894127234112): create zstd reader /users/Hongshu/traces/cluster9.oracleGeneral.sample10.zst
+[0m[36m[DEBUG] 05-08-2025 08:41:55 zstdReader.c:53   (tid=139894127234112): free zstd reader
+[0mProcessing cluster12.oracleGeneral.sample10.zst
+[36m[DEBUG] 05-08-2025 08:34:05 zstdReader.c:44   (tid=140005632568384): create zstd reader /users/Hongshu/traces/cluster12.oracleGeneral.sample10.zst
+[0m[36m[DEBUG] 05-08-2025 08:44:30 zstdReader.c:53   (tid=140005632568384): free zstd reader
+[0mProcessing cluster13.oracleGeneral.sample10.zst
+[36m[DEBUG] 05-08-2025 08:42:06 zstdReader.c:44   (tid=140712503540800): create zstd reader /users/Hongshu/traces/cluster13.oracleGeneral.sample10.zst
+[0m[36m[DEBUG] 05-08-2025 08:44:46 zstdReader.c:53   (tid=140712503540800): free zstd reader
+[0mProcessing cluster14.oracleGeneral.sample10.zst
+[36m[DEBUG] 05-08-2025 08:44:56 zstdReader.c:44   (tid=140191021861952): create zstd reader /users/Hongshu/traces/cluster14.oracleGeneral.sample10.zst
+[0m[36m[DEBUG] 05-08-2025 08:49:42 zstdReader.c:53   (tid=140191021861952): free zstd reader
+[0mProcessing cluster16.oracleGeneral.sample10.zst
+[36m[DEBUG] 05-08-2025 08:51:04 zstdReader.c:44   (tid=139704249375808): create zstd reader /users/Hongshu/traces/cluster16.oracleGeneral.sample10.zst
+[0m[36m[DEBUG] 05-08-2025 09:07:32 zstdReader.c:53   (tid=139704249375808): free zstd reader
+[0mProcessing cluster15.oracleGeneral.sample10.zst
+[36m[DEBUG] 05-08-2025 08:45:47 zstdReader.c:44   (tid=140546352323648): create zstd reader /users/Hongshu/traces/cluster15.oracleGeneral.sample10.zst
+[0m[36m[DEBUG] 05-08-2025 09:13:29 zstdReader.c:53   (tid=140546352323648): free zstd reader
+[0mProcessing cluster17.oracleGeneral.sample10.zst
+[36m[DEBUG] 05-08-2025 09:08:22 zstdReader.c:44   (tid=140600156064832): create zstd reader /users/Hongshu/traces/cluster17.oracleGeneral.sample10.zst
+[0m[36m[DEBUG] 05-08-2025 09:19:37 zstdReader.c:53   (tid=140600156064832): free zstd reader
+[0mProcessing cluster19.oracleGeneral.sample10.zst
+[36m[DEBUG] 05-08-2025 09:20:00 zstdReader.c:44   (tid=139710234225728): create zstd reader /users/Hongshu/traces/cluster19.oracleGeneral.sample10.zst
+[0m[36m[DEBUG] 05-08-2025 09:24:01 zstdReader.c:53   (tid=139710234225728): free zstd reader
+[0mProcessing cluster20.oracleGeneral.sample10.zst
+[36m[DEBUG] 05-08-2025 09:24:23 zstdReader.c:44   (tid=140659287743552): create zstd reader /users/Hongshu/traces/cluster20.oracleGeneral.sample10.zst
+[0m[36m[DEBUG] 05-08-2025 09:28:53 zstdReader.c:53   (tid=140659287743552): free zstd reader
+[0mProcessing cluster18.oracleGeneral.sample10.zst
+[36m[DEBUG] 05-08-2025 09:14:56 zstdReader.c:44   (tid=140216515066944): create zstd reader /users/Hongshu/traces/cluster18.oracleGeneral.sample10.zst
+[0m[36m[DEBUG] 05-08-2025 09:30:28 zstdReader.c:53   (tid=140216515066944): free zstd reader
+[0mProcessing cluster22.oracleGeneral.sample10.zst
+[36m[DEBUG] 05-08-2025 09:30:46 zstdReader.c:44   (tid=140417632607296): create zstd reader /users/Hongshu/traces/cluster22.oracleGeneral.sample10.zst
+[0m[36m[DEBUG] 05-08-2025 09:35:08 zstdReader.c:53   (tid=140417632607296): free zstd reader
+[0mProcessing cluster21.oracleGeneral.sample10.zst
+[36m[DEBUG] 05-08-2025 09:29:12 zstdReader.c:44   (tid=139675176672320): create zstd reader /users/Hongshu/traces/cluster21.oracleGeneral.sample10.zst
+[0m[36m[DEBUG] 05-08-2025 09:36:02 zstdReader.c:53   (tid=139675176672320): free zstd reader
+[0mProcessing cluster24.oracleGeneral.sample10.zst
+[36m[DEBUG] 05-08-2025 09:36:27 zstdReader.c:44   (tid=139978221812800): create zstd reader /users/Hongshu/traces/cluster24.oracleGeneral.sample10.zst
+[0m[36m[DEBUG] 05-08-2025 09:40:51 zstdReader.c:53   (tid=139978221812800): free zstd reader
+[0mProcessing cluster25.oracleGeneral.sample10.zst
+Traceback (most recent call last):
+  File "/users/Hongshu/libCacheSim/scripts/traceAnalysis/size_heatmap.py", line 158, in <module>
+    plot_size_heatmap(p.datapath, p.figname_prefix)
+  File "/users/Hongshu/libCacheSim/scripts/traceAnalysis/size_heatmap.py", line 95, in plot_size_heatmap
+    plot_data, time_window, log_base, size_base = _load_size_heatmap_data(
+  File "/users/Hongshu/libCacheSim/scripts/traceAnalysis/size_heatmap.py", line 41, in _load_size_heatmap_data
+    ifile = open(datapath)
+FileNotFoundError: [Errno 2] No such file or directory: 'outcome/cluster25.oracleGeneral.sample10.zst.sizeWindow_w300_req'
+Processing cluster26.oracleGeneral.sample10.zst
+[36m[DEBUG] 05-08-2025 09:40:55 zstdReader.c:44   (tid=140236390456384): create zstd reader /users/Hongshu/traces/cluster26.oracleGeneral.sample10.zst
+[0m[36m[DEBUG] 05-08-2025 09:41:12 zstdReader.c:53   (tid=140236390456384): free zstd reader
+[0mparallel: Error: Output is incomplete.
+parallel: Error: Cannot append to buffer file in /tmp.
+parallel: Error: Is the disk full?
+parallel: Error: Change $TMPDIR with --tmpdir or use --compress.

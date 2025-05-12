@@ -2,7 +2,7 @@ import json
 import concurrent.futures
 from util import run_experiment_with_config
 
-WORK_DIR = 'work_dir_10_prod/'
+WORK_DIR = 'work_dir_11_dynamic/'
 PARALLELISM = 8
 category = "default"
 
