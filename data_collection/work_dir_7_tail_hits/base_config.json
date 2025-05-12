@@ -1,0 +1,33 @@
+{
+    "cache_config": {
+        "cacheSizeMB": 132,
+        "allocSizes": [512],
+        "moveOnSlabRelease": false,
+        "lru2qHotPct": 100,
+        "lru2qColdPct": 0,
+        "poolResizeIntervalSec": 0,
+        "poolRebalanceIntervalSec": 10,
+	"wakeUpRebalancerEveryXReqs": 20999999,
+	"allocator": "LRU2Q",
+	"countColdTailHitsOnly": true,
+        "rebalanceStrategy": "marginal-hits"
+    },
+    "test_config": {
+        "generator": "oracle-general-replay",
+        "replayGeneratorConfig": {
+            "ampFactor": 1
+        },
+        "useTraceTimer": true,
+        "repeatTraceReplay": false,
+        "repeatOpCount": true,
+        "onlySetIfMiss": false,
+        "enableLookaside": true,
+        "timestampFactor": 1,
+        "numOps": 21000000,
+        "numThreads": 1,
+        "prepopulateCache": true,
+        "traceFileNames": [
+            "/users/Hongshu/traces/synth_zipf_100_512.csv"
+        ]
+    }
+}

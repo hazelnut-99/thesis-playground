@@ -1,0 +1,30 @@
+{
+    "cache_config": {
+        "cacheSizeMB": 500,
+        "moveOnSlabRelease": false,
+        "lru2qHotPct": 100,
+        "lru2qColdPct": 0,
+        "poolResizeIntervalSec": 0,
+        "poolRebalanceIntervalSec": 1,
+        "wakeUpRebalancerEveryXReqs": 1000,
+        "rebalanceStrategy": "tail-age"
+    },
+    "test_config": {
+        "generator": "oracle-general-replay",
+        "replayGeneratorConfig": {
+            "ampFactor": 1
+        },
+        "useTraceTimer": true,
+        "repeatTraceReplay": false,
+        "repeatOpCount": true,
+        "onlySetIfMiss": false,
+        "enableLookaside": true,
+        "timestampFactor": 1,
+        "numOps": 69392150,
+        "numThreads": 1,
+        "prepopulateCache": true,
+        "traceFileNames": [
+            "/users/Hongshu/traces/w06.csv"
+        ]
+    }
+}

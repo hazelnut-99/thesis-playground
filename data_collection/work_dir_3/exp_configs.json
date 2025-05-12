@@ -1,0 +1,6242 @@
+[
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "72637c68-295c-4fd6-8db9-329ccc4baf8e",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "c60e344d-4656-4c6f-bb8e-fc26e2656830",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "e519016f-cf8f-4e58-a141-e8fa8b62c9da",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "2ec341c4-7596-4f56-b3ca-f47e81e9aa23",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "f1ff3daa-b0ae-4ffd-bf47-6375bc9b9196",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "895b2667-dec9-4333-8d33-500f84a1d0b5",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "bf1eb964-a495-4daf-b06d-4b1e692f47df",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "c17878bb-7b04-4fd6-92a1-5126527612a4",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "289e9d97-fc8c-4732-8dcd-2f5117845890",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "52ac8471-a513-464f-8e39-1b99fe7a7332",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "a0dbabb8-62e9-42eb-97b1-f7d0e03786e1",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "00d2aa5f-045b-4d61-94bb-c1b27c20c070",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "6f01a926-7b8d-42cc-891d-6253ea4857c3",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "ba3552e8-60cc-45ea-9454-f75befc557e2",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "82d4ed37-b007-40d0-be93-c810615903e1",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "091dc764-a12c-4af7-b32a-119e86b07b28",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "012aa0c7-884b-4b65-9af6-b6e3203394f3",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "f80390b3-8555-440e-8a32-40fc3d49808f",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "5170498c-5ed7-4830-b3da-9980252d1b3d",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "db4334ec-a69a-40ad-be58-8186cb4ac083",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "a865ff4b-75a4-4a2d-a4b6-414682cc0bc1",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "d3d74006-1b91-4caf-b94c-1018bf6d9a58",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "fdf4d783-9d5b-4341-8eed-54c59333e008",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "e7c2ecab-4917-4449-8e60-9d1d9e34757d",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "42e943f9-fd29-4d87-b3fa-26c9be0ad14c",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "73c6216f-e49d-4352-9e7f-39e713b60777",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "0b757df1-1f82-421b-ace3-0264a0906eec",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "59c7feca-2280-4911-af49-c189ff1bffdc",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "88b0ea69-f3d0-4f3d-bc13-85781a0ea837",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "39d369ad-5c83-4cbc-b485-8aecf3ee86d0",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "5a471ab4-8d2b-4ac8-8b52-6de26662161c",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "a8a36142-a0e9-4121-bb2b-8cb6546ad91f",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "f2841fbb-1b4b-4506-9dd4-4f6457192450",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "931e7fd3-cf4e-4ceb-9f10-111ccde70744",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "a1a7837c-3af1-4928-8e3d-968cb71452c2",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "ef2a1e2d-b8fd-4b12-a8cc-87417b810843",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "c3323760-44a7-4694-bf3f-c3ea32942fb7",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "b8f58f4e-eb7d-44c7-84d7-7bd0eb544794",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "ce4997df-e40b-42ef-b2bc-c960e22b782e",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "bb5c1392-7add-4ef3-a28d-0cb19600e7e0",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "58b10a38-82f0-4fe7-963c-ae2889f78206",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "69c5a143-7865-47da-8d15-1f9fb2ca1adf",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "0fbb5973-d91c-40da-afb1-47f4a033e2d2",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "e8db9231-678f-49e7-947e-3804a52693f3",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "3698f282-5a4d-4905-8680-a65e7b44e15c",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "2b7d9004-b117-4d2c-9659-d8a8caf84872",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "822bcfff-63fb-4d80-b6aa-5cecd3fd9514",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "ed0abdc1-5eb2-44e6-853d-8dc67a95846f",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "8f11eeec-c780-4f0a-aeaf-d2a88458ccc9",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "37edfaab-8995-4615-b58c-bade23d0faca",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "bed5ce56-c326-4a5f-99d8-3347740efaac",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "6aa2180d-9e31-464f-99d1-ec031e513845",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "8e9adda0-5954-46c6-aa9b-cd0629a29626",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "87d26c17-e573-4d7e-aa18-782262644709",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "ee751878-c383-4499-9992-ec36dca64ec0",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "39e2d005-29d4-46af-a982-fb8c78573be9",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "7451bbac-1196-41b6-afbb-97b5be230078",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "4e573fed-6d5a-4da9-ac18-6fca7ede96fe",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "7aa88e2b-b380-4d99-83ae-6c61e19bc380",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "0cce56a7-804e-4204-ae5c-a7fea68729db",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "22153c92-1281-4fa6-895a-084278fbaf1b",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "438495c0-58a0-4bb9-8dee-9981bcafcaaa",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "929170aa-5ed8-41f4-abe7-121a7aed77d5",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "7af1352a-e837-40ad-bd97-be6ae06bc06b",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "6ece513d-a2c8-4eb2-a59a-65e39efab6f0",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "d4f796ba-0843-47fd-86e1-a7907f128918",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "64a5c9a0-bc29-401f-82df-696d0bdd2de7",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "5839e7d6-b64b-484a-b2d3-5891b8ceb737",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "0824e85e-43da-4fa6-9028-44b0a39614fd",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "d5e75b74-fb71-4266-8554-a5013e9407f6",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "12c1ac87-ec3a-438a-8a57-d58c3dec4a58",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "753d3fc5-35e4-4103-91ae-cb3861493b71",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "79cd3ffb-5ef2-4b22-aea5-8d3a31e01b17",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "880f1109-8abf-4e86-a473-7493fa58e26d",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "205a1475-579b-405d-aa4d-b6420ed3637e",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "4e9ba61e-3203-4d14-9e57-1868b851765e",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "7f69ad14-0095-43b9-81c6-0c076293cee9",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "dfc9bde8-c9b1-4e6e-9cfb-7086992ccfa9",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "71083f5e-3599-4e14-8ee1-160626585426",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "a0c230f7-56b0-47d0-bf0b-ca24df65f48d",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "2d52bca4-6bac-46e1-94d1-462a6b841c1e",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "99907960-4d0a-4db8-8a6b-d5413e4becef",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "9a2e8b41-dd69-4e03-a164-c0fdc122bf7a",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "2c7b01bd-a4fb-4417-bfdc-7627a2184fc8",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "08e8de0e-8623-4d57-a2d9-cce9b76e62b1",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "1d3ed3dc-57e5-461b-ba1a-a7b97607d69b",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "fa531fe7-aa66-4388-8b94-8197389f8e0e",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "605c61c1-9c7b-4923-9ece-fbb03c1194c8",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "8fc0ef2e-457d-4b39-b4b5-bac57c22401a",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "f19a7e06-b052-4ddb-831c-e3417d1fe9c9",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "38237cc8-e543-48da-b51c-276451d9b321",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "3897ce17-2ed2-4a5c-8cc2-d0d1280405cc",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "2a23fbb7-8ee9-4f0a-9d02-1df78be11986",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "63e5f068-7d82-4530-8ee7-6c3fcc68d841",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "e0f5c2f6-eb70-473a-a314-5303b7e9b1a3",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "1502c334-a51b-42a8-8fdb-a14888c289f6",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "58a4a718-ba45-451f-b6d6-20609d128c4a",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "e3b40d85-f99a-4d19-a5f5-3312e09e5b2f",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "c2726540-e07d-4b37-b6a8-4a171245e47e",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "2706c292-869e-4aea-b621-0b7f694e0f4a",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "3ef5b6c5-cddf-405f-8318-0e5c8c56c77c",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "18cc9b57-409d-4070-bcd7-897c9646fdd1",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "62bfc7c1-5616-4bb5-9db1-8360c19f158e",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "c7fb83fa-0fe4-47dc-a63f-a44507f7945f",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "dadaf1e5-eec1-4554-a899-6a75299586ff",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "8d72cf3a-5f46-48bd-8460-708862004df4",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "9d452e82-d912-446e-82f1-e64c314fbc15",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "562e4d54-1696-4966-819b-5f7d36b4fba6",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "10ba2c0e-d5d9-4d1a-a801-223c5d5b16aa",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "6f4faa63-5d0f-44c9-a241-bd60eff2c831",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "427e2ac6-ede6-4278-9237-78a0368dc8b1",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "ae412846-bc9a-47e2-88ce-4fba8379efa1",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "5a7811c7-c28b-45fe-a4fb-87d68e163e93",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "593930fc-7a04-426a-a9f2-e7c385576740",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "a947eb8f-5a4f-432a-b20b-222398f30e8b",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "d6baac4e-301c-47fb-9380-b35ffaabd2be",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "7c0cc6fd-892c-4c5e-875c-4eb1abd06a66",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "8339c4b1-b90e-4217-973f-8fb4194a20a7",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "68793df7-29f2-4978-b660-c8ce0399bd14",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "b2b0fd52-7a0e-4a4e-b126-edb090659565",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "1462993f-2b4a-4b0f-9fbb-24fa402aab8c",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "56b57784-7b7f-412e-8d66-5ddb422eaa07",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "31851bc6-7541-4528-a53d-dbaf3b88f28d",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "847892f0-dbc5-416e-9c2c-46059fdc8cb0",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "e442dc3e-f302-4cd5-baed-dd389b92c600",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "7295a711-8f22-4ba3-b7ac-2941ea3e2f67",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "48cf26f7-fad3-48ec-8d02-d8cbccc3f46d",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "f70f4e58-e295-4b86-9c55-c23c5c1eb9e7",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "31bebcdc-26e3-4e31-9719-0ff70c911a51",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "77cd7893-1f0a-416b-bcb7-4ec304c8c4e4",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "12b399f2-431a-4206-9e51-0bc11aea2da2",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "bc2a1f0d-e7aa-4255-8a99-b1247a36f06e",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "ca6fe6e5-608a-4ae0-9a03-d0fc8a0ca7d0",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "676ed532-bea8-417c-a32d-bb3115288ef7",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "038c9726-5f5a-486f-9361-93b86a35bbd8",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "51f2248e-15db-4925-bf20-b0b013d653b1",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "8dcf302e-3739-4bbd-9203-8953fa99f02b",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "1c08a755-132e-400b-9574-fd63c624c05e",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "12ece36e-e0bb-48f8-8c54-491bc3dc79c0",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "567c4fda-571d-476a-88ae-7d808683e45f",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "ef1c44aa-06ae-4113-8273-f3f3f0ab3a01",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "bdec320a-faed-4395-9518-805d76ad25c5",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "483a9bcf-1920-4439-9283-c9d72ed014f1",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "dd1aae31-f28c-42cf-8b7d-4f0d95ded574",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "517bd730-54e8-485d-ae8a-beae256aa08a",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "60cd4278-b09d-4209-9847-d91f8b0c7652",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "d9e7c750-db41-4fbb-9ee9-946f16b7c877",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "a355a421-d43b-4330-acb3-57a0e4115da3",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "d28d0359-a48a-45ba-8a6f-d0a3a331f4cc",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "3440d042-d3a2-4029-b70d-9207534ee7b8",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "a4cbc754-0935-4cd6-acf2-2ce2d4c5408d",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "8618c661-4e8d-48d8-bfbb-5f4ad63c6e71",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "970c587f-3a1e-4e73-b911-db712cdbccd4",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "8a46482c-54ff-450b-9972-a211d676990e",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "392fbdc1-4399-4dc6-ac54-f987c5734e47",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "0be068b9-632b-408b-a7aa-1dd1a6d5344c",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "0a718a9b-191d-49d3-9941-abf3757a202b",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "aad00895-49ff-4cc2-b266-0ee51bd1908a",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "691d6533-79b3-4c54-9075-047ad4be1fa7",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "43f0cfd4-3873-420d-86b6-cd64550e274a",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "8036a492-dad6-4cc9-aa3b-d248bdc32851",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "cebeec89-b815-4c99-9563-99e3c8eeb202",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "e8802992-5771-4e3f-a64c-61ef997c7256",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "b4ff64cc-de41-417c-9dcd-c5aee05237ce",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "21fd3227-b860-4251-8550-9e28c515a32d",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "391ce525-a65b-4075-a53f-ada0f1affb39",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "54012084-0abe-4d4c-ab0a-7a32c94762c7",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "d7df4ca8-e8e2-49da-85cf-5f566c46c558",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "c27bbda0-2699-48e6-af4b-c7eeeef7710b",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "f34207f9-afdb-4b3d-9c94-de4ebeed478b",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "397e895b-2e44-4892-a259-5026afebe8a4",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "f4c66924-b31d-4449-8d6b-9b2111965cea",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "cf0c097a-8c6c-4280-af83-ecfffa766bc1",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "98e46137-0da7-4d4c-93a3-ffe2dab3991e",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "b7e18948-d0cb-4e66-b223-39464f3b37d8",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "936053e4-6631-4a1e-a03e-a8ee3bf3f2b4",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "ed0faa49-02cf-40c6-a537-c720a754e456",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "4c51bf66-81e1-427a-8f5c-d994341bdbb1",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "1df826cf-7c6f-429a-89a4-727cab81fe7e",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "209dd81f-e985-46a8-af5c-a3d5d6c7ff60",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "d5357675-02c7-46c6-a420-d430738fa809",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "63ffb13b-caaf-4739-9495-cef6f24ca440",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "e057f4bb-6cb9-4a7f-b4b1-c92a0c305901",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "50167764-f546-49e2-b057-fd6638162ff7",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "270c0121-4af7-4b01-8b74-cc897a997bcf",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "3f061ef3-c887-4a00-b559-f81b3a4fbd24",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "cd8889fb-157b-466f-af08-7409c9f69beb",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "a6b9ee77-2e21-4739-8a4e-3261fa4c69ea",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "2d8710bc-b593-491d-b7d4-b3fd90cb9e82",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "c62eb868-01ed-4dc1-a948-f3f614f03333",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "615ef060-b91a-4b18-ba2d-07edf89f74d1",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "default"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "73c5ca2b-d0b3-4b05-a7eb-343fb69ccdf2",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "bd16e672-e41e-4697-8638-9d1abfa3e441",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "58eba5b0-afee-44f5-8dcf-1ca4d663ff23",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "f06bee69-261c-4ed0-b392-4fc3b8cb7a29",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "e63812a1-b17f-471f-8774-12ed28e83136",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "df57dfab-27a7-44e5-9290-dfaeb9f6b007",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "d1350673-9a23-4572-999a-21fbc75687b4",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "58af32a1-a9b5-4e82-9c50-e6a52f26ea0e",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "379b30f6-2a4f-4441-a5e8-e5dc510430d4",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "b6b7d15a-f7b5-4f25-bcc8-90f75af0b9d0",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "f4213f58-f836-4bfc-b351-57c2e2a2ff11",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "5f483f96-f33e-460a-943c-a6bee1bbd743",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "0b36a616-3d6c-43e2-8af0-f61d23360f50",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "931a43a6-f5c6-4d65-afe6-fbbe62f99039",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "8833b0ed-548c-4320-a411-c6aa099e6d49",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "f3ba3feb-91dd-4254-b25b-f1331d5266d5",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "rebalanceDiffRatio": 0.25
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "03108edf-9f4e-43a8-8f1a-53f6c095e64b",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "5426ab30-c130-4cf6-9d23-4226a5f840e0",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "3e107153-c073-46df-abc0-74dfc4ce0460",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "4d26ffa9-1f66-4a66-98a3-e0e5a92ecb9e",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "0aa88291-9c03-421c-a3ed-955afba729ed",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "ee19d990-96cf-4564-a0cd-84c260736512",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "ff97b50e-3126-463b-90f6-a86097778eb8",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "f928148e-5ef9-48c7-b6e4-78ff3206440e",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "e5ca0f75-9a41-436c-bac2-4f3ea6fb75cb",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "71943933-1e16-4aa9-b434-65580d36c50b",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "12864ddb-821b-4725-9399-51db79652e44",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "bac70886-d0dc-44a7-95c7-ed5e87e4b34d",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "7efaccb5-7606-4a0e-8c4c-ed6ecb88be22",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "a605b04f-8b52-46c8-82ec-21d87fe0c193",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "3728463e-abd0-4420-b773-4fed0f0e2845",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "e76b845f-4608-4eea-b552-e319f909d675",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "free-mem"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "6f17afbd-d3c4-47c8-a1fe-da2ff55ee445",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "65731809-56a1-454b-a184-2362478c34c9",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "a687085a-db09-4857-9137-c4628f51beb8",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "6c0ec1a5-23c9-412b-a8ea-50927f936d4e",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "8634b715-0a05-4351-bf33-a9f1e8743cf5",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "3059059f-7447-4d2a-8dfc-20b6ab253cad",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "794688af-f918-4b9b-be02-ffb1a93604ce",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "92ba5085-ea02-448e-b451-58f88ac41443",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "0f0546cb-1116-495b-9f52-41ca51d0a4df",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "fcddfcc1-8960-41cd-a531-5117952b711d",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "269aace2-5844-44d6-add2-32b6e64355e2",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "6f9ab02c-c666-44c6-8b98-7bb82ad2a12c",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "8d8047ef-ee35-4689-b303-547fc6c1e9d0",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "4b39bf0f-a80a-4205-988c-75a01e778a86",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "c05612ae-252a-43b1-a2f6-7be7a8d3174f",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "834be460-1558-44c0-964f-251460ff4ff2",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "rebalanceDiffRatio": 0.1
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "0e06e880-8b63-454e-b0fe-2e4676894a27",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "ac19d8ee-0eca-443f-974c-dddfa5ffc0e4",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 256,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "0aa731e6-50c2-46c3-921e-76c170f511d2",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "031188ca-152d-47cd-b37a-6386373ba1e7",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 512,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "69cd42ff-d723-4853-9a4d-a6ad828184db",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "fa0deb75-6ce2-4457-a172-075906465746",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 1024,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "4bd5a25e-2130-4e20-8765-5a88362051fa",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "dcb083f5-f646-43a2-a418-36a6b0a9fd8c",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 2048,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "7a7ba613-6f52-4612-8c6b-234d0415cd99",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "75339020-bfd0-423d-a2e8-bbe8a27c1f7e",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 4096,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "2f49ad8c-b8ef-467f-b94e-d3a92c3201fe",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "1ef50128-e430-404a-82b8-1f03115b20ab",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 8192,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "a83ed51f-8865-4397-96fc-715557ab248d",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "db4be93f-8387-4678-ae92-73b7bcdd723c",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 16384,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "54ef61f1-446d-4d5a-82aa-134e41a950ae",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": true
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "1adfa90b-d013-4679-913f-91683d1776bf",
+      "useTraceTimer": true,
+      "file_path": "traces/w06.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "TINYLFU",
+      "minAllocSize": 72,
+      "maxAllocSize": 4194304,
+      "allocFactor": 1.25,
+      "cacheSizeMB": 32768,
+      "poolRebalanceIntervalSec": 1,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "random"
+    },
+    "test_config": {
+      "traceFileNames": [
+        "/users/Hongshu/traces/w06.csv"
+      ],
+      "useTraceTimer": false
+    },
+    "memo_config": {
+      "trace_name": "w06",
+      "uuid": "f7d19364-3433-4109-a6a0-7e15d1aeca89",
+      "useTraceTimer": false,
+      "file_path": "traces/w06.csv"
+    }
+  }
+]

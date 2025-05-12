@@ -1,0 +1,7750 @@
+[
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_c216d151-acce-4e1b-a7a9-26fe89a22350",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_ecb28e9e-e857-4906-a67e-4235bec07060",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_9a04a9ff-51e6-4763-96cd-04dc19840723",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_75ad0ae1-fd1b-4f44-b1ad-0f9f4f672c58",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_20908126-eb1d-4c53-9115-cf96e7490fe1",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_6f3496f6-a9bf-4918-8ab2-cb74f1ee018b",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_3d15b5ba-4ebc-40ad-abdc-60653ecf4bdd",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_b830a164-9c5e-4674-a1f1-73ad028e4967",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_82aa25e1-36c7-4f61-80de-83c1a2e4a408",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_9235d69d-f920-4b08-b64c-a0c6d859518a",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_7578ba6b-2a6e-4f94-92cc-3a851b69e813",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_7aa6d2a6-4bd7-4fea-adbc-d926ebde9a10",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_4dc4df02-a618-4045-8cc3-fba3c6999c60",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_c6114184-0892-4c58-abd1-f450819e65fe",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_3ce60da7-c183-40eb-a370-7ba63c74d9d5",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_ecdbb820-e680-4465-955f-1b6e83de6201",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_15d028ea-df00-4aaf-b78c-c67b4bcf2b8b",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_fd88ce74-11bc-48cd-ae70-b71fe973db01",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_0991bf68-8af1-41e6-a21f-6c57ed86dc7f",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_47dd7640-3586-4e24-b089-e01d43f4fbb2",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_c20ad6f1-7456-4fd3-915c-281a4b8a54ed",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_1d4acd85-2e49-4a1e-be96-6afa6acf6097",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_a1d21f8a-1abf-4b12-bbd9-e3543fe7acb6",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_f70bdaac-8f88-4e5d-961f-d36f6a4d6f52",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_f9c18beb-9307-41c2-b416-1af3343028d2",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_60ef6b34-b90a-4dd6-8609-bad298f772cf",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_8f1c85e0-821b-463a-80a3-a0339c4d7999",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_400_d9749714-45bb-4450-949e-4107a6d10d14",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_400_2b627ea5-01a7-4038-bc8d-46ac72079a52",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_400_6be8f79f-043f-48f3-b168-6aaff78e6678",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_400_77f7f010-be28-4991-8bf2-1aed20efa688",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_400_a953874a-ae60-4986-ac8a-d0bb80069ff4",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_400_4c1d9dfc-08df-400a-a95f-60f341759051",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_400_59a79549-f3c3-46b9-890e-f7749045ae00",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_400_b3183aec-0b8e-478a-92ed-eb7dc9921709",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_400_d06ec50f-49bd-43d0-850d-fd3e8ebb1509",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_400_f90ecd22-4bd8-4679-a26b-daa9078411b6",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_400_5869758b-e404-4c6d-90ab-315964be23f5",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_400_f108c633-f784-48c8-b13f-0a8576aa5662",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_400_5c332435-b110-47d5-8846-e0bf7fdcb8ac",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_400_4c687c8f-3a2e-40ef-9712-955fa24fc100",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_400_a5377ed7-da88-4248-90eb-baa7cecf4eb1",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_400_b22588af-7ec5-423d-9ddf-e364cf89cac0",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_400_98918847-cb84-434b-b72e-f5ad39123ba4",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_400_4a2f56fc-1b16-41fc-bea3-4eff34f88fe8",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_400_1c561f27-8387-422f-b4d2-1f54be2fb492",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_400_97fe8bc0-8ce7-4e81-a1e2-dcb016593f9f",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_400_0c142c2e-ad84-4410-b9c0-e28f526e8e04",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_400_56516bb5-5562-466f-a2f1-794cdfa72811",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_400_d8fe2782-07bf-4764-9571-dd23a16431ba",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_400_49f9f8fd-7aad-4790-ac45-5f28de2b52a9",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_400_4150fdbb-5b07-41c8-a27b-f78115e7c3c8",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_400_b9b6b436-45ac-4fe6-a7ff-bc3ffaafcda9",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_400",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_400_ed30d487-d0d6-4329-9b5e-59b266571eec",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_401_b52237c8-4c85-4d47-8df6-4a921d83cba5",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_401_ef880b07-ef50-42b7-b0cb-809a47f683e3",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_401_b9c36b1e-9ba2-43f2-93f1-e50c7787c9f9",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_401_e870c414-6bf2-4bf0-96e3-e17a2b394d2f",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_401_e2b24bdf-7efc-4636-900f-03f7fe413dd1",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_401_b3af493f-74e0-4f22-8fbe-5721e623acab",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_401_181f4ef5-602c-4802-83dd-84cb17b3f41a",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_401_5146237a-9338-4f5f-9227-da95f88dc8e9",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_401_76d7e69a-527f-4bcc-9331-31a05966cf2e",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_401_bcd613df-bf12-49cd-9e2c-1072169d8bc6",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_401_fc499f8b-2058-457d-8a85-64e6aa5bab3d",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_401_f4d53bad-8b76-45c7-81ab-de827ce0a839",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_401_ff9bd37d-b74b-4063-a10c-d96d7a93dc38",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_401_38ac1947-013f-49cf-a6ea-15c4a0fcfdaf",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_401_f76f6e66-8e68-498b-84b7-aafd8cb8a66e",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_401_03948f6c-c5df-44fa-aeed-a20a77c55509",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_401_27500b87-d2f4-4fe8-abbf-53b896188981",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_401_04c5cc21-149a-44b0-b651-5177b6fe3487",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_401_e3914bf3-748a-4c3a-9aeb-351e23d854c7",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_401_5dcd69c7-c639-4e38-b30c-7e750766018f",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_401_34d9d736-2e32-467c-8c02-7eb3a408780f",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_401_a4bd5b10-665c-49f8-9cd8-1c7bf232ebca",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_401_ec917563-5466-407c-8888-99fd42051bab",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_401_7b235d7c-c374-4d0b-9793-f359f65beed3",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_401_c6494913-946f-48cd-8847-661e91f7f012",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_401_9baa5a09-be73-491a-a009-2d529e0a529e",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_401",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_401_718050a6-170a-43a0-b14d-eacadd1b7101",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_402_02238e97-41f0-41c8-95a4-aafb08c7544b",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_402_f4d9c360-a8c8-42e4-a433-498745a633f1",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_402_80227604-85e5-4805-a886-bdb7a02ffe82",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_402_a7ceeb93-231f-4ce2-bee2-4a114a6b8ca7",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_402_221c3d95-d60a-436c-b4ed-cef67ea2a5ce",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_402_089d347a-8fb5-4b94-a8eb-c38f66db119b",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_402_34a134e1-56a2-464e-bf74-923e7ea61495",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_402_aeef15ae-feb7-4248-947b-951ba4cd8741",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_402_b2d2de3e-2655-4260-961d-dd9ed7f37bff",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_402_c8ede844-5518-4788-8b5a-1d1b2272442a",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_402_27d3b749-8959-40a9-9642-de134b61772c",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_402_8d75bda5-f673-48d2-a04b-f7fc2766885a",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_402_b78a40c8-dcdd-44d2-9ce0-7efe9d31799a",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_402_f527d59a-ef7e-4b99-8ad9-82e49fc9c65f",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_402_b44f15b7-6b07-472c-8553-d3133bb1db42",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_402_7e431d26-55b7-4047-b3b2-eb6c5ac828de",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_402_fb8f692e-2ea7-4164-bb5c-3f6887935022",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_402_964a2ac8-eed4-41ed-a4aa-4f89724823c1",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_402_fd9270ac-8b38-4cc1-9115-ab90362952f5",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_402_e3fbcbc9-6619-4664-89ac-3e3fe931af85",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_402_3db1734d-ae83-48b9-ab28-006c1a7fc209",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_402_0acf0649-f91d-488d-8df7-2bc4f94270ae",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_402_1eb99ec1-955b-414d-9eb2-403f17f0d0b2",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_402_948c8276-f4cc-453d-87c9-d7019d7382d3",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 64,
+      "uuid": "synth_dynamic_402_dd00300f-42b5-4cbb-a1b9-df4b689b912d",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 128,
+      "uuid": "synth_dynamic_402_b1e4a848-84d6-43c9-b180-c1e7ea9f0f76",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_dynamic_402",
+      "cache_size": 256,
+      "uuid": "synth_dynamic_402_76bb9ae8-c427-41f3-a062-e6ac31625e8e",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 128,
+      "uuid": "meta_2024_full_054e4d94-6832-4c86-8a8c-1ad1d6113437",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 256,
+      "uuid": "meta_2024_full_31d8c809-8bcd-4f96-bcd9-1e06fe0843a1",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 2052,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 512,
+      "uuid": "meta_2024_full_519bb003-92df-44f0-a56d-bd8a5cf3c8bd",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 1024,
+      "uuid": "meta_2024_full_82055227-32c1-439c-a104-2655804ac4dc",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 128,
+      "uuid": "meta_2024_full_41c6e2ee-4151-4f1f-ab92-09538e6cf8d5",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 256,
+      "uuid": "meta_2024_full_08d489ba-0250-4644-acfd-dc4eec6cdc92",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 2052,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 512,
+      "uuid": "meta_2024_full_775a6fcd-5eb5-4856-bf57-50081f7e70ef",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 1024,
+      "uuid": "meta_2024_full_52ab355d-4fe6-4284-a6a1-89b1a8043fbf",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 128,
+      "uuid": "meta_2024_full_c84a1f04-d58d-4d53-a174-7ddd4b079334",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 256,
+      "uuid": "meta_2024_full_0a3ccad5-e251-4915-93d9-9a74136217b8",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 2052,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 512,
+      "uuid": "meta_2024_full_109ba081-13eb-4856-a81b-e51a0b2a6393",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 1024,
+      "uuid": "meta_2024_full_b586348c-151d-4403-b133-69ad9873d3fc",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 128,
+      "uuid": "meta_2024_full_f772f4ab-4192-4980-8eee-ce939023685a",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 256,
+      "uuid": "meta_2024_full_7eb34851-b5e3-478f-8093-5a47408be3de",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 2052,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 512,
+      "uuid": "meta_2024_full_d7c4cb0c-7db6-4e66-a4f4-30197b017657",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "mhMovingAverageParam": 0.3,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 1024,
+      "uuid": "meta_2024_full_5b0a0217-6cc0-49c2-953c-1a0e909b9aec",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 128,
+      "uuid": "meta_2024_full_0d27ea46-5417-48da-abc6-409d54546ae5",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 256,
+      "uuid": "meta_2024_full_ff031e91-8969-4a45-85e3-d3535d72ffff",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 2052,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 512,
+      "uuid": "meta_2024_full_7bc25be8-3990-4e84-84cd-129f54734422",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 1024,
+      "uuid": "meta_2024_full_58451e2a-69f1-444e-8bb2-a0de8d6e2c24",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 128,
+      "uuid": "meta_2024_full_e35421f5-dcb3-4df9-a2f4-39b1c85eb287",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 256,
+      "uuid": "meta_2024_full_3c2dc46f-6693-4434-ae58-2adc62a8aa8b",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 2052,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 512,
+      "uuid": "meta_2024_full_17b9fd2a-aabc-4825-a526-70c4e85afee4",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 1024,
+      "uuid": "meta_2024_full_5fb29bcb-c342-4c8a-b5e1-fb5130d2bf4c",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 128,
+      "uuid": "meta_2024_full_95cd4fa6-707a-43a1-a4a1-f4fa162050d2",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 256,
+      "uuid": "meta_2024_full_4fde887c-c821-4242-a3dd-70e83485669e",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 2052,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 512,
+      "uuid": "meta_2024_full_eb42a3c0-8864-4e45-bbd3-c53901298d2e",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 1024,
+      "uuid": "meta_2024_full_9904d252-d48a-4984-b49d-a89b157b62ec",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 128,
+      "uuid": "meta_2024_full_b9ca64b0-010a-4846-8c21-4f9ddf7208d4",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 256,
+      "uuid": "meta_2024_full_2c2e14d9-6d17-40d0-b65b-9c8907404554",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 2052,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 512,
+      "uuid": "meta_2024_full_d496433c-dec1-4c46-bdd6-e3f2ea7b6d37",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 1024,
+      "uuid": "meta_2024_full_36171653-a16e-48ed-a6bb-c0cd121b4061",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 128,
+      "uuid": "meta_2024_full_3fb4eb67-c659-479c-aa11-244cf58ca5d4",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 256,
+      "uuid": "meta_2024_full_41543728-e4f8-4e99-82e6-fbf0ebd1f901",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 2052,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 512,
+      "uuid": "meta_2024_full_1029c109-f592-4477-a867-6372283a0de2",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "meta_2024_full",
+      "cache_size": 1024,
+      "uuid": "meta_2024_full_37744560-748b-4a05-befb-f68378f398e8",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "file_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  }
+]

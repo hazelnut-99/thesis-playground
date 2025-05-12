@@ -2,8 +2,8 @@
 **/executable/
 **/outcome/
 **/outcome*/
-**/work_dir*/
 .DS_Store
+*run.log
 .ipynb_checkpoints/
 **/__pycache__/
 
