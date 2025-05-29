@@ -1,0 +1,3606 @@
+[
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_3c825af9-3adb-445f-a82d-37474e2fa85a",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_d7359818-63b0-45e7-93a8-70406dd7913d",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_1cf920b0-2c1c-48e9-9487-737ee1570327",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_a42b8c63-effa-432b-9db8-dedfdaf06fb2",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_6a97a05a-2c13-446a-beb5-1ed0c536c1f8",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_a2c422e1-0364-44d7-90bb-122630757638",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_abe35470-3c0b-402b-b09f-18051996f2f0",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_76c5aeeb-fd1e-4285-9499-63786452cccd",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "useAdaptiveRebalanceInterval": true,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_26679d11-2327-4216-a707-9a857d290c2e",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "useAdaptiveRebalanceInterval": true,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_a6792fa6-7520-468c-aaf3-c60b98166653",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "useAdaptiveRebalanceInterval": true,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_4f343aed-43db-4433-b4ec-33ccba641728",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "useAdaptiveRebalanceInterval": true,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_fc1cb36f-5f19-408e-9f13-eb73fe7b578f",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_77cdce66-97bc-4f0c-97f5-52344673d3bf",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "useAdaptiveRebalanceInterval": true,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_d790a8c8-1434-4e4e-bdb0-17dd5c721d22",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_e947f437-791a-4a52-aea3-81dff8535bd7",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "useAdaptiveRebalanceInterval": true,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_b6f47015-7efd-4ef6-8397-c49064ab348d",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 4,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_5d4f36c2-4cb9-4822-a7fc-b074fa867eda",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 4,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_9838cad9-fe04-45c9-8d60-49f1b4e30baf",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 4,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_2633b962-8a4d-45f9-ab87-fa618f951fb1",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 4,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_c3fa80b2-ecfb-4c83-8a32-896139fd1819",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 4,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_819b7a91-cb8a-475b-8337-c519a97711d2",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 4,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_2c360e42-6af7-4f1d-a5b4-e4bf3c4626ec",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 4,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_2aa0bc7a-fbb3-4d8f-8fb7-bbfdf9e12d7c",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 4,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_e8cd33bb-324d-4d38-8eda-7cc1a76e36c5",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 5,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_6a03caa5-4f5e-47c1-82ff-71edf4df0296",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 5,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_aaf53fa4-6358-4870-bb1f-c7d094db6f40",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 5,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_294b297c-3de0-4c66-90c7-51f74f50fa1b",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 5,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_adec4402-1305-4e4d-a881-827448548274",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 5,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_5b347e57-0122-485b-80f8-37ad06ba7fb7",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 5,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_39c222b9-d7da-470d-be7c-4de77594cb72",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 5,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_21bd02cf-d78e-42db-835e-21b6f88546fb",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 5,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_6b42b50c-236f-4a7c-9071-b305c27128ef",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_dee4041d-bf14-4bc4-b908-1b0f953ed9b8",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_677ae0e1-6ed0-4fe8-a406-b22b7dd8e527",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_e912cbb0-8601-4b56-a41a-48072b1460e1",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_78bee859-5386-411d-b81c-1032b39c1fac",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_6714069d-2e38-476e-b684-32c6e157aca9",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_477174b7-11b9-4b8f-81d7-94d7af3d96ee",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_707d8eda-f351-4591-b09a-c79efb90c822",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_b561e9bb-9fbd-4e87-bd95-266556952106",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_e962f116-eb6b-4ef2-8c18-24a6d076ffe6",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_fb770755-d63d-479e-adf5-76ba3a284bbf",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_99e4b175-1327-4b67-a8d7-d64689795290",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_835f7f6a-6d33-4a5f-88d8-0c41ba6a74f7",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_e01c2dd8-f378-4fb8-8924-63ea1f4eb71e",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_fe5f641d-aa15-4120-92b3-65d5f4db8d12",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_55cf323b-04bc-42f1-a30c-399d7bd0b995",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_f6788db3-35d1-444a-9020-4356f8280b5c",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 4100,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "minAllocSize": 84,
+      "maxAllocSize": 184413,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_50",
+      "cache_size": 1024,
+      "uuid": "twitter_cluster_50_26deaafa-b306-468a-9c09-0f56ec6fee75",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 184413,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        1024
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster50.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_5586f350-f60a-4852-9091-65ac1598bbe7",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_6f37e87c-a73e-451e-b99e-ddfd0efa3e1a",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_a586bb26-af2e-49e1-ac3d-ec7a945a40f3",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_06c849f7-9f76-4f73-96eb-9633b48936c7",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_71c8a414-7b62-4d97-acf2-daf3893b4761",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_3e8e356f-3ee6-444e-910c-647d64327f52",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_b81dcea6-a493-4b7e-a72a-5d322499a966",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_cc643155-05e7-4a1d-9ebf-cf0c69808ee9",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "useAdaptiveRebalanceInterval": true,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_b1da0bf3-25cf-4818-ac3a-f2ad236e470c",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "useAdaptiveRebalanceInterval": true,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_b80adfdb-47bc-4602-a401-d720d762b2f2",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "useAdaptiveRebalanceInterval": true,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_49e9d806-5417-46da-b840-7ed29d6e8693",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "useAdaptiveRebalanceInterval": true,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_317e55c1-2742-48ac-996b-c53dafa94ee4",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_048b6544-e68e-4031-9b3f-f764db344d9c",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "useAdaptiveRebalanceInterval": true,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_2a08f6de-37ed-48f7-bf5b-4621ea1ea8fe",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_f0d4f7ee-3e73-4d12-8657-803bd9da82fb",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "useAdaptiveRebalanceInterval": true,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_0ca44b50-995c-48f4-b5c8-1f09161eac34",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 4,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_d6e61eb5-ca47-4167-8e84-d0257ad816ea",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 4,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_b9b46651-0b12-450d-8901-88e00f31b2e9",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 4,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_92e54259-d1b5-4dad-83f3-3f179b9f17d4",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 4,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_e7073af4-6d46-43b9-94a5-a20b331294f3",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 4,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_db12e86a-ba11-4123-91a7-33c83f215292",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 4,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_14907fe0-22e2-426c-ba57-cd5f1b9218c6",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 4,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_d8c3b241-6d14-4125-af86-e6bd46fcc2ce",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 4,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_ddbb841e-c2c0-47eb-ab26-a899ee23a1fb",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 5,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_f2f04819-2a15-4ce9-948b-24aa6b988215",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 5,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_7fed3462-8fe0-44bf-98a7-5441e36af6b5",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 5,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_382dc25a-075d-41a8-82e5-bdba70158aa2",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 5,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_20f885cc-440e-4efb-97b5-2bd3671e2b7a",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 5,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_d0d42aab-02c0-473f-b568-54bc4f5447a5",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 5,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_3309cb18-c95b-468b-aa89-f3db5ffdc91e",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 5,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_cc351394-cbb4-4b0f-97cb-32cb9c214485",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "useAdaptiveRebalanceInterval": true,
+      "useAnomalyDetection": true,
+      "ewmaL": 5,
+      "mhMovingAverageParam": 0.3,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_2cb09b13-ff21-44f1-a2dd-fcb4c1db1560",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_66715a55-0002-4646-8e87-dbac5442bd7b",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_b3813fea-f041-42a9-bc47-f394763a862a",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_b9a8c0c7-a648-4e1a-a620-661a3433d031",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_6602dbaa-4c6c-48ae-9a5b-26cf738749a2",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_23b5487e-f4cf-4ffa-bfa5-2a2c523bf98c",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_c6a59343-eaa1-4ae7-bb88-f48384d63832",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_e3d480a2-b675-4b51-af79-1920239d8261",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "hits",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_3b753011-0a84-405b-9926-47a7ae0c8438",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_34cff9ee-c318-4897-8a42-4e79b699292c",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_6fc37183-4ec3-414e-a94d-841c2c837e06",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_4b20dc14-80e6-4206-92c5-e7db8ee9d7a3",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_3533b04a-cca4-4f51-bde6-ccbe3d78fbae",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_54b2509b-e91b-4ddd-b19d-c77651bbe8ed",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_f2bebc43-e6f6-4b25-93ab-209bf1fd5842",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_c2530bd6-6791-492e-8cbf-24a8393e5956",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "tail-age",
+      "poolRebalanceIntervalSec": 1,
+      "rebalanceDiffRatio": 0.25,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_1295eae1-f8b9-420b-8dbf-72d50b3ec467",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "minAllocSize": 84,
+      "maxAllocSize": 40635,
+      "allocFactor": 1.5
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileName": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    },
+    "memo_config": {
+      "trace_name": "twitter_cluster_53",
+      "cache_size": 256,
+      "uuid": "twitter_cluster_53_8059a167-fd57-461f-9f30-8f1b017b32cb",
+      "extra": {
+        "minAllocSize": 84,
+        "maxAllocSize": 40635,
+        "allocFactor": 1.5
+      },
+      "slabs": [
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/cluster53.oracleGeneral.zst",
+      "zstdTrace": true
+    }
+  }
+]

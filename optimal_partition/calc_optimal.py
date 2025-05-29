@@ -123,7 +123,7 @@ def compute_optimal_allocations(mrc_dict, mrc_delta_dict, max_total_slabs, trace
         results.append(row)
 
     results_df = pd.DataFrame(results)
-    return results_df
+    return results, results_df 
 
 
 def calc_optimal_allocation(directory, slab_upper_limit = 4096):

@@ -3,7 +3,7 @@
         "type": "periodic",
         "time_span": 604800,
         "total_requests": 80000000,
-        "output_file": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_400.csv",
+        "output_file": "/mydata/hongshu/traces/synth_dynamic_400.csv",
         "generators_config": [
             [
                 {"m": 1600000, "alpha": 0.25, "share": 1, "size": 214},
@@ -27,7 +27,7 @@
         "type": "periodic",
         "time_span": 604800,
         "total_requests": 80000000,
-        "output_file": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_401.csv",
+        "output_file": "/mydata/hongshu/traces/synth_dynamic_401.csv",
         "generators_config": [
             [
                 {"m": 1600000, "alpha": 0.25, "share": 1, "size": 214},
@@ -65,7 +65,7 @@
         "type": "periodic",
         "time_span": 604800,
         "total_requests": 80000000,
-        "output_file": "/proj/latencymodel-PG0/hongshu/traces/synth_dynamic_402.csv",
+        "output_file": "/mydata/hongshu/traces/synth_dynamic_402.csv",
         "generators_config": [
             [
                 {"m": 1600000, "alpha": 0.25, "share": 1, "size": 214},
@@ -84,5 +84,216 @@
         ],
         "weight_array": [4, 1],
         "request_per_cycle": 40000000
+    },
+
+    {
+        "type": "periodic",
+        "time_span": 604800,
+        "total_requests": 80000000,
+        "output_file": "/mydata/hongshu/traces/synth_dynamic_403.csv",
+        "generators_config": [
+            [
+                {"m": 1600000, "alpha": 0.25, "share": 4, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 4, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 4, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 16, "size": 4054}
+            ],
+            [
+                {"m": 1600000, "alpha": 0.25, "share": 4, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 4, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 5, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 15, "size": 4054}
+            ],
+            [
+                {"m": 1600000, "alpha": 0.25, "share": 4, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 4, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 6, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 14, "size": 4054}
+            ],
+            [
+                {"m": 1600000, "alpha": 0.25, "share": 4, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 4, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 7, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 13, "size": 4054}
+            ],
+            [
+                {"m": 1600000, "alpha": 0.25, "share": 4, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 4, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 8, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 12, "size": 4054}
+            ], 
+            [
+                {"m": 1600000, "alpha": 0.25, "share": 4, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 4, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 9, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 11, "size": 4054}
+            ], 
+            [
+                {"m": 1600000, "alpha": 0.25, "share": 4, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 4, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 10, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 10, "size": 4054}
+            ], 
+            [
+                {"m": 1600000, "alpha": 0.25, "share": 4, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 4, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 11, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 9, "size": 4054}
+            ], 
+            [
+                {"m": 1600000, "alpha": 0.25, "share": 4, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 4, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 12, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 8, "size": 4054}
+            ], 
+            [
+                {"m": 1600000, "alpha": 0.25, "share": 4, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 4, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 13, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 7, "size": 4054}
+            ], 
+            [
+                {"m": 1600000, "alpha": 0.25, "share": 4, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 4, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 14, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 6, "size": 4054}
+            ], 
+            [
+                {"m": 1600000, "alpha": 0.25, "share": 4, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 4, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 15, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 5, "size": 4054}
+            ], 
+            [
+                {"m": 1600000, "alpha": 0.25, "share": 4, "size": 214},
+                {"m": 800000, "alpha": 0.85, "share": 4, "size": 470},
+                {"m": 400000, "alpha": 0.25, "share": 16, "size": 982},
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 4, "size": 4054}
+            ]
+        ],
+        "weight_array": [11,1,1,1,1,1,1,1,1,1,1,1,11],
+        "request_per_cycle": 80000000
+    },
+
+    {
+        "type": "periodic",
+        "time_span": 604800,
+        "total_requests": 40000000,
+        "output_file": "/mydata/hongshu/traces/synth_dynamic_500.csv",
+        "generators_config": [
+            [
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 1, "size": 4054}
+            ],
+            [
+                {"m": 200000, "alpha": 0.85, "share": 1, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 4, "size": 4054}
+            ]
+        ],
+        "weight_array": [1, 1],
+        "request_per_cycle": 20000000
+    },
+    {
+        "type": "periodic",
+        "time_span": 604800,
+        "total_requests": 40000000,
+        "output_file": "/mydata/hongshu/traces/synth_dynamic_501.csv",
+        "generators_config": [
+            [
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 1, "size": 4054}
+            ],
+            [
+                {"m": 200000, "alpha": 0.85, "share": 1, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 4, "size": 4054}
+            ]
+        ],
+        "weight_array": [1, 1],
+        "request_per_cycle": 10000000
+    },
+    {
+        "type": "periodic",
+        "time_span": 604800,
+        "total_requests": 40000000,
+        "output_file": "/mydata/hongshu/traces/synth_dynamic_502.csv",
+        "generators_config": [
+            [
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 1, "size": 4054}
+            ],
+            [
+                {"m": 200000, "alpha": 0.85, "share": 1, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 4, "size": 4054}
+            ]
+        ],
+        "weight_array": [1, 1],
+        "request_per_cycle": 5000000
+    },
+    {
+        "type": "periodic",
+        "time_span": 604800,
+        "total_requests": 40000000,
+        "output_file": "/mydata/hongshu/traces/synth_dynamic_503.csv",
+        "generators_config": [
+            [
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 1, "size": 4054}
+            ],
+            [
+                {"m": 200000, "alpha": 0.85, "share": 1, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 4, "size": 4054}
+            ]
+        ],
+        "weight_array": [1, 1],
+        "request_per_cycle": 2000000
+    },
+    {
+        "type": "periodic",
+        "time_span": 604800,
+        "total_requests": 40000000,
+        "output_file": "/mydata/hongshu/traces/synth_dynamic_504.csv",
+        "generators_config": [
+            [
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 1, "size": 4054}
+            ],
+            [
+                {"m": 200000, "alpha": 0.85, "share": 1, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 4, "size": 4054}
+            ]
+        ],
+        "weight_array": [1, 1],
+        "request_per_cycle": 1000000
+    },
+    {
+        "type": "periodic",
+        "time_span": 604800,
+        "total_requests": 40000000,
+        "output_file": "/mydata/hongshu/traces/synth_dynamic_505.csv",
+        "generators_config": [
+            [
+                {"m": 200000, "alpha": 0.85, "share": 4, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 1, "size": 4054}
+            ],
+            [
+                {"m": 200000, "alpha": 0.85, "share": 1, "size": 2006},
+                {"m": 100000, "alpha": 1.0, "share": 4, "size": 4054}
+            ]
+        ],
+        "weight_array": [1, 1],
+        "request_per_cycle": 1000000
     }
 ]

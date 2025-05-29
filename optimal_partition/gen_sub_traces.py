@@ -77,7 +77,7 @@ def compute_reuse_distances(reference_sequence):
     return dict(hist)
 
 
-def process_csv_and_generate_subtraces(csv_file_path, output_dir, factor, max_size, min_size, alignment=8, alloc_sizes=None, chunk_size=sys.maxsize):
+def (csv_file_path, output_dir, factor, max_size, process_csv_and_generate_subtracesmin_size, alignment=8, alloc_sizes=None, chunk_size=sys.maxsize):
     """
     Process a CSV file, optionally in chunks, generate subtrace files for each allocation size, and calculate stack distance.
 

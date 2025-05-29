@@ -20,14 +20,14 @@ traces = {
             "maxAllocSize": 523352,
             "minAllocSize": 72,
         },
-        "file_path": "/proj/latencymodel-PG0/hongshu/traces/meta2024_50m.csv"
+        "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
     }
 }
 
 
 cache_sizes = [i * 4 + 4 for i in [128, 256, 512]]
 allocators = ['LRU2Q']
-wakeUpRebalancerEveryXReqs = [50_000, 100_000, 150_000, 200_000, 250_000, 300_000, 350_000, 400_000, 450_000, 500_000]
+wakeUpRebalancerEveryXReqs = [200_000]
 alloc_factors = [1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0]
 
 rebalanceStrategies = {
@@ -35,11 +35,15 @@ rebalanceStrategies = {
         {"tailSlabCnt": 1, "mhMovingAverageParam": 0.3, "wakeUpRebalancerEveryXReqs": wakeup}
         for wakeup in wakeUpRebalancerEveryXReqs
     ] + [
-        {"tailSlabCnt": 1, "mhMovingAverageParam": 0.3, "wakeUpRebalancerEveryXReqs": wakeup, "useAdaptiveRebalanceInterval": True}
+        {"tailSlabCnt": 1, "mhMovingAverageParam": 0.3, "wakeUpRebalancerEveryXReqs": wakeup, "rebalanceMinSlabs": 0}
         for wakeup in wakeUpRebalancerEveryXReqs
     ],   
-    "hits": [{"rebalanceDiffRatio": 0.1, "wakeUpRebalancerEveryXReqs": wakeup} for wakeup in wakeUpRebalancerEveryXReqs],
-    "tail-age": [{"rebalanceDiffRatio": 0.25, "wakeUpRebalancerEveryXReqs": wakeup} for wakeup in wakeUpRebalancerEveryXReqs],
+    "hits": 
+        [{"rebalanceDiffRatio": 0.1, "wakeUpRebalancerEveryXReqs": wakeup} for wakeup in wakeUpRebalancerEveryXReqs] + 
+        [{"rebalanceDiffRatio": 0.1, "wakeUpRebalancerEveryXReqs": wakeup, "rebalanceMinSlabs": 0} for wakeup in wakeUpRebalancerEveryXReqs],
+    "tail-age": 
+        [{"rebalanceDiffRatio": 0.25, "wakeUpRebalancerEveryXReqs": wakeup} for wakeup in wakeUpRebalancerEveryXReqs] + 
+        [{"rebalanceDiffRatio": 0.25, "wakeUpRebalancerEveryXReqs": wakeup, "rebalanceMinSlabs": 0} for wakeup in wakeUpRebalancerEveryXReqs],
     "disabled": [{"wakeUpRebalancerEveryXReqs": 200_000}]
 }
 
