@@ -1,0 +1,16 @@
+nohup: ignoring input
+Processing /mydata/hongshu/traces/thesis/subtraces/synth_thesis_static_100/chunk_0...
+Deleted: /mydata/hongshu/traces/thesis/subtraces/synth_thesis_static_100/chunk_0/synth_thesis_static_100_subtrace_2048.csv
+Deleted: /mydata/hongshu/traces/thesis/subtraces/synth_thesis_static_100/chunk_0/synth_thesis_static_100_subtrace_4096.csv
+Processing /mydata/hongshu/traces/thesis/subtraces/synth_thesis_static_101/chunk_0...
+Deleted: /mydata/hongshu/traces/thesis/subtraces/synth_thesis_static_101/chunk_0/synth_thesis_static_101_subtrace_2048.csv
+Deleted: /mydata/hongshu/traces/thesis/subtraces/synth_thesis_static_101/chunk_0/synth_thesis_static_101_subtrace_4096.csv
+Processing /mydata/hongshu/traces/thesis/subtraces/synth_thesis_static_102/chunk_0...
+Deleted: /mydata/hongshu/traces/thesis/subtraces/synth_thesis_static_102/chunk_0/synth_thesis_static_102_subtrace_4096.csv
+Deleted: /mydata/hongshu/traces/thesis/subtraces/synth_thesis_static_102/chunk_0/synth_thesis_static_102_subtrace_2048.csv
+Processing /mydata/hongshu/traces/thesis/subtraces/synth_thesis_static_103/chunk_0...
+Deleted: /mydata/hongshu/traces/thesis/subtraces/synth_thesis_static_103/chunk_0/synth_thesis_static_103_subtrace_2048.csv
+Deleted: /mydata/hongshu/traces/thesis/subtraces/synth_thesis_static_103/chunk_0/synth_thesis_static_103_subtrace_4096.csv
+Processing /mydata/hongshu/traces/thesis/subtraces/synth_thesis_static_104/chunk_0...
+Deleted: /mydata/hongshu/traces/thesis/subtraces/synth_thesis_static_104/chunk_0/synth_thesis_static_104_subtrace_2048.csv
+Deleted: /mydata/hongshu/traces/thesis/subtraces/synth_thesis_static_104/chunk_0/synth_thesis_static_104_subtrace_4096.csv

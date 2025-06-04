@@ -1,0 +1,15 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /mydata/hongshu/thesis-playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_df583/fast && gmake: *** No rule to make target 'cmTC_df583/fast'.  Stop.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /mydata/hongshu/thesis-playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_16065/fast && gmake: *** No rule to make target 'cmTC_16065/fast'.  Stop.
+
+
+

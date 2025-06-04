@@ -61,10 +61,15 @@ def run_cachebench(config_file, output_file, output_json_file):
     with open(config_file, 'r') as f:
         config_content = json.load(f)
     
+    if "size_of_slab" in config_content["test_config"] and config_content["test_config"]["size_of_slab"] == 1:
+        cachelib_path = "/mydata/hongshu/CacheLib2/opt/cachelib/bin/cachebench"
+    else:
+        cachelib_path = "/mydata/hongshu/CacheLib/opt/cachelib/bin/cachebench"
+    
     if config_content["test_config"]["useTraceTimer"]:
         command = [
             "LD_PRELOAD=/mydata/hongshu/libmock_time.so",
-            "/mydata/hongshu/CacheLib/opt/cachelib/bin/cachebench",
+            cachelib_path,
             "--json_test_config", config_file,
             "-progress=50000",
             "--dump_result_json_file", output_json_file

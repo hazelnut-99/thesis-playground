@@ -27,7 +27,7 @@ traces = {
         "extra": {
             "allocSizes": [256, 512, 1024, 2048, 4096]
         },
-        "cache_sizes": [64, 128, 256],
+        "cache_sizes": [64, 128, 256, 400, 512, 800, 1024, 2048],
         "file_path": BASE_FILE_PATH + "traces/synth_static_202.csv"
     },
     "synth_dynamic_400": {
@@ -154,6 +154,12 @@ rebalanceStrategies = {
             "tailSlabCnt": 1, 
             "mhMovingAverageParam": 0.3, 
             "wakeUpRebalancerEveryXReqs": 100_000
+        },
+        {
+            "tailSlabCnt": 1, 
+            "mhMovingAverageParam": 0.3, 
+            "wakeUpRebalancerEveryXReqs": 1000_000,
+            "anomalyDetectionFrequency": 1000_000
         }
     ] + [
         {
@@ -207,13 +213,21 @@ for trace_name, info in traces.items():
                         "numOps": sys.maxsize,
                         "traceFileNames": [path]
                     }
+                interval = cache_config.get('wakeUpRebalancerEveryXReqs', 100_000)
+                uuid = f"{trace_name}_{rebalanceStrategy}_{cache_size}"
+                if 'useAdaptiveRebalanceInterval' in cache_config:
+                    uuid += '_adaptive_interval'
+                if 'useAnomalyDetection' in cache_config:
+                    uuid += '_anomaly_detection'
+                if interval != 100_000:
+                    uuid += f"_{interval}"
+
                 memo_config = {
                     "trace_name": trace_name,
                     "cache_size": cache_size,
-                    "uuid": f"{trace_name}_{rebalanceStrategy}_{cache_size}" \
-                            f"{'_adaptive_interval' if 'useAdaptiveRebalanceInterval' in cache_config else ''}" \
-                            f"{'_anomaly_detection' if 'useAnomalyDetection' in cache_config else ''}"
+                    "uuid": uuid
                 }
+                
                 memo_config.update(info)
             
                 full_config = {

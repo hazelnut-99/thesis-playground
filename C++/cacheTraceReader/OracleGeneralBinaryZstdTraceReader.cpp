@@ -186,17 +186,20 @@ int oracleGeneralBinReadOneReq(ZstdReader *reader, OracleGeneralBinRequest *req)
     return 0;
 }
 
+
 int main(int argc, char *argv[]) {
     if (argc < 2) {
-        std::cerr << "Usage: " << argv[0] << " <input_file_path> [output_file_path] [max_record_cnt] [print_min_max_size]" << std::endl;
+        std::cerr << "Usage: " << argv[0] << " <input_file_path> [output_file_path] [max_record_cnt] [print_min_max_size|print_avg_qps]" << std::endl;
         return 1;
     }
 
     const char *inputFilePath = argv[1];
-    const char *outputFilePath = (argc >= 3 && std::string(argv[2]) != "print_min_max_size") ? argv[2] : nullptr;
-    int maxRecordCnt = (argc >= 4 && std::string(argv[3]) != "print_min_max_size") ? std::atoi(argv[3]) : -1; // Default to -1 if not provided
+    const char *outputFilePath = (argc >= 3 && std::string(argv[2]) != "print_min_max_size" && std::string(argv[2]) != "print_avg_qps") ? argv[2] : nullptr;
+    int maxRecordCnt = (argc >= 4 && std::string(argv[3]) != "print_min_max_size" && std::string(argv[3]) != "print_avg_qps") ? std::atoi(argv[3]) : -1;
     bool printMinMaxSize = (argc >= 3 && std::string(argv[2]) == "print_min_max_size") || 
                            (argc >= 4 && std::string(argv[3]) == "print_min_max_size");
+    bool printAvgQps = (argc >= 3 && std::string(argv[2]) == "print_avg_qps") ||
+                       (argc >= 4 && std::string(argv[3]) == "print_avg_qps");
 
     ZstdReader *reader = createZstdReader(inputFilePath);
     if (!reader) {
@@ -205,7 +208,7 @@ int main(int argc, char *argv[]) {
     }
 
     std::ofstream outputFile;
-    if (outputFilePath && !printMinMaxSize) {
+    if (outputFilePath && !printMinMaxSize && !printAvgQps) {
         outputFile.open(outputFilePath);
         if (!outputFile.is_open()) {
             std::cerr << "Failed to open output file: " << outputFilePath << std::endl;
@@ -219,22 +222,26 @@ int main(int argc, char *argv[]) {
     int recordCount = 0;
     int minSize = INT_MAX;
     int maxSize = 0;
+    uint32_t firstClockTime = 0;
+    uint32_t lastClockTime = 0;
+    bool firstReq = true;
 
     while (oracleGeneralBinReadOneReq(reader, &req) == 0) {
+        if (firstReq) {
+            firstClockTime = req.clockTime;
+            firstReq = false;
+        }
+        lastClockTime = req.clockTime;
+
         if (printMinMaxSize) {
-            // Update min and max object sizes
-            if (req.objSize < minSize) {
-                minSize = req.objSize;
-            }
-            if (req.objSize > maxSize) {
-                maxSize = req.objSize;
-            }
+            if (req.objSize < minSize) minSize = req.objSize;
+            if (req.objSize > maxSize) maxSize = req.objSize;
         } else if (outputFilePath) {
             outputFile << req.clockTime << ","
                        << req.objId << ","
                        << req.objSize << ","
                        << req.nextAccessVtime << "\n";
-        } else {
+        } else if (!printAvgQps) {
             std::cout << "Clock Time: " << req.clockTime << std::endl;
             std::cout << "Object ID: " << req.objId << std::endl;
             std::cout << "Object Size: " << req.objSize << std::endl;
@@ -251,8 +258,14 @@ int main(int argc, char *argv[]) {
         std::cout << "Min Object Size: " << minSize << std::endl;
         std::cout << "Max Object Size: " << maxSize << std::endl;
     }
+    if (printAvgQps) {
+        double duration = static_cast<double>(lastClockTime) - static_cast<double>(firstClockTime);
+        double avgQps = (duration > 0) ? (static_cast<double>(recordCount) / duration) : 0.0;
+        std::cout << "Average QPS: " << avgQps << std::endl;
+        std::cout << "First clockTime: " << firstClockTime << ", Last clockTime: " << lastClockTime << ", Record count: " << recordCount << std::endl;
+    }
 
-    if (outputFilePath && !printMinMaxSize) {
+    if (outputFilePath && !printMinMaxSize && !printAvgQps) {
         outputFile.close();
     }
 

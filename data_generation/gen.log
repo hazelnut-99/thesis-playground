@@ -1,0 +1,88 @@
+nohup: ignoring input
+{'m': 1000000, 'alpha': 1.0, 'share': 2, 'size': 30, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=1.0
+{'m': 1000000, 'alpha': 0.8, 'share': 2, 'size': 50, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=0.8
+{'m': 1000000, 'alpha': 1.2, 'share': 1, 'size': 80, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=1.2
+{'m': 1000000, 'alpha': 1.0, 'share': 2, 'size': 300, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=1.0
+{'m': 1000000, 'alpha': 0.8, 'share': 2, 'size': 500, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=0.8
+{'m': 1000000, 'alpha': 1.2, 'share': 1, 'size': 800, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=1.2
+12096 15 30
+24192 126917 30
+36288 1139553 50
+48384 1478413 50
+60480 2111189 80
+72576 338974 30
+84672 113253 30
+96768 1000186 50
+108864 3001301 300
+120960 3000001 300
+133056 1883598 50
+145152 2000003 80
+157248 32863 30
+169344 417520 30
+181440 1132491 50
+193536 1041309 50
+205632 2000007 80
+217728 20 30
+229824 4000025 500
+241920 4016964 500
+254016 270 30
+266112 1150571 50
+278208 1365144 50
+290304 2003391 80
+302400 26 30
+314496 247 30
+326592 1917906 50
+338688 1000632 50
+350784 5000056 800
+362880 3002072 300
+374976 2000002 80
+387072 32 30
+399168 364429 30
+411264 1005935 50
+423360 1000009 50
+435456 2024738 80
+447552 120 30
+459648 148397 30
+471744 3000000 300
+483840 4000051 500
+495936 1231358 50
+508032 1013237 50
+520128 2000009 80
+532224 0 30
+544320 2749 30
+556416 1527666 50
+568512 1031466 50
+580608 2000021 80
+592704 4114536 500
+604800 5000000 800
+{'m': 700000, 'alpha': 0.25, 'share': 1, 'size': 2006}
+Generating Zipf distribution with m=700000, alpha=0.25
+{'m': 700000, 'alpha': 1.0, 'share': 1, 'size': 4054}
+Generating Zipf distribution with m=700000, alpha=1.0
+Generated data for /mydata/hongshu/traces/thesis/synth_thesis_static_104.csv
+{'m': 700000, 'alpha': 1.0, 'share': 1, 'size': 2006}
+Generating Zipf distribution with m=700000, alpha=1.0
+{'m': 700000, 'alpha': 0.25, 'share': 1, 'size': 4054}
+Generating Zipf distribution with m=700000, alpha=0.25
+Generated data for /mydata/hongshu/traces/thesis/synth_thesis_static_103.csv
+{'m': 700000, 'alpha': 1.0, 'share': 1, 'size': 2006}
+Generating Zipf distribution with m=700000, alpha=1.0
+{'m': 700000, 'alpha': 1.0, 'share': 1, 'size': 4054}
+Generating Zipf distribution with m=700000, alpha=1.0
+Generated data for /mydata/hongshu/traces/thesis/synth_thesis_static_100.csv
+{'m': 700000, 'alpha': 1.0, 'share': 2, 'size': 2006}
+Generating Zipf distribution with m=700000, alpha=1.0
+{'m': 700000, 'alpha': 1.0, 'share': 1, 'size': 4054}
+Generating Zipf distribution with m=700000, alpha=1.0
+Generated data for /mydata/hongshu/traces/thesis/synth_thesis_static_101.csv
+{'m': 700000, 'alpha': 1.0, 'share': 1, 'size': 2006}
+Generating Zipf distribution with m=700000, alpha=1.0
+{'m': 700000, 'alpha': 1.0, 'share': 2, 'size': 4054}
+Generating Zipf distribution with m=700000, alpha=1.0
+Generated data for /mydata/hongshu/traces/thesis/synth_thesis_static_102.csv

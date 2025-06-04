@@ -36,12 +36,12 @@ def build_dp_table(mrc_dict, max_total_slabs, trace_names, access_freqs, pretty_
         access_freq = access_freqs[i - 1]
         for j in range(max_total_slabs + 1):
             for k in range(j + 1):
-                if k in mrc_dict[trace_name]:
-                    miss_ratio = mrc_dict[trace_name][k]
-                    miss_count = miss_ratio * access_freq
-                    if dp[i - 1][j - k] + miss_count < dp[i][j]:
-                        dp[i][j] = dp[i - 1][j - k] + miss_count
-                        allocation[i][j] = k
+                miss_ratio = mrc_dict[trace_name].get(k, 1)
+                miss_count = miss_ratio * access_freq
+                if dp[i - 1][j - k] + miss_count < dp[i][j]:
+                    dp[i][j] = dp[i - 1][j - k] + miss_count
+                    allocation[i][j] = k
+                    
     
     # Pretty print the DP table and allocation table if requested
     if pretty_print:

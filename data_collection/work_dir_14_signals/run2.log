@@ -1,0 +1,127 @@
+nohup: ignoring input
+total number of configs: 125
+[0] Directory outcome/ already exists. Skipping experiment.
+[1] Directory outcome/ already exists. Skipping experiment.
+[2] Directory outcome/ already exists. Skipping experiment.
+[6] Directory outcome/ already exists. Skipping experiment.
+[7] Directory outcome/ already exists. Skipping experiment.
+[9] Directory outcome/ already exists. Skipping experiment.
+[8] Directory outcome/ already exists. Skipping experiment.
+[10] Directory outcome/ already exists. Skipping experiment.
+[11] Directory outcome/ already exists. Skipping experiment.
+[13] Directory outcome/ already exists. Skipping experiment.
+[12] Directory outcome/ already exists. Skipping experiment.
+[14] Directory outcome/ already exists. Skipping experiment.
+[15] Directory outcome/ already exists. Skipping experiment.
+[16] Directory outcome/ already exists. Skipping experiment.
+[17] Directory outcome/ already exists. Skipping experiment.
+[21] Directory outcome/ already exists. Skipping experiment.
+[22] Directory outcome/ already exists. Skipping experiment.
+[23] Directory outcome/ already exists. Skipping experiment.
+[24] Directory outcome/ already exists. Skipping experiment.
+[25] Directory outcome/ already exists. Skipping experiment.
+[26] Directory outcome/ already exists. Skipping experiment.
+[27] Directory outcome/ already exists. Skipping experiment.
+[28] Directory outcome/ already exists. Skipping experiment.
+[29] Directory outcome/ already exists. Skipping experiment.
+[30] Directory outcome/ already exists. Skipping experiment.
+[31] Directory outcome/ already exists. Skipping experiment.
+[32] Directory outcome/ already exists. Skipping experiment.
+[20] Experiment synth_dynamic_400_marginal-hits_256_1000000 finished successfully.
+[33] Experiment synth_dynamic_401_marginal-hits_64_1000000 finished successfully.
+[36] Directory outcome/ already exists. Skipping experiment.
+[37] Directory outcome/ already exists. Skipping experiment.
+[38] Directory outcome/ already exists. Skipping experiment.
+[39] Directory outcome/ already exists. Skipping experiment.
+[40] Directory outcome/ already exists. Skipping experiment.
+[41] Directory outcome/ already exists. Skipping experiment.
+[42] Directory outcome/ already exists. Skipping experiment.
+[43] Directory outcome/ already exists. Skipping experiment.
+[44] Directory outcome/ already exists. Skipping experiment.
+[45] Directory outcome/ already exists. Skipping experiment.
+[46] Directory outcome/ already exists. Skipping experiment.
+[47] Directory outcome/ already exists. Skipping experiment.
+[19] Experiment synth_dynamic_400_marginal-hits_128_1000000 finished successfully.
+[18] Experiment synth_dynamic_400_marginal-hits_64_1000000 finished successfully.
+[34] Experiment synth_dynamic_401_marginal-hits_128_1000000 finished successfully.
+[51] Directory outcome/ already exists. Skipping experiment.
+[52] Directory outcome/ already exists. Skipping experiment.
+[53] Directory outcome/ already exists. Skipping experiment.
+[54] Directory outcome/ already exists. Skipping experiment.
+[55] Directory outcome/ already exists. Skipping experiment.
+[56] Directory outcome/ already exists. Skipping experiment.
+[57] Directory outcome/ already exists. Skipping experiment.
+[58] Directory outcome/ already exists. Skipping experiment.
+[59] Directory outcome/ already exists. Skipping experiment.
+[60] Directory outcome/ already exists. Skipping experiment.
+[61] Directory outcome/ already exists. Skipping experiment.
+[62] Directory outcome/ already exists. Skipping experiment.
+[5] Experiment synth_static_202_marginal-hits_256_1000000 finished successfully.
+[4] Experiment synth_static_202_marginal-hits_128_1000000 finished successfully.
+[3] Experiment synth_static_202_marginal-hits_64_1000000 finished successfully.
+[66] Directory outcome/ already exists. Skipping experiment.
+[67] Directory outcome/ already exists. Skipping experiment.
+[68] Directory outcome/ already exists. Skipping experiment.
+[69] Directory outcome/ already exists. Skipping experiment.
+[70] Directory outcome/ already exists. Skipping experiment.
+[71] Directory outcome/ already exists. Skipping experiment.
+[72] Directory outcome/ already exists. Skipping experiment.
+[73] Directory outcome/ already exists. Skipping experiment.
+[74] Directory outcome/ already exists. Skipping experiment.
+[75] Directory outcome/ already exists. Skipping experiment.
+[76] Experiment synth_dynamic_500_marginal-hits_32_1000000 finished successfully.
+[77] Directory outcome/ already exists. Skipping experiment.
+[78] Directory outcome/ already exists. Skipping experiment.
+[79] Directory outcome/ already exists. Skipping experiment.
+[80] Directory outcome/ already exists. Skipping experiment.
+[81] Directory outcome/ already exists. Skipping experiment.
+[82] Directory outcome/ already exists. Skipping experiment.
+[83] Directory outcome/ already exists. Skipping experiment.
+[35] Experiment synth_dynamic_401_marginal-hits_256_1000000 finished successfully.
+[50] Experiment synth_dynamic_402_marginal-hits_256_1000000 finished successfully.
+[48] Experiment synth_dynamic_402_marginal-hits_64_1000000 finished successfully.
+[63] Experiment synth_dynamic_403_marginal-hits_64_1000000 finished successfully.
+[88] Directory outcome/ already exists. Skipping experiment.
+[89] Directory outcome/ already exists. Skipping experiment.
+[90] Directory outcome/ already exists. Skipping experiment.
+[91] Directory outcome/ already exists. Skipping experiment.
+[92] Directory outcome/ already exists. Skipping experiment.
+[93] Directory outcome/ already exists. Skipping experiment.
+[94] Directory outcome/ already exists. Skipping experiment.
+[95] Directory outcome/ already exists. Skipping experiment.
+[96] Directory outcome/ already exists. Skipping experiment.
+[97] Directory outcome/ already exists. Skipping experiment.
+[98] Directory outcome/ already exists. Skipping experiment.
+[99] Directory outcome/ already exists. Skipping experiment.
+[100] Directory outcome/ already exists. Skipping experiment.
+[64] Experiment synth_dynamic_403_marginal-hits_128_1000000 finished successfully.
+[102] Directory outcome/ already exists. Skipping experiment.
+[103] Directory outcome/ already exists. Skipping experiment.
+[104] Directory outcome/ already exists. Skipping experiment.
+[105] Directory outcome/ already exists. Skipping experiment.
+[106] Directory outcome/ already exists. Skipping experiment.
+[107] Directory outcome/ already exists. Skipping experiment.
+[49] Experiment synth_dynamic_402_marginal-hits_128_1000000 finished successfully.
+[65] Experiment synth_dynamic_403_marginal-hits_256_1000000 finished successfully.
+[84] Experiment meta_2024_50m_1_marginal-hits_128_1000000 finished successfully.
+[111] Directory outcome/ already exists. Skipping experiment.
+[112] Directory outcome/ already exists. Skipping experiment.
+[113] Directory outcome/ already exists. Skipping experiment.
+[114] Directory outcome/ already exists. Skipping experiment.
+[115] Directory outcome/ already exists. Skipping experiment.
+[116] Directory outcome/ already exists. Skipping experiment.
+[117] Directory outcome/ already exists. Skipping experiment.
+[118] Directory outcome/ already exists. Skipping experiment.
+[119] Directory outcome/ already exists. Skipping experiment.
+[120] Directory outcome/ already exists. Skipping experiment.
+[85] Experiment meta_2024_50m_1_marginal-hits_256_1000000 finished successfully.
+[122] Directory outcome/ already exists. Skipping experiment.
+[123] Directory outcome/ already exists. Skipping experiment.
+[124] Directory outcome/ already exists. Skipping experiment.
+[86] Experiment meta_2024_50m_1_marginal-hits_512_1000000 finished successfully.
+[87] Experiment meta_2024_50m_1_marginal-hits_1024_1000000 finished successfully.
+[101] Experiment wiki_2019_t_marginal-hits_2048_1000000 finished successfully.
+[109] Experiment twitter_cluster_52_sample_marginal-hits_512_1000000 finished successfully.
+[108] Experiment twitter_cluster_52_sample_marginal-hits_256_1000000 finished successfully.
+[110] Experiment twitter_cluster_52_sample_marginal-hits_1024_1000000 finished successfully.
+[121] Experiment meta_2024_full_marginal-hits_512_1000000 finished successfully.

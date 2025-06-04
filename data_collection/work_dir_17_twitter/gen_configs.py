@@ -18,6 +18,70 @@ BASE_FILE_PATH = "/mydata/hongshu/"
 current_dir = os.path.dirname(__file__)
 
 traces = {
+    "meta_2024_full": {
+        "extra": {
+            "allocSizes": [
+                72,
+                112,
+                168,
+                256,
+                384,
+                576,
+                864,
+                1296,
+                1944,
+                2920,
+                4384,
+                6576,
+                9864,
+                14800,
+                22200,
+                33304,
+                49960,
+                74944,
+                112416,
+                168624,
+                252936,
+                379408,
+                523352
+            ]
+        },
+        "slabs": [512],
+        "file_path": BASE_FILE_PATH + "traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
+        "zstdTrace": True
+    },
+    "meta_2022_full": {
+        "extra": {
+            "allocSizes": [
+                72,
+                112,
+                168,
+                256,
+                384,
+                576,
+                864,
+                1296,
+                1944,
+                2920,
+                4384,
+                6576,
+                9864,
+                14800,
+                22200,
+                33304,
+                49960,
+                74944,
+                112416,
+                168624,
+                252936,
+                379408,
+                523352
+            ]
+        },
+        "slabs": [512],
+        "file_path": BASE_FILE_PATH + "traces/202210_kv_traces_all_sort.csv.oracleGeneral.zst",
+        "zstdTrace": True
+    },
     "twitter_cluster_50": {
         "extra": {
             "minAllocSize": 84,
@@ -38,11 +102,51 @@ traces = {
         "file_path": BASE_FILE_PATH + "traces/cluster53.oracleGeneral.zst",
         "zstdTrace": True
     },
+    "twitter_cluster_49": {
+        "extra": {
+            "minAllocSize": 104,
+            "maxAllocSize": 61964,
+            "allocFactor": 1.5
+        },
+        "slabs": [128],
+        "file_path": BASE_FILE_PATH + "traces/cluster49.oracleGeneral.zst",
+        "zstdTrace": True
+    },
+    "twitter_cluster_45": {
+        "extra": {
+            "minAllocSize": 84,
+            "maxAllocSize": 4224,
+            "allocFactor": 1.5
+        },
+        "slabs": [64],
+        "file_path": BASE_FILE_PATH + "traces/cluster45.oracleGeneral.zst",
+        "zstdTrace": True
+    },
+    "twitter_cluster_26": {
+        "extra": {
+            "minAllocSize": 84,
+            "maxAllocSize": 226387,
+            "allocFactor": 1.5
+        },
+        "slabs": [32, 64],
+        "file_path": BASE_FILE_PATH + "traces/cluster26.oracleGeneral.zst",
+        "zstdTrace": True
+    },
+    "twitter_cluster_22": {
+        "extra": {
+            "minAllocSize": 84,
+            "maxAllocSize": 174,
+            "allocFactor": 1.5
+        },
+        "slabs": [512],
+        "file_path": BASE_FILE_PATH + "traces/cluster22.oracleGeneral.zst",
+        "zstdTrace": True
+    }
 }
 
 
 allocators = ['LRU2Q']
-wakeUpRebalancerEveryXReqs = [i * 1000 for i in [5, 10, 20, 50, 100, 200, 500, 1000]]
+wakeUpRebalancerEveryXReqs = [i * 1000 for i in [2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000]]
 
 rebalanceStrategies = {
     "marginal-hits": [

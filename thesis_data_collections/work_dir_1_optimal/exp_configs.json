@@ -1,0 +1,1002 @@
+[
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 132,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_100.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_100",
+      "cache_size": 32,
+      "uuid": "synth_thesis_static_100_d368f57e-1e57-4fc2-b4fc-8df99905e0e3",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_100.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_100.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_100",
+      "cache_size": 64,
+      "uuid": "synth_thesis_static_100_815ab553-f3ea-4608-bea2-e4cb09de7b50",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_100.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_100.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_100",
+      "cache_size": 128,
+      "uuid": "synth_thesis_static_100_cec11d2c-b17e-45a4-bdd7-44dfef80ddb3",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_100.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_100.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_100",
+      "cache_size": 256,
+      "uuid": "synth_thesis_static_100_d8542323-b3a2-4803-af0c-d338efc02dec",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_100.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 2052,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_100.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_100",
+      "cache_size": 512,
+      "uuid": "synth_thesis_static_100_15ae91fa-5989-4c68-93f9-fb7932de5828",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_100.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 132,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_101.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_101",
+      "cache_size": 32,
+      "uuid": "synth_thesis_static_101_f8070c4f-5f52-433e-ba9a-fd1549c55995",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_101.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_101.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_101",
+      "cache_size": 64,
+      "uuid": "synth_thesis_static_101_2661b062-b1f2-4f4d-aad2-577075ff4c5a",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_101.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_101.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_101",
+      "cache_size": 128,
+      "uuid": "synth_thesis_static_101_f479cbf2-a76d-4442-9b68-7a3da23553cd",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_101.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_101.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_101",
+      "cache_size": 256,
+      "uuid": "synth_thesis_static_101_a188252f-4818-4a92-bb00-4e2531414cfc",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_101.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 2052,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_101.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_101",
+      "cache_size": 512,
+      "uuid": "synth_thesis_static_101_5e13f035-7629-4530-848c-8addb1fc0215",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_101.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 132,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_102.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_102",
+      "cache_size": 32,
+      "uuid": "synth_thesis_static_102_09481e5f-fb4f-438a-a1cf-feebb3c6a552",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_102.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_102.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_102",
+      "cache_size": 64,
+      "uuid": "synth_thesis_static_102_9ca9c0fb-9c63-4969-9f8d-0e6b2c25adfa",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_102.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_102.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_102",
+      "cache_size": 128,
+      "uuid": "synth_thesis_static_102_641695c1-5346-49b6-8385-081d618b6d80",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_102.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_102.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_102",
+      "cache_size": 256,
+      "uuid": "synth_thesis_static_102_7bb7fca8-3b40-4e06-bf3e-e9798154a739",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_102.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 2052,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_102.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_102",
+      "cache_size": 512,
+      "uuid": "synth_thesis_static_102_d08e5d47-911d-4872-83a3-49771b95c6b1",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_102.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 132,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_103.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_103",
+      "cache_size": 32,
+      "uuid": "synth_thesis_static_103_f7c7a76e-836d-4718-ab83-b9272fe97c2f",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_103.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_103.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_103",
+      "cache_size": 64,
+      "uuid": "synth_thesis_static_103_1a3d000e-2079-454a-8e76-ce0a51ed2923",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_103.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_103.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_103",
+      "cache_size": 128,
+      "uuid": "synth_thesis_static_103_5d0eb449-3224-4aaa-939c-1b075f0d29dd",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_103.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_103.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_103",
+      "cache_size": 256,
+      "uuid": "synth_thesis_static_103_1b93cabe-54b5-4475-874e-7305a8c39738",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_103.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 2052,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_103.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_103",
+      "cache_size": 512,
+      "uuid": "synth_thesis_static_103_312d7007-3a08-4ba4-8dff-461e424519b4",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_103.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 132,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_104.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_104",
+      "cache_size": 32,
+      "uuid": "synth_thesis_static_104_b9e110f2-8a05-4b7f-a0d5-bd376282939b",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_104.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_104.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_104",
+      "cache_size": 64,
+      "uuid": "synth_thesis_static_104_00b2d018-7b07-43e3-b5ca-4e4fc0d8bfbe",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_104.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_104.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_104",
+      "cache_size": 128,
+      "uuid": "synth_thesis_static_104_f5cffc05-6a90-43ea-b12b-66b9761d4dab",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_104.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_104.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_104",
+      "cache_size": 256,
+      "uuid": "synth_thesis_static_104_7b36bb33-44b8-4520-94fd-4f323abea27b",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_104.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 2052,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "disabled",
+      "poolRebalanceIntervalSec": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "allocSizes": [
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/thesis/synth_thesis_static_104.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_thesis_static_104",
+      "cache_size": 512,
+      "uuid": "synth_thesis_static_104_3f825200-4899-4291-91ef-213f9b9df78f",
+      "extra": {
+        "allocSizes": [
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "file_path": "/mydata/hongshu/traces/thesis/synth_thesis_static_104.csv"
+    }
+  }
+]
