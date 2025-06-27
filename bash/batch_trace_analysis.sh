@@ -1,68 +1,62 @@
 #!/bin/bash
 
-# Base URLs and directories
-base_url="https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/cacheDatasets/twitter/"
+# Fixed base URL and configurable subdir
+base_url="https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/cacheDatasets/"
+subdir="metaKV"  # Change this to e.g. metaKV, cloudphysics, etc.
+
 trace_dir="/mydata/hongshu/traces"
-outcome_dir="/mydata/hongshu/thesis-playground/bash/outcome"
+outcome_dir="/mydata/hongshu/thesis-playground/bash/outcome_new"
 parse_script="/mydata/hongshu/thesis-playground/bash/parse_trace_analysis.sh"
 analyzer="/mydata/hongshu/libCacheSim/_build/bin/traceAnalyzer"
 heatmap_script="/mydata/hongshu/libCacheSim/scripts/traceAnalysis/size_heatmap.py"
 minmax_executable="/mydata/hongshu/thesis-playground/C++/cacheTraceReader/executable/reader"
 
-process_cluster() {
-    i=$1
-    cluster="cluster$i"
-    filename="${cluster}.oracleGeneral.zst"
+# Get file list from remote subdir (assumes server provides HTML listing)
+file_list=$(curl -s "${base_url}${subdir}/" | grep -oP '(?<=href=")[^"]+\.oracleGeneral(\.bin)?\.zst(?=")' | sort | uniq)
+echo "$file_list"
+
+process_trace() {
+    ulimit -v $((248 * 1024 * 1024))
+    filename="$1"
     filepath="${trace_dir}/${filename}"
-    analysis_txt="${trace_dir}/analysis/${filename}_analysis.txt"
-    analysis_json="${trace_dir}/analysis/${filename}_analysis.json"
+    analysis_txt="${trace_dir}/analysis_txt/${filename}_analysis.txt"
+    analysis_json="${trace_dir}/analysis_json/${filename}_analysis.json"
 
     echo "Processing $filename"
 
-    # Download trace
-    wget -q "${base_url}/${filename}" -P "${trace_dir}"
+    if [[ -f "$analysis_json" ]]; then
+        echo "Analysis JSON $analysis_json already exists, skipping."
+        return
+    fi
 
-    # Check file size (in bytes) and skip processing if larger than 25GB
-    if [[ -f "$filepath" ]]; then
-        file_size=$(stat --format="%s" "$filepath")
-        if (( file_size > 20 * 1024 * 1024 * 1024 )); then
-            echo "File $filename is larger than 25GB. Skipping processing and deleting the file."
-            rm -f "$filepath"
-            return
+    cleanup() {
+        rm -f "${filepath}"
+    }
+    trap cleanup EXIT
+
+    if [[ -f "${filepath}" ]]; then
+        echo "Trace file ${filepath} already exists, skipping download."
+    else
+        if ! wget -q "${base_url}${subdir}/${filename}" -P "${trace_dir}"; then
+            echo "Error downloading ${filename}" >&2
+            return 1
         fi
     fi
 
-    # Run traceAnalyzer
-    cd "${outcome_dir}" || exit
-    "${analyzer}" "${filepath}" oracleGeneralBin --common > "${analysis_txt}"
-
-    # Parse analysis to JSON
-    /bin/bash "${parse_script}" "${analysis_txt}" "${analysis_json}"
-
-    # Extract Min/Max object size
-    minmax_output=$("${minmax_executable}" "${filepath}" print_min_max_size)
-
-    min_obj_size=$(echo "$minmax_output" | grep "Min Object Size:" | awk '{print $4}')
-    max_obj_size=$(echo "$minmax_output" | grep "Max Object Size:" | awk '{print $4}')
-
-    # Add min/max sizes to JSON file
-    if [[ -n "$min_obj_size" && -n "$max_obj_size" ]]; then
-        tmp_json=$(mktemp)
-        jq --arg min "$min_obj_size" --arg max "$max_obj_size" \
-           '. + {min_obj_size: ($min | tonumber), max_obj_size: ($max | tonumber)}' \
-           "$analysis_json" > "$tmp_json" && mv "$tmp_json" "$analysis_json"
+    cd "${outcome_dir}" || { echo "Failed to cd to ${outcome_dir}"; return 1; }
+    if ! "${analyzer}" "${filepath}" oracleGeneralBin --simple > "${analysis_txt}"; then
+        echo "traceAnalyzer failed for ${filename}" >&2
+        return 1
     fi
 
-    # Generate heatmap
-    cd /mydata/hongshu/thesis-playground/bash/ || exit
-    python3 "${heatmap_script}" "outcome/${filename}.sizeWindow_w300_req"
-
-    # Remove downloaded trace file
-    rm -f "${filepath}"
+    if ! /bin/bash "${parse_script}" "${analysis_txt}" "${analysis_json}"; then
+        echo "parse_script failed for ${analysis_txt}" >&2
+        return 1
+    fi
 }
 
-export -f process_cluster
-export base_url trace_dir outcome_dir parse_script analyzer heatmap_script minmax_executable
+export -f process_trace
+export base_url subdir trace_dir outcome_dir parse_script analyzer heatmap_script minmax_executable
 
-# Run with 2 jobs in parallel
-parallel -j 4 process_cluster ::: {39..54}
+# Process all found files in parallel (adjust -j as needed)
+echo "$file_list" | parallel -j 1 process_trace

@@ -1,0 +1,432 @@
+nohup: ignoring input
+Processing cluster7.oracleGeneral.zst
+Trace file /mydata/hongshu/traces/cluster7.oracleGeneral.zst already exists, skipping download.
+Processing cluster8.oracleGeneral.zst
+Trace file /mydata/hongshu/traces/cluster8.oracleGeneral.zst already exists, skipping download.
+Processing cluster10.oracleGeneral.zst
+Processing cluster11.oracleGeneral.zst
+Processing cluster12.oracleGeneral.zst
+environment: line 12: 727728 Killed                  "${analyzer}" "${filepath}" oracleGeneralBin --simple > "${analysis_txt}"
+traceAnalyzer failed for cluster12.oracleGeneral.zst
+Processing cluster9.oracleGeneral.zst
+Processing cluster13.oracleGeneral.zst
+Processing cluster14.oracleGeneral.zst
+Processing cluster5.oracleGeneral.zst
+environment: line 12: 727745 Killed                  "${analyzer}" "${filepath}" oracleGeneralBin --simple > "${analysis_txt}"
+traceAnalyzer failed for cluster5.oracleGeneral.zst
+Processing cluster15.oracleGeneral.zst
+environment: line 12: 728032 Killed                  "${analyzer}" "${filepath}" oracleGeneralBin --simple > "${analysis_txt}"
+traceAnalyzer failed for cluster15.oracleGeneral.zst
+Processing cluster6.oracleGeneral.zst
+Processing cluster17.oracleGeneral.zst
+Processing cluster19.oracleGeneral.zst
+Processing cluster20.oracleGeneral.zst
+Processing cluster16.oracleGeneral.zst
+Processing cluster22.oracleGeneral.zst
+Trace file /mydata/hongshu/traces/cluster22.oracleGeneral.zst already exists, skipping download.
+Processing cluster21.oracleGeneral.zst
+Processing cluster24.oracleGeneral.zst
+Processing cluster26.oracleGeneral.zst
+Trace file /mydata/hongshu/traces/cluster26.oracleGeneral.zst already exists, skipping download.
+Processing cluster23.oracleGeneral.zst
+Processing cluster25.oracleGeneral.zst
+Processing cluster18.oracleGeneral.zst
+Processing cluster30.oracleGeneral.zst
+Processing cluster28.oracleGeneral.zst
+parallel: SIGHUP received. No new jobs will be started.
+parallel: Waiting for these 4 jobs to finish. Send SIGTERM to stop now.
+parallel: process_cluster 31
+parallel: process_cluster 29
+parallel: process_cluster 27
+parallel: process_cluster 32
+Processing cluster31.oracleGeneral.zst
+Processing cluster29.oracleGeneral.zst
+Processing cluster32.oracleGeneral.zst
+environment: line 12: 729631 Killed                  "${analyzer}" "${filepath}" oracleGeneralBin --simple > "${analysis_txt}"
+traceAnalyzer failed for cluster32.oracleGeneral.zst
+Processing cluster27.oracleGeneral.zst
+nohup: ignoring input
+Processing cluster5.oracleGeneral.zst
+Processing cluster6.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster6.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster7.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster7.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster8.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster8.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster9.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster9.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster10.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster10.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster11.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster11.oracleGeneral.zst_analysis.json already exists, skipping.
+nohup: ignoring input
+Processing cluster5.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster5.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster6.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster6.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster7.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster7.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster8.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster8.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster9.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster9.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster10.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster10.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster11.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster11.oracleGeneral.zst_analysis.json already exists, skipping.
+parallel: SIGHUP received. No new jobs will be started.
+parallel: Waiting for these 1 jobs to finish. Send SIGTERM to stop now.
+parallel: process_cluster 12
+nohup: ignoring input
+Processing cluster5.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster5.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster6.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster6.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster7.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster7.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster8.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster8.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster9.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster9.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster10.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster10.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster11.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster11.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster12.oracleGeneral.zst
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+environment: line 13: 26917 Aborted                 "${analyzer}" "${filepath}" oracleGeneralBin --simple > "${analysis_txt}"
+traceAnalyzer failed for cluster12.oracleGeneral.zst
+Processing cluster13.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster13.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster14.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster14.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster15.oracleGeneral.zst
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+environment: line 13: 34591 Aborted                 "${analyzer}" "${filepath}" oracleGeneralBin --simple > "${analysis_txt}"
+traceAnalyzer failed for cluster15.oracleGeneral.zst
+Processing cluster16.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster16.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster17.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster17.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster18.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster18.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster19.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster19.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster20.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster20.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster21.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster21.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster22.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster22.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster23.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster23.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster24.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster24.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster25.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster25.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster26.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster26.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster27.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster27.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster28.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster28.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster29.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster29.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster30.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster30.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster31.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster31.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster32.oracleGeneral.zst
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+environment: line 13: 34719 Aborted                 "${analyzer}" "${filepath}" oracleGeneralBin --simple > "${analysis_txt}"
+traceAnalyzer failed for cluster32.oracleGeneral.zst
+Processing cluster33.oracleGeneral.zst
+Processing cluster34.oracleGeneral.zst
+Processing cluster35.oracleGeneral.zst
+Processing cluster36.oracleGeneral.zst
+Processing cluster37.oracleGeneral.zst
+Processing cluster38.oracleGeneral.zst
+Processing cluster39.oracleGeneral.zst
+Processing cluster40.oracleGeneral.zst
+Processing cluster41.oracleGeneral.zst
+Processing cluster42.oracleGeneral.zst
+Processing cluster43.oracleGeneral.zst
+Processing cluster44.oracleGeneral.zst
+Processing cluster45.oracleGeneral.zst
+Trace file /mydata/hongshu/traces/cluster45.oracleGeneral.zst already exists, skipping download.
+Processing cluster46.oracleGeneral.zst
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+environment: line 13: 123295 Aborted                 "${analyzer}" "${filepath}" oracleGeneralBin --simple > "${analysis_txt}"
+traceAnalyzer failed for cluster46.oracleGeneral.zst
+Processing cluster47.oracleGeneral.zst
+Processing cluster48.oracleGeneral.zst
+Trace file /mydata/hongshu/traces/cluster48.oracleGeneral.zst already exists, skipping download.
+Processing cluster49.oracleGeneral.zst
+Trace file /mydata/hongshu/traces/cluster49.oracleGeneral.zst already exists, skipping download.
+Processing cluster50.oracleGeneral.zst
+Trace file /mydata/hongshu/traces/cluster50.oracleGeneral.zst already exists, skipping download.
+Processing cluster51.oracleGeneral.zst
+Processing cluster52.oracleGeneral.zst
+Processing cluster53.oracleGeneral.zst
+Trace file /mydata/hongshu/traces/cluster53.oracleGeneral.zst already exists, skipping download.
+Processing cluster54.oracleGeneral.zst
+nohup: ignoring input
+Processing cluster5.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster5.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster6.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster6.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster7.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster7.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster8.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster8.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster9.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster9.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster10.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster10.oracleGeneral.zst_analysis.json already exists, skipping.
+Processing cluster11.oracleGeneral.zst
+Analysis JSON /mydata/hongshu/traces/analysis_json/cluster11.oracleGeneral.zst_analysis.json already exists, skipping.
+parallel: SIGHUP received. No new jobs will be started.
+parallel: Waiting for these 1 jobs to finish. Send SIGTERM to stop now.
+parallel: process_cluster 12
+Processing cluster12.oracleGeneral.zst
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+environment: line 13: 19928 Aborted                 "${analyzer}" "${filepath}" oracleGeneralBin --simple > "${analysis_txt}"
+traceAnalyzer failed for cluster12.oracleGeneral.zst
+nohup: ignoring input
+Processing 
+[31m[ERROR] 06-26-2025 05:19:48 reader.c:144  (tid=139873035859776): Unable to allocate 4096 bytes of memory, Invalid argument
+[0menvironment: line 10: 46072 Aborted                 "${analyzer}" "${filepath}" oracleGeneralBin --simple > "${analysis_txt}"
+traceAnalyzer failed for 
+rm: cannot remove '/mydata/hongshu/traces/': Is a directory
+nohup: ignoring input
+w01.oracleGeneral.bin.zst
+w02.oracleGeneral.bin.zst
+w03.oracleGeneral.bin.zst
+w04.oracleGeneral.bin.zst
+w05.oracleGeneral.bin.zst
+w06.oracleGeneral.bin.zst
+w07.oracleGeneral.bin.zst
+w08.oracleGeneral.bin.zst
+w09.oracleGeneral.bin.zst
+w100.oracleGeneral.bin.zst
+w101.oracleGeneral.bin.zst
+w102.oracleGeneral.bin.zst
+w103.oracleGeneral.bin.zst
+w104.oracleGeneral.bin.zst
+w105.oracleGeneral.bin.zst
+w106.oracleGeneral.bin.zst
+w10.oracleGeneral.bin.zst
+w11.oracleGeneral.bin.zst
+w12.oracleGeneral.bin.zst
+w13.oracleGeneral.bin.zst
+w14.oracleGeneral.bin.zst
+w15.oracleGeneral.bin.zst
+w16.oracleGeneral.bin.zst
+w17.oracleGeneral.bin.zst
+w18.oracleGeneral.bin.zst
+w19.oracleGeneral.bin.zst
+w20.oracleGeneral.bin.zst
+w21.oracleGeneral.bin.zst
+w22.oracleGeneral.bin.zst
+w23.oracleGeneral.bin.zst
+w24.oracleGeneral.bin.zst
+w25.oracleGeneral.bin.zst
+w26.oracleGeneral.bin.zst
+w27.oracleGeneral.bin.zst
+w28.oracleGeneral.bin.zst
+w29.oracleGeneral.bin.zst
+w30.oracleGeneral.bin.zst
+w31.oracleGeneral.bin.zst
+w32.oracleGeneral.bin.zst
+w33.oracleGeneral.bin.zst
+w34.oracleGeneral.bin.zst
+w35.oracleGeneral.bin.zst
+w36.oracleGeneral.bin.zst
+w37.oracleGeneral.bin.zst
+w38.oracleGeneral.bin.zst
+w39.oracleGeneral.bin.zst
+w40.oracleGeneral.bin.zst
+w41.oracleGeneral.bin.zst
+w42.oracleGeneral.bin.zst
+w43.oracleGeneral.bin.zst
+w44.oracleGeneral.bin.zst
+w45.oracleGeneral.bin.zst
+w46.oracleGeneral.bin.zst
+w47.oracleGeneral.bin.zst
+w48.oracleGeneral.bin.zst
+w49.oracleGeneral.bin.zst
+w50.oracleGeneral.bin.zst
+w51.oracleGeneral.bin.zst
+w52.oracleGeneral.bin.zst
+w53.oracleGeneral.bin.zst
+w54.oracleGeneral.bin.zst
+w55.oracleGeneral.bin.zst
+w56.oracleGeneral.bin.zst
+w57.oracleGeneral.bin.zst
+w58.oracleGeneral.bin.zst
+w59.oracleGeneral.bin.zst
+w60.oracleGeneral.bin.zst
+w61.oracleGeneral.bin.zst
+w62.oracleGeneral.bin.zst
+w63.oracleGeneral.bin.zst
+w64.oracleGeneral.bin.zst
+w65.oracleGeneral.bin.zst
+w66.oracleGeneral.bin.zst
+w67.oracleGeneral.bin.zst
+w68.oracleGeneral.bin.zst
+w69.oracleGeneral.bin.zst
+w70.oracleGeneral.bin.zst
+w71.oracleGeneral.bin.zst
+w72.oracleGeneral.bin.zst
+w73.oracleGeneral.bin.zst
+w74.oracleGeneral.bin.zst
+w75.oracleGeneral.bin.zst
+w76.oracleGeneral.bin.zst
+w77.oracleGeneral.bin.zst
+w78.oracleGeneral.bin.zst
+w79.oracleGeneral.bin.zst
+w80.oracleGeneral.bin.zst
+w81.oracleGeneral.bin.zst
+w82.oracleGeneral.bin.zst
+w83.oracleGeneral.bin.zst
+w84.oracleGeneral.bin.zst
+w85.oracleGeneral.bin.zst
+w86.oracleGeneral.bin.zst
+w87.oracleGeneral.bin.zst
+w88.oracleGeneral.bin.zst
+w89.oracleGeneral.bin.zst
+w90.oracleGeneral.bin.zst
+w91.oracleGeneral.bin.zst
+w92.oracleGeneral.bin.zst
+w93.oracleGeneral.bin.zst
+w94.oracleGeneral.bin.zst
+w95.oracleGeneral.bin.zst
+w96.oracleGeneral.bin.zst
+w97.oracleGeneral.bin.zst
+w98.oracleGeneral.bin.zst
+w99.oracleGeneral.bin.zst
+Processing w102.oracleGeneral.bin.zst
+Processing w106.oracleGeneral.bin.zst
+Processing w103.oracleGeneral.bin.zst
+Processing w105.oracleGeneral.bin.zst
+Processing w100.oracleGeneral.bin.zst
+Processing w101.oracleGeneral.bin.zst
+Processing w104.oracleGeneral.bin.zst
+Processing w12.oracleGeneral.bin.zst
+Processing w08.oracleGeneral.bin.zst
+Processing w13.oracleGeneral.bin.zst
+Processing w14.oracleGeneral.bin.zst
+Processing w16.oracleGeneral.bin.zst
+Processing w15.oracleGeneral.bin.zst
+Processing w10.oracleGeneral.bin.zst
+Processing w17.oracleGeneral.bin.zst
+Processing w18.oracleGeneral.bin.zst
+Processing w11.oracleGeneral.bin.zst
+Processing w09.oracleGeneral.bin.zst
+Processing w06.oracleGeneral.bin.zst
+Processing w19.oracleGeneral.bin.zst
+Processing w04.oracleGeneral.bin.zst
+Processing w22.oracleGeneral.bin.zst
+Processing w20.oracleGeneral.bin.zst
+Processing w21.oracleGeneral.bin.zst
+Processing w24.oracleGeneral.bin.zst
+Processing w33.oracleGeneral.bin.zst
+Processing w27.oracleGeneral.bin.zst
+Processing w23.oracleGeneral.bin.zst
+Processing w25.oracleGeneral.bin.zst
+Processing w26.oracleGeneral.bin.zst
+Processing w29.oracleGeneral.bin.zst
+Processing w28.oracleGeneral.bin.zst
+Processing w03.oracleGeneral.bin.zst
+Processing w32.oracleGeneral.bin.zst
+Processing w31.oracleGeneral.bin.zst
+Processing w35.oracleGeneral.bin.zst
+Processing w30.oracleGeneral.bin.zst
+Processing w39.oracleGeneral.bin.zst
+Processing w36.oracleGeneral.bin.zst
+Processing w41.oracleGeneral.bin.zst
+Processing w40.oracleGeneral.bin.zst
+Processing w34.oracleGeneral.bin.zst
+Processing w45.oracleGeneral.bin.zst
+Processing w42.oracleGeneral.bin.zst
+Processing w47.oracleGeneral.bin.zst
+Processing w44.oracleGeneral.bin.zst
+Processing w38.oracleGeneral.bin.zst
+Processing w05.oracleGeneral.bin.zst
+Processing w46.oracleGeneral.bin.zst
+Processing w43.oracleGeneral.bin.zst
+Processing w37.oracleGeneral.bin.zst
+Processing w07.oracleGeneral.bin.zst
+Processing w51.oracleGeneral.bin.zst
+Processing w50.oracleGeneral.bin.zst
+Processing w52.oracleGeneral.bin.zst
+Processing w57.oracleGeneral.bin.zst
+Processing w56.oracleGeneral.bin.zst
+Processing w49.oracleGeneral.bin.zst
+Processing w55.oracleGeneral.bin.zst
+Processing w54.oracleGeneral.bin.zst
+Processing w61.oracleGeneral.bin.zst
+Processing w66.oracleGeneral.bin.zst
+Processing w62.oracleGeneral.bin.zst
+Processing w60.oracleGeneral.bin.zst
+Processing w67.oracleGeneral.bin.zst
+Processing w48.oracleGeneral.bin.zst
+Processing w59.oracleGeneral.bin.zst
+Processing w58.oracleGeneral.bin.zst
+Processing w53.oracleGeneral.bin.zst
+Processing w64.oracleGeneral.bin.zst
+Processing w70.oracleGeneral.bin.zst
+Processing w65.oracleGeneral.bin.zst
+Trace file /mydata/hongshu/traces/w65.oracleGeneral.bin.zst already exists, skipping download.
+Processing w74.oracleGeneral.bin.zst
+Processing w72.oracleGeneral.bin.zst
+Processing w75.oracleGeneral.bin.zst
+Processing w71.oracleGeneral.bin.zst
+Processing w63.oracleGeneral.bin.zst
+Processing w68.oracleGeneral.bin.zst
+Processing w02.oracleGeneral.bin.zst
+Processing w76.oracleGeneral.bin.zst
+Processing w73.oracleGeneral.bin.zst
+Processing w69.oracleGeneral.bin.zst
+Processing w82.oracleGeneral.bin.zst
+Processing w77.oracleGeneral.bin.zst
+Processing w78.oracleGeneral.bin.zst
+Processing w80.oracleGeneral.bin.zst
+Processing w83.oracleGeneral.bin.zst
+Processing w81.oracleGeneral.bin.zst
+Processing w84.oracleGeneral.bin.zst
+Processing w89.oracleGeneral.bin.zst
+Processing w88.oracleGeneral.bin.zst
+Processing w85.oracleGeneral.bin.zst
+Processing w92.oracleGeneral.bin.zst
+Processing w95.oracleGeneral.bin.zst
+Processing w90.oracleGeneral.bin.zst
+Processing w91.oracleGeneral.bin.zst
+Processing w79.oracleGeneral.bin.zst
+Processing w93.oracleGeneral.bin.zst
+Processing w94.oracleGeneral.bin.zst
+Processing w99.oracleGeneral.bin.zst
+Processing w86.oracleGeneral.bin.zst
+Processing w96.oracleGeneral.bin.zst
+Processing w97.oracleGeneral.bin.zst
+Processing w87.oracleGeneral.bin.zst
+Processing w98.oracleGeneral.bin.zst
+Processing w01.oracleGeneral.bin.zst
+nohup: ignoring input
+202206_kv_traces_all.csv.oracleGeneral.zst
+202210_kv_traces_all_sort.csv.oracleGeneral.zst
+202312_kv_traces_all.csv.oracleGeneral.zst
+202401_kv_traces_all_sort.csv.oracleGeneral.zst
+meta_kvcache_traces_1.oracleGeneral.bin.zst
+Processing 202206_kv_traces_all.csv.oracleGeneral.zst
+Processing 202210_kv_traces_all_sort.csv.oracleGeneral.zst
+Trace file /mydata/hongshu/traces/202210_kv_traces_all_sort.csv.oracleGeneral.zst already exists, skipping download.
+Processing 202312_kv_traces_all.csv.oracleGeneral.zst
+Processing 202401_kv_traces_all_sort.csv.oracleGeneral.zst
+Trace file /mydata/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst already exists, skipping download.
+Processing meta_kvcache_traces_1.oracleGeneral.bin.zst

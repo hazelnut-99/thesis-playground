@@ -1,0 +1,15 @@
+###
+dat: /mydata/hongshu/traces/202210_kv_traces_all_sort.csv.oracleGeneral.zst
+number of requests: 1482478166
+min req size: 8
+max req size: 523288
+number of objects: 48009053
+number of req GiB: 809.1686
+number of obj GiB: 83.3087
+qps: 3430.6936
+compulsory miss ratio (req/byte): 0.0324/0.1030
+object size weighted by req/obj: 586/1863
+frequency mean: 30.8791
+time span: 432122(5.0014 day)
+...
+###

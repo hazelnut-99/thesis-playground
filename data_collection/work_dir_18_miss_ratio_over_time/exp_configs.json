@@ -1,0 +1,7262 @@
+[
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_fdd35135-5f64-4141-a801-43014bfd7f70",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_a2016e9d-48fc-4a5e-b62e-ccf91b643e3b",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_e8af3a56-44d3-4567-a4f4-fb29bd9249ac",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_a5421ebe-575b-4124-a216-c46105a2fc04",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_9e3af464-9e1c-44ce-af19-ea3bb0cf002c",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_dce2a9c7-4075-497a-8e16-f53d77c835a1",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_9e848f1d-dcbc-4e5d-bf73-154957b8e752",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_df623572-cdc8-4d1f-83cb-4c1f0d4ac917",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_3dffe0c0-03d6-434f-96a5-45e7861ff25f",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_35b7c39b-3f1f-45e1-a294-f11c401901c9",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_8fe8b5d5-2c09-4178-a2ce-6cc4c75a73f9",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_839874bf-0fde-4951-b628-29328b660337",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_8f45c826-ec7a-4ea9-889c-21a46d103b5b",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_fc437dba-9b15-4325-841b-61eb4f560219",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_821ea4b8-917d-4af7-97ef-fb36f8788c4c",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_f143e41c-e4bc-4208-9fef-f02d97a77331",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_472a38af-c2a9-47f1-b6d2-1f70d81b8422",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_e8c42037-cd65-4d35-9cd4-459168344003",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_98234e33-92bb-4357-baa1-8864f73a431a",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_e9485a69-9af7-4028-acb7-466c900dd061",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_35a708f2-1752-405a-a167-e98c570c7348",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_a793b5d7-3ba3-46df-8620-3062cf581dd5",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_2156d24d-4d28-4faf-9c7e-1a6fdcd120c2",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_9b613a97-d8a9-40c0-997d-3de59159ee4d",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_012c496d-4916-4824-b1da-61ac5b26ef17",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_e627b230-ecb9-4567-97f9-8d41608813b3",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_458b1bfd-1813-4da7-b54e-9d73d510af0a",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_8e8bf286-a12b-4f46-ba6d-2384af5c63b6",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_ae059d95-1450-4df2-be71-45fe4256522c",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_05e4e108-8862-4546-bc6a-cd76ed1e758f",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_b1320a53-9e34-4ea8-94ef-6e24c8129380",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_90875179-ed06-497a-871d-916594bec2ef",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_fcbdee37-24ad-4062-ad96-87acbde45f5d",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_b59290ae-086a-4b35-9d68-b73f1e9d6081",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_d74176de-2120-4ffd-b18c-f9f7ff59ae58",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_77f3505d-3525-4637-b690-3f82cec76a04",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_f236ffda-ec75-44ec-b446-3ce6087546c0",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_f2b113e2-9c47-4cd0-b8d3-68cad67f0203",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_e702e18d-96df-47d4-8b06-a74723695d52",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_6b6fa83c-3734-4e45-a6d2-2545f7f69eae",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_9da83f1b-4372-4900-b242-c2ed1a953263",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_b9271ad0-2a93-4afa-950f-490109d38f7f",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_fe21453b-6ac5-4205-a7e7-31af7d5ab2f2",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_af98b030-8020-4661-8db0-10b0c861f373",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_072d4b7d-bac0-409d-b156-8647ac29607e",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_c2140c0d-bfea-49e9-93f7-759fb2818f3a",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_c6b82353-b1a5-4c9c-ad1b-11d43b0ecb65",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_1da07c14-5949-4470-ad79-5171d3c9ba50",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_dcd53c36-35c1-4746-9b59-812aad721f4e",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_62e587d1-cfee-433b-8c8e-fd69e38c81ef",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_0847f102-b1a8-45cd-a3ca-911becb5b3bb",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_a87e37eb-876e-4177-928b-0e75141eae43",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_397b23ba-564d-4335-a7de-8d9145b035ba",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_f77f2416-bd79-431b-86cb-476a546c2c18",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_e7d70954-e4fc-4135-9f50-4051bb88c609",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_762e67f2-821b-4813-925f-7a345a38159c",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_a92f4ce0-4c55-4a50-ac54-cc7991843ab3",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_746fb60e-1792-4fd1-bb86-8b09bd0d8d14",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_3f0739de-cbce-4637-ba25-096e9e811b36",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000000,
+      "mhMovingAverageParam": 0.3,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_1929f151-b828-48ff-9362-19006883a296",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_d0da890f-2896-411b-8e6d-07f9f3259511",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_800e7382-69fe-4438-8297-cae992be1dc2",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_6533ea54-bff1-4aaf-9514-cd994f87e7b0",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_78e1f7e4-1914-4a45-afcd-dd8bd4a8fd5a",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_a9012ae8-ee5c-490b-8f4f-a8f49d638aa3",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_8fdb7618-0d40-4630-9b72-d958cec4f69d",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_98ab8257-b9e5-4110-b299-6427088c4864",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_dad45d89-1627-4ab2-b3d8-959cb092ec00",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_80dd351f-49fe-44fd-a7d3-aaa0cdd8af35",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_bbdc66fd-5b4b-453c-9495-df8b372e083d",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_03b1bc35-d0d0-4968-8386-bdfde6483e95",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_473cfc5e-a83f-45cb-836e-96dcf7f59250",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_be8aa3be-9b27-4c6f-b0bb-4e24a8d17894",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_164d237b-ee89-4107-bd49-f1f280ad2588",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_10ac8d6f-97da-4543-92ca-c4ce34dbc2c3",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_14010b6a-aa9f-4d20-95f6-1d4a2b1f436b",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_5ae45ff0-c219-42db-88b5-c8bd99d6075a",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_9c14a7c7-c881-4932-894b-aabee7d685a8",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_6549e574-9544-463d-b729-4cf8e4df40dc",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_f60bffc6-248f-49d4-9051-3e2ec3d67b80",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_d54b9ac2-5ca1-4dd2-a727-6293a22d4f1c",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_b72791ea-b047-4750-92ca-b0bea13a0c5c",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_3dfaba7b-d16d-4870-b086-0c9f3d2c3839",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_c943a570-f253-4dc7-b95d-2754c09873c9",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_b208053b-7086-46f2-bd9c-58a36ea0ccd6",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_2cd93058-f490-411a-96aa-662bbbd4f26b",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_2ed14b3a-996e-4e7d-a7f6-0509c1762da2",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_10e9f21a-d97c-4f3d-aca7-6f3da3e15ae0",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_a397dc93-545d-44de-b74d-892c226851fd",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_bd9608f1-47e8-4c8d-b9aa-ffc2bc59e638",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_78ce4199-ccb7-42fc-b661-009bd87d34df",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_19101406-258e-40be-932b-4e4df43ad009",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_c07bf5d4-25e3-4126-b986-a02fd7ad71a2",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 260,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 64,
+      "uuid": "synth_static_202_f35a057c-389f-4504-b61c-54528759b9cd",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 128,
+      "uuid": "synth_static_202_1075709a-b18e-4b96-a010-9de46e9905d5",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/synth_static_202.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "synth_static_202",
+      "cache_size": 256,
+      "uuid": "synth_static_202_00223ea8-23c8-4386-bafd-985edf0a88e7",
+      "extra": {
+        "allocSizes": [
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      },
+      "cache_sizes": [
+        64,
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/synth_static_202.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_1fd5b705-b806-429d-9a51-55636a333f73",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_06284dc0-78dc-4631-960b-a35c37b32376",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_0977bd40-1e25-45c5-b059-9124485b1b02",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_4702807d-62e5-4171-a2cd-077813b2975b",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_e3fc18a7-521f-4182-a0c8-e4aab4abb5b3",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_a80b1a7c-7996-483d-93e1-aa04a323392e",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_da7abbc7-9806-46b4-9038-94644e7a2924",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 10000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_57f625ff-5090-46b2-92e8-f76b5c4a9166",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_66ae0efe-97fb-4e30-aea0-75320264cd01",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 20000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_244d299c-9630-413c-9cac-7759d19ba3c2",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_451caeb7-7535-471c-880b-352d588ec2b1",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 50000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_7c042efd-6cc7-4cd3-81ee-8b4142cc6c4a",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_d8811662-36f7-4fad-b2c9-3b49da2b00c2",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 100000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_f61e444a-c772-40b9-85da-05b3397f5c76",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_8342aeb5-3687-4dbf-8714-a51829ab4918",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 200000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_f84860c3-eade-445b-9083-18d11574d271",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_3be8c38f-a2c8-4b77-8f0f-3afa448c36da",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 500000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_d129b642-0602-4687-bae8-556502ffd0cb",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_01611601-8be5-4bb3-9bd0-8e44ae985ff8",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 1000000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_beaeb48e-5a8e-43ff-a4a6-9c6bf956a34e",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_8d830833-1674-466f-9c8e-c946f5bb44d4",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 2000000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_828d55e8-6084-478f-8d53-b67a5014b4cb",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 516,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 128,
+      "uuid": "meta2024_50m_f06b6e93-8098-4511-9156-75b088f43a4e",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  },
+  {
+    "cache_config": {
+      "allocator": "LRU2Q",
+      "lruRefreshSec": 0,
+      "cacheSizeMB": 1028,
+      "moveOnSlabRelease": false,
+      "rebalanceStrategy": "marginal-hits",
+      "poolRebalanceIntervalSec": 1,
+      "tailSlabCnt": 1,
+      "wakeUpRebalancerEveryXReqs": 5000000,
+      "mhMovingAverageParam": 0.3,
+      "useAdaptiveRebalanceInterval": true,
+      "allocSizes": [
+        72,
+        112,
+        168,
+        256,
+        384,
+        576,
+        864,
+        1296,
+        1944,
+        2920,
+        4384,
+        6576,
+        9864,
+        14800,
+        22200,
+        33304,
+        49960,
+        74944,
+        112416,
+        168624,
+        252936,
+        379408,
+        523352
+      ]
+    },
+    "test_config": {
+      "numOps": 9223372036854775807,
+      "traceFileNames": [
+        "/mydata/hongshu/traces/meta2024_50m.csv"
+      ]
+    },
+    "memo_config": {
+      "trace_name": "meta2024_50m",
+      "cache_size": 256,
+      "uuid": "meta2024_50m_1a2b8896-c5df-4c93-9cc6-de5e03719b65",
+      "extra": {
+        "allocSizes": [
+          72,
+          112,
+          168,
+          256,
+          384,
+          576,
+          864,
+          1296,
+          1944,
+          2920,
+          4384,
+          6576,
+          9864,
+          14800,
+          22200,
+          33304,
+          49960,
+          74944,
+          112416,
+          168624,
+          252936,
+          379408,
+          523352
+        ]
+      },
+      "cache_sizes": [
+        128,
+        256
+      ],
+      "file_path": "/mydata/hongshu/traces/meta2024_50m.csv"
+    }
+  }
+]

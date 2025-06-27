@@ -168,5 +168,5 @@ def is_valid_config(config):
 
     return (
         can_work(allocFactor, maxAllocSize, cacheSizeMB, minAllocSize, allocSizes) and
-        (rebalanceStrategy != "marginal-hits" or allocator == "LRU2Q")
+        (rebalanceStrategy != "marginal-hits" or allocator in ["LRU2Q", "SIMPLE3Q"])
     )

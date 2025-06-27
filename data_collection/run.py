@@ -2,8 +2,8 @@ import json
 import concurrent.futures
 from util import run_experiment_with_config
 
-WORK_DIR = 'work_dir_17_twitter/'
-PARALLELISM = 10
+WORK_DIR = 'work_dir_21_new/'
+PARALLELISM = 12
 category = "default"
 
 with open(WORK_DIR + 'exp_configs.json', 'r') as f:

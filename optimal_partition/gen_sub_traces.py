@@ -354,26 +354,41 @@ def simulate_lru_cache_miss_ratios(csv_file_path, total_slabs, directory, output
 
 # Example usage
 if __name__ == "__main__":
-    trace_names = [f"synth_thesis_static_{str(i)}" for i in range(100, 105)]
-    for trace_name in trace_names:
-        csv_file_path = f"/mydata/hongshu/traces/thesis/{trace_name}.csv"
-        output_dir = f'/mydata/hongshu/traces/thesis/subtraces/{trace_name}'
-        subtrace_files = process_csv_and_generate_subtraces(
-            csv_file_path=csv_file_path,
-            output_dir=output_dir,
-            alloc_sizes=[2048, 4096]
-        )
+    # trace_names = [f"synth_thesis_static_{str(i)}" for i in range(100, 105)]
+    # for trace_name in trace_names:
+    #     csv_file_path = f"/mydata/hongshu/traces/thesis/{trace_name}.csv"
+    #     output_dir = f'/mydata/hongshu/traces/thesis/subtraces/{trace_name}'
+    #     subtrace_files = process_csv_and_generate_subtraces(
+    #         csv_file_path=csv_file_path,
+    #         output_dir=output_dir,
+    #         alloc_sizes=[2048, 4096]
+    #     )
 
-        for chunk_dir in os.listdir(output_dir):
-            chunk_path = os.path.join(output_dir, chunk_dir)
-            if os.path.isdir(chunk_path) and chunk_dir.startswith("chunk_"):
-                print(f"Processing {chunk_path}...")
-                # Perform post-processing steps for each chunk
-                calculate_miss_ratios(chunk_path)
-                get_subtrace_statistics(chunk_path)
-                clean_up_subtrace_files(chunk_path)
+    #     for chunk_dir in os.listdir(output_dir):
+    #         chunk_path = os.path.join(output_dir, chunk_dir)
+    #         if os.path.isdir(chunk_path) and chunk_dir.startswith("chunk_"):
+    #             print(f"Processing {chunk_path}...")
+    #             # Perform post-processing steps for each chunk
+    #             calculate_miss_ratios(chunk_path)
+    #             get_subtrace_statistics(chunk_path)
+    #             clean_up_subtrace_files(chunk_path)
     
-    
+    csv_file_path = f"/mydata/hongshu/traces/synth_static_202.csv"
+    output_dir = f'/mydata/hongshu/traces/thesis/subtraces/synth_static_202'
+    subtrace_files = process_csv_and_generate_subtraces(
+        csv_file_path=csv_file_path,
+        output_dir=output_dir,
+        alloc_sizes=[256, 512, 1024, 2048, 4096]
+    )
+
+    for chunk_dir in os.listdir(output_dir):
+        chunk_path = os.path.join(output_dir, chunk_dir)
+        if os.path.isdir(chunk_path) and chunk_dir.startswith("chunk_"):
+            print(f"Processing {chunk_path}...")
+            # Perform post-processing steps for each chunk
+            calculate_miss_ratios(chunk_path)
+            get_subtrace_statistics(chunk_path)
+            clean_up_subtrace_files(chunk_path)
     
     # csv_file_path = "/proj/latencymodel-PG0/hongshu/traces/meta2024_50m.csv"
     # for alloc_factor in [1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0]:
