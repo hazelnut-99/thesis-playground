@@ -20,12 +20,9 @@ STATE_FILE = "scheduler_state.json"      # File for dumping the central state
 
 # Per-node resource limits (fill in actual values)
 NODE_RESOURCES = {
-    "clnode257.clemson.cloudlab.us": {"cpu": 70, "mem": 122880},
-    #"clnode258.clemson.cloudlab.us": {"cpu": 140, "mem": 250880},
-    "clnode263.clemson.cloudlab.us": {"cpu": 140, "mem": 250880},
-    "clnode268.clemson.cloudlab.us": {"cpu": 140, "mem": 250880},
-    "clnode281.clemson.cloudlab.us": {"cpu": 140, "mem": 250880},
-    "clnode134.clemson.cloudlab.us": {"cpu": 40, "mem": 204800},
+    "clnode055.clemson.cloudlab.us": {"cpu": 30, "mem": 204800},
+    "clnode077.clemson.cloudlab.us": {"cpu": 36, "mem": 250880},
+    "clnode079.clemson.cloudlab.us": {"cpu": 36, "mem": 250880}
 }
 # =====================
 
@@ -86,8 +83,8 @@ def all_exps_done(exps):
 
 def download_trace(meta):
     """
-    Downloads a trace file if it doesn't exist and there is enough space.
-    Uses 'sudo' for wget and rm, assuming passwordless sudo is configured.
+    Downloads and decompresses a .zst trace file if it doesn't exist and there is enough space.
+    Uses 'sudo' for the pipeline, assuming passwordless sudo is configured.
     """
     url = meta["download_path"]
     url = f"{WGET_PATH}/{url}"
@@ -96,36 +93,52 @@ def download_trace(meta):
 
     # Ensure the trace directory exists using sudo
     if not os.path.exists(trace_dir):
-        subprocess.run(["sudo", "mkdir", "-p", trace_dir])
-        subprocess.run(["sudo", "chown", "-R", f"{os.getuid()}:{os.getgid()}", trace_dir])
+        subprocess.run(["sudo", "mkdir", "-p", trace_dir], check=True)
+        subprocess.run(["sudo", "chown", "-R", f"{os.getuid()}:{os.getgid()}", trace_dir], check=True)
 
-    size = get_remote_file_size(url)
-    
+    # If the final uncompressed file already exists, we are done.
     if os.path.exists(local_path):
-        if size is not None and os.path.getsize(local_path) < size:
-            logging.warning(f"Partial file detected at {local_path}. Deleting for re-download.")
-            subprocess.run(["sudo", "rm", "-f", local_path]) # Use sudo to remove
-        else:
-            logging.info(f"Trace {os.path.basename(local_path)} already exists.")
-            return True
+        logging.info(f"Trace {os.path.basename(local_path)} already exists (decompressed).")
+        return True
 
+    # Get the compressed size for space estimation
+    compressed_size = get_remote_file_size(url)
+    if compressed_size is None:
+        logging.warning(f"Could not determine compressed size of {url}. Cannot download.")
+        return False
+        
+    # Estimate decompressed size for the space check (6x ratio)
+    estimated_decompressed_size = compressed_size * 6
     free_space = get_nfs_free_bytes(trace_dir)
-    if size is None:
-        logging.warning(f"Could not determine size of {url}. Cannot download.")
-        return False
-    if free_space < size:
-        logging.warning(f"Not enough space for {local_path} ({size/1e9:.2f}GB needed, {free_space/1e9:.2f}GB free)")
+
+    if free_space < estimated_decompressed_size:
+        logging.warning(f"Not enough space for decompressed {local_path} (estimated {estimated_decompressed_size/1e9:.2f}GB needed, {free_space/1e9:.2f}GB free)")
         return False
 
-    logging.info(f"Downloading {url} to {local_path} with sudo...")
-    # Use wget with sudo
-    res = subprocess.run(["sudo", "wget", "-O", local_path, url], capture_output=True)
+    logging.info(f"Downloading and decompressing {url} to {local_path} with sudo...")
+    
+    # Construct the shell command pipeline
+    # 'set -o pipefail' ensures that the command fails if wget fails, not just if zstd fails.
+    # wget -qO- downloads quietly to standard output.
+    pipeline_cmd = f"set -o pipefail; wget -qO- '{url}' | zstd -d -o '{local_path}'"
+
+    # Use sudo to run the entire shell pipeline
+    res = subprocess.run(["sudo", "bash", "-c", pipeline_cmd], capture_output=True)
+
     if res.returncode != 0:
-        logging.error(f"Failed to download {url}. Wget stderr: {res.stderr.decode()}")
+        logging.error(f"Failed to download/decompress {url}. Pipeline stderr: {res.stderr.decode()}")
+        # Clean up potentially incomplete file
         if os.path.exists(local_path):
-             subprocess.run(["sudo", "rm", "-f", local_path]) # Use sudo to clean up
+             subprocess.run(["sudo", "rm", "-f", local_path])
         return False
+    subprocess.run(["sudo", "chown", f"{os.getuid()}:{os.getgid()}", local_path])
+    subprocess.run(["sudo", "chmod", "644", local_path])
+
+    logging.info(f"Successfully downloaded and decompressed {os.path.basename(local_path)}.")
+    
+    
     return True
+
 
 def delete_trace(trace_file):
     """
@@ -413,20 +426,19 @@ def schedule_experiments_reconstructable():
                 if not is_still_running:
                     delete_trace(trace_file)
 
-        # 3. SCHEDULE NEW JOBS
+        # 3. SCHEDULE NEW JOBS (MODIFIED LOGIC)
         progress_made = False
         pending_exps = [exp for exp in all_exps if get_exp_status(exp) == "todo"]
         random.shuffle(pending_exps)
 
+        # --- Phase 1: Schedule all possible jobs with existing traces ---
         for exp in pending_exps:
+            trace_file = exp["meta"]["trace_file"]
+            if not os.path.exists(trace_file):
+                continue # Skip if trace doesn't exist
+
             exp_dir = exp["dir"]
             meta = exp["meta"]
-            trace_file = meta["trace_file"]
-            
-            if not os.path.exists(trace_file):
-                if not download_trace(meta):
-                    continue 
-
             cpu_req = meta["cpu_requirement"]
             mem_req = meta["memory_requirement"]
             
@@ -441,14 +453,11 @@ def schedule_experiments_reconstructable():
                 continue
 
             chosen_host = random.choice(eligible_hosts)
-            
             uuid = os.path.basename(exp_dir)
-            process_tag = f"CACHEBENCH_UUID={uuid}"
 
             logging.info(f"Dispatching {uuid} to {chosen_host}...")
             
-            remote_cmd_py = f'from util import run_cachebench_efficiency; run_cachebench_efficiency("{exp_dir}")'
-            
+            remote_cmd_py = f'from util import run_cachebench; run_cachebench("{exp_dir}")'
             remote_cmd = (
                 f"cd {SCRIPTS_DIR} && "
                 f"nohup env CACHEBENCH_UUID={uuid} {PYTHON_EXEC} -c '{remote_cmd_py}' "
@@ -463,6 +472,20 @@ def schedule_experiments_reconstructable():
             running_jobs[exp_dir] = {"host": chosen_host, "start_time": time.time()}
             progress_made = True
 
+        # --- Phase 2: If no progress was made, try to download one trace ---
+        if not progress_made and pending_exps:
+            logging.info("No launchable jobs with existing traces. Attempting to download a new trace.")
+            # Find the first pending experiment that needs a trace
+            for exp in pending_exps:
+                if not os.path.exists(exp["meta"]["trace_file"]):
+                    if download_trace(exp["meta"]):
+                        logging.info("Trace download successful. Will schedule jobs for it in the next cycle.")
+                    else:
+                        logging.warning("Trace download failed. Will try again later.")
+                    # We consider the download attempt as progress to prevent a long sleep
+                    progress_made = True
+                    break # Only attempt one download per cycle
+        
         # 4. LOGGING AND SLEEP
         now = time.time()
         if now - last_system_log_time > 60:

@@ -76,6 +76,7 @@ for trace_name, info in traces.items():
                     "moveOnSlabRelease": False,
                     "rebalanceStrategy": rebalanceStrategy,
                     "poolRebalanceIntervalSec": 1,
+                    "anomalyDetectionFrequency": 1000,
                     **rebalanceParams,
                     **info['extra']
                 }

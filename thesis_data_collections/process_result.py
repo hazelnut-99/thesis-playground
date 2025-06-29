@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import os
 
-top_dir = "work_dir_1_optimal/"
+top_dir = "work_dir_2_compare"
 base_dir=f"{top_dir}/outcome"
 
 

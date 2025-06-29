@@ -1,5 +1,3 @@
-clnode257.clemson.cloudlab.us
-clnode258.clemson.cloudlab.us
-clnode263.clemson.cloudlab.us
-clnode281.clemson.cloudlab.us
-clnode134.clemson.cloudlab.us
+clnode055.clemson.cloudlab.us
+clnode077.clemson.cloudlab.us
+clnode079.clemson.cloudlab.us

@@ -2,12 +2,9 @@
 
 # Configurable list of machines (edit as needed)
 MACHINES=(
-    "Hongshu@clnode268.clemson.cloudlab.us"
-    "Hongshu@clnode258.clemson.cloudlab.us"
-    "Hongshu@clnode257.clemson.cloudlab.us"
-    "Hongshu@clnode263.clemson.cloudlab.us"
-    "Hongshu@clnode281.clemson.cloudlab.us"
-    "Hongshu@clnode134.clemson.cloudlab.us"
+    "Hongshu@clnode055.clemson.cloudlab.us"
+    "Hongshu@clnode079.clemson.cloudlab.us"
+    "Hongshu@clnode077.clemson.cloudlab.us"
 )
 
 SETUP_CMDS=$(cat <<'END_CMDS'

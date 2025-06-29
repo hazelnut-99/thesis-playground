@@ -20,37 +20,37 @@ traces = {
         "extra": {
             "allocSizes": [2048, 4096]
         },
-        "cache_sizes": [32, 64, 128, 256, 512],
+        "cache_sizes": [i for i in range(1, 513)],
         "file_path": BASE_FILE_PATH + "synth_thesis_static_100.csv"
     },
-    "synth_thesis_static_101": {
-        "extra": {
-            "allocSizes": [2048, 4096]
-        },
-        "cache_sizes": [32, 64, 128, 256, 512],
-        "file_path": BASE_FILE_PATH + "synth_thesis_static_101.csv"
-    },
-    "synth_thesis_static_102": {
-        "extra": {
-            "allocSizes": [2048, 4096]
-        },
-        "cache_sizes": [32, 64, 128, 256, 512],
-        "file_path": BASE_FILE_PATH + "synth_thesis_static_102.csv"
-    },
+    # "synth_thesis_static_101": {
+    #     "extra": {
+    #         "allocSizes": [2048, 4096]
+    #     },
+    #     "cache_sizes": [32, 64, 128, 256, 512],
+    #     "file_path": BASE_FILE_PATH + "synth_thesis_static_101.csv"
+    # },
+    # "synth_thesis_static_102": {
+    #     "extra": {
+    #         "allocSizes": [2048, 4096]
+    #     },
+    #     "cache_sizes": [32, 64, 128, 256, 512],
+    #     "file_path": BASE_FILE_PATH + "synth_thesis_static_102.csv"
+    # },
     "synth_thesis_static_103": {
         "extra": {
             "allocSizes": [2048, 4096]
         },
-        "cache_sizes": [32, 64, 128, 256, 512],
+        "cache_sizes": [i for i in range(1, 513)],
         "file_path": BASE_FILE_PATH + "synth_thesis_static_103.csv"
     },
-    "synth_thesis_static_104": {
-        "extra": {
-            "allocSizes": [2048, 4096]
-        },
-        "cache_sizes": [32, 64, 128, 256, 512],
-        "file_path": BASE_FILE_PATH + "synth_thesis_static_104.csv"
-    }
+    # "synth_thesis_static_104": {
+    #     "extra": {
+    #         "allocSizes": [2048, 4096]
+    #     },
+    #     "cache_sizes": [32, 64, 128, 256, 512],
+    #     "file_path": BASE_FILE_PATH + "synth_thesis_static_104.csv"
+    # }
 }
 
 allocators = ['LRU2Q']

@@ -2,15 +2,12 @@
 
 # All node names in one place
 NODES=(
-    "Hongshu@clnode268.clemson.cloudlab.us"
-    "Hongshu@clnode257.clemson.cloudlab.us"
-    "Hongshu@clnode258.clemson.cloudlab.us"
-    "Hongshu@clnode263.clemson.cloudlab.us"
-    "Hongshu@clnode281.clemson.cloudlab.us"
-    "Hongshu@clnode134.clemson.cloudlab.us"
+    "Hongshu@clnode055.clemson.cloudlab.us"
+    "Hongshu@clnode077.clemson.cloudlab.us"
+    "Hongshu@clnode079.clemson.cloudlab.us"
 )
 
-PUBKEY_CONTENT=$(cat ./id_rsa_257.pub)
+PUBKEY_CONTENT=$(cat ./id_rsa_055.pub)
 
 for NODE in "${NODES[@]}"; do
     echo "Copying public key to $NODE ..."

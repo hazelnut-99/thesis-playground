@@ -6,4 +6,5 @@
 *run.log
 .ipynb_checkpoints/
 **/__pycache__/
+work_dir/
 

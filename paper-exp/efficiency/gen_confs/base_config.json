@@ -19,6 +19,8 @@
         "enableLookaside": true,
         "timestampFactor": 1,
         "numThreads": 1,
-        "prepopulateCache": true
+        "prepopulateCache": true,
+        "zstdTrace": true,
+        "compressed": false
     }
 }
