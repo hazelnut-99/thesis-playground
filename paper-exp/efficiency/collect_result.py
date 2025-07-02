@@ -1,8 +1,9 @@
 import pandas as pd
 import json
 import os
+import glob
 
-base_dir=f"work_dir"
+base_dir=f"work_dir_meta"
 
 
 def read_cachebench_config(dir):
@@ -20,6 +21,23 @@ def read_result_json(dir):
     except:
         print(f"Failed to read {dir}/out.json")
         return None
+
+def read_throughput_json(dir):
+    """
+    Finds a file in 'dir' matching 'tx.*.json', reads and returns its JSON content.
+    Returns None if not found or on error.
+    """
+    pattern = os.path.join(dir, "tx.*.json")
+    files = glob.glob(pattern)
+    if not files:
+        return None
+    try:
+        with open(files[0]) as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Failed to read {files[0]}: {e}")
+        return None
+    
 
 def add_config_columns(df):
     new_columns = {}
@@ -49,13 +67,11 @@ def process_dir(dir):
     meta_path = os.path.join(dir, "meta.json")
     result_json_path = os.path.join(dir, "result.json")
 
-    if os.path.isfile(config_path) and os.path.isfile(meta_path) and os.path.isfile(result_json_path):
-        print(1)
-        directory = os.path.basename(dir)
-        
+    if os.path.isfile(config_path) and os.path.isfile(meta_path) and os.path.isfile(result_json_path):        
         meta_config = read_meta_config(dir)
         result_json = read_result_json(dir)
         bench_config = read_cachebench_config(dir)
+        throughput_result = read_throughput_json(dir)
         
         
         if not result_json:
@@ -68,6 +84,7 @@ def process_dir(dir):
             item = {'_' + k: v for k, v in item.items()}  
             combined_result = {
                 **meta_config,
+                **throughput_result,
                 **bench_config['cache_config'],
                 **bench_config['test_config'],
                 **item
@@ -82,7 +99,6 @@ def collect_result():
     result_list = []
     for d in os.listdir(base_dir):
         dir = os.path.join(base_dir, d)
-        print(dir)
         try:
             result = process_dir(dir)
             if result:
@@ -96,5 +112,5 @@ df = collect_result()
 if '_getMissCnt' in df.columns and '_getCnt' in df.columns:
     df['_missRatio'] = df['_getMissCnt'] / df['_getCnt']
 print("finished collecting results")
-df.to_csv(f"report/report.csv", index=False)
+df.to_csv(f"report/report_meta.csv", index=False)
 

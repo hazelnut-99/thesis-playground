@@ -5,24 +5,28 @@ import time
 import requests
 from collections import defaultdict
 import logging
+from logging.handlers import RotatingFileHandler
 import random
 from datetime import datetime, timedelta
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from const import *
 
-WORK_DIR = f"{HOME_DIR}/thesis-playground/paper-exp/efficiency/work_dir"
+WORK_DIR = f"{HOME_DIR}/thesis-playground/paper-exp/efficiency/work_dir_meta"
 TRACE_DIR = f"{HOME_DIR}/traces"
 SCRIPTS_DIR = f"{HOME_DIR}/thesis-playground/paper-exp/efficiency/" # Directory for util.py
 HOSTS_FILE = "hosts.txt"                 # A file in the same directory as the script
 PYTHON_EXEC = "python3"                  # or "python" as needed
-STATE_FILE = "scheduler_state.json"      # File for dumping the central state
+STATE_FILE = "scheduler_state_meta.json"      # File for dumping the central state
 
 # Per-node resource limits (fill in actual values)
 NODE_RESOURCES = {
-    "clnode055.clemson.cloudlab.us": {"cpu": 30, "mem": 204800},
-    "clnode077.clemson.cloudlab.us": {"cpu": 36, "mem": 250880},
-    "clnode079.clemson.cloudlab.us": {"cpu": 36, "mem": 250880}
+    "clnode302.clemson.cloudlab.us": {"cpu": 64, "mem": 204800},
+    "clnode290.clemson.cloudlab.us": {"cpu": 120, "mem": 245760},
+    "clnode303.clemson.cloudlab.us": {"cpu": 120, "mem": 245760},
+    "clnode287.clemson.cloudlab.us": {"cpu": 120, "mem": 245760},
+    "clnode301.clemson.cloudlab.us": {"cpu": 120, "mem": 245760},
+    "clnode286.clemson.cloudlab.us": {"cpu": 120, "mem": 245760}
 }
 # =====================
 
@@ -223,11 +227,12 @@ def is_process_actually_running(hostname, uuid):
     check_cmd = f"pgrep -f '{process_tag}'"
     try:
         # We check the return code. If it's 0, the process exists.
-        subprocess.run(["ssh", hostname, check_cmd], check=True, capture_output=True, timeout=15)
+        subprocess.run(["ssh", hostname, check_cmd], check=True, capture_output=True, timeout=30)
         return True
-    except (subprocess.CalledProcessError, subprocess.TimeoutExpired):
+    except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
         # CalledProcessError with non-zero return code means pgrep found nothing.
         # TimeoutExpired means the host might be down or unresponsive.
+        logging.warning(f"checking processing running for hostname {hostname} task {uuid} failed: {e}")
         return False
 
 def get_running_info(exp):
@@ -254,7 +259,7 @@ def unmark_exp_running(exp):
     if os.path.exists(lock_file):
         os.remove(lock_file)
 
-def get_exp_status(exp, grace_period=600):
+def get_exp_status(exp, grace_period=300):
     """
     Determines the status of an experiment with process-level verification and a grace period.
     States: finished, failed, running, todo.
@@ -355,11 +360,26 @@ def dump_state_to_file(all_exps, running_jobs, filename):
     except IOError as e:
         logging.error(f"Failed to dump state to {filename}: {e}")
 
+
+def trace_file_status_count(exps, status):
+    from collections import defaultdict
+    count = defaultdict(int)
+    for exp in exps:
+        if get_exp_status(exp) == status:
+            trace_file = exp["meta"]["trace_file"]
+            count[trace_file] += 1
+    return count
+
 def schedule_experiments_reconstructable():
     """Main scheduler function with state reconstruction."""
-    logging.basicConfig(filename="master_scheduler.log", level=logging.INFO,
-                        format="%(asctime)s %(levelname)s: %(message)s",
-                        datefmt='%Y-%m-%d %H:%M:%S')
+    log_file = "master_meta.log"
+    log_formatter = logging.Formatter("%(asctime)s %(levelname)s: %(message)s", datefmt='%Y-%m-%d %H:%M:%S')
+    handler = RotatingFileHandler(log_file, maxBytes=10*1024*1024, backupCount=5)  # 10MB per file, keep 5 backups
+    handler.setFormatter(log_formatter)
+    logging.getLogger().handlers = []  # Remove any existing handlers
+    logging.getLogger().addHandler(handler)
+    logging.getLogger().setLevel(logging.INFO)
+    
     logging.info("--- Scheduler Starting ---")
     master_start_time = time.time() # For reconstructed jobs
 
@@ -429,7 +449,17 @@ def schedule_experiments_reconstructable():
         # 3. SCHEDULE NEW JOBS (MODIFIED LOGIC)
         progress_made = False
         pending_exps = [exp for exp in all_exps if get_exp_status(exp) == "todo"]
-        random.shuffle(pending_exps)
+
+        trace_file_to_pending_count = trace_file_status_count(all_exps, "todo")
+        trace_file_to_finished_count = trace_file_status_count(all_exps, "finished")
+
+        pending_exps.sort(
+            key=lambda exp: (
+                -trace_file_to_finished_count[exp["meta"]["trace_file"]],
+                trace_file_to_pending_count[exp["meta"]["trace_file"]]
+            )
+        )
+        #random.shuffle(pending_exps)
 
         # --- Phase 1: Schedule all possible jobs with existing traces ---
         for exp in pending_exps:
@@ -465,12 +495,13 @@ def schedule_experiments_reconstructable():
             )
             
             subprocess.Popen(["ssh", chosen_host, remote_cmd])
-
+            
             mark_exp_running(exp, chosen_host)
             node_usage[chosen_host]["cpu"] += cpu_req
             node_usage[chosen_host]["mem"] += mem_req
             running_jobs[exp_dir] = {"host": chosen_host, "start_time": time.time()}
             progress_made = True
+            time.sleep(1)
 
         # --- Phase 2: If no progress was made, try to download one trace ---
         if not progress_made and pending_exps:

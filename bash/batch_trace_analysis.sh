@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Fixed base URL and configurable subdir
+# Fixed base URL
 base_url="https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/cacheDatasets/"
-subdir="metaKV"  # Change this to e.g. metaKV, cloudphysics, etc.
+subdirs=("tencentPhoto" "metaCDN" "wiki")  # Add more as needed
 
 trace_dir="/mydata/hongshu/traces"
 outcome_dir="/mydata/hongshu/thesis-playground/bash/outcome_new"
@@ -11,18 +11,15 @@ analyzer="/mydata/hongshu/libCacheSim/_build/bin/traceAnalyzer"
 heatmap_script="/mydata/hongshu/libCacheSim/scripts/traceAnalysis/size_heatmap.py"
 minmax_executable="/mydata/hongshu/thesis-playground/C++/cacheTraceReader/executable/reader"
 
-# Get file list from remote subdir (assumes server provides HTML listing)
-file_list=$(curl -s "${base_url}${subdir}/" | grep -oP '(?<=href=")[^"]+\.oracleGeneral(\.bin)?\.zst(?=")' | sort | uniq)
-echo "$file_list"
-
 process_trace() {
     ulimit -v $((248 * 1024 * 1024))
     filename="$1"
+    subdir="$2"
     filepath="${trace_dir}/${filename}"
     analysis_txt="${trace_dir}/analysis_txt/${filename}_analysis.txt"
     analysis_json="${trace_dir}/analysis_json/${filename}_analysis.json"
 
-    echo "Processing $filename"
+    echo "Processing $filename in $subdir"
 
     if [[ -f "$analysis_json" ]]; then
         echo "Analysis JSON $analysis_json already exists, skipping."
@@ -56,7 +53,19 @@ process_trace() {
 }
 
 export -f process_trace
-export base_url subdir trace_dir outcome_dir parse_script analyzer heatmap_script minmax_executable
+export base_url trace_dir outcome_dir parse_script analyzer heatmap_script minmax_executable
 
-# Process all found files in parallel (adjust -j as needed)
-echo "$file_list" | parallel -j 1 process_trace
+# for subdir in "${subdirs[@]}"; do
+#     echo "Processing subdir: $subdir"
+#     file_list=$(curl -s "${base_url}${subdir}/" | grep -oP '(?<=href=")[^"]+\.oracleGeneral(\.bin)?\.zst(?=")' | sort | uniq)
+#     echo "$file_list" | parallel -j 1 process_trace {} "$subdir"
+# done
+
+for subdir in "${subdirs[@]}"; do
+    echo "Processing subdir: $subdir"
+    file_list=$(curl -s "${base_url}${subdir}/" | grep -oP '(?<=href=")[^"]+\.oracleGeneral(\.bin)?\.zst(?=")' | sort | uniq)
+    while read -r filename; do
+        [[ -z "$filename" ]] && continue
+        process_trace "$filename" "$subdir"
+    done <<< "$file_list"
+done

@@ -6,9 +6,11 @@ print the subdir name if above condition is met
 """
 
 import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from const import *
 
-WORK_DIR = f"{HOME_DIR}/thesis-playground/paper-exp/efficiency/work_dir"
+WORK_DIR = f"{HOME_DIR}/thesis-playground/paper-exp/efficiency/work_dir_meta"
 
 for subdir in os.listdir(WORK_DIR):
     subdir_path = os.path.join(WORK_DIR, subdir)

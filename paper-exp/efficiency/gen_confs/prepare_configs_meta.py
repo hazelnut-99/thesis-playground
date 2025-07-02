@@ -80,13 +80,11 @@ special_lru2q_configs = [lru2q_real, lru2q_real_coldtail]
 special_strategies = {"marginal-hits-old", "marginal-hits-new"}
 
 
-trace_names = ['meta_202401_kv', 'meta_202210_kv'] + \
-    [f'twitter_cluster{i}' for i in [50, 53, 19, 20, 21, 22, 7, 8, 3, 10, 26, 45, 35, 48, 49, 30, 26, 31, 39, 38, 34, 37, 42, 41 ]]
-    
-working_set_ratios = [0.05]
+trace_names = ['meta_202401_kv', 'meta_202210_kv'] 
+working_set_ratios = [0.005, 0.01, 0.02, 0.05, 0.1]
 
-rebalance_intervals = [50_000, 100_000]
-placeholder_interval = 1000
+rebalance_intervals = [50_000]
+placeholder_interval = 50_000
 cache_configs = {
     "marginal-hits-old": [
         {
@@ -98,24 +96,50 @@ cache_configs = {
     "marginal-hits-new": [
         {
             "wakeUpRebalancerEveryXReqs": wakeup,
-            "mhMovingAverageParam": 0.0,
+            "mhMovingAverageParam": 0.3,
+            "mhOnlyUpdateHitIfRebalance": False,
+            "minRequestsObserved": wakeup,
+            "mhMinDiff": 2, 
+            "mhMinDiffRatio": 0.00,
+            "thresholdAIADStep": 2,
+            "thesholdMIMDFactor": 2.0,
+            "emrLow": 0.5,
+            "emrHigh": 0.95,
+            "thresholdAI": True,
+            "thresholdAD": False,
+            "thresholdMI": False,
+            "thresholdMD": True,
+        }
+        for wakeup in rebalance_intervals
+    ] + [
+        {
+            "wakeUpRebalancerEveryXReqs": wakeup,
+            "mhMovingAverageParam": 0.3,
+            "mhOnlyUpdateHitIfRebalance": False,
+            "minRequestsObserved": wakeup,
+            "mhMinDiff": 2, 
+            "mhMinDiffRatio": 0.00,
+            "thresholdAIADStep": 1,
+            "thesholdMIMDFactor": 2.0,
+            "emrLow": 0.5,
+            "emrHigh": 0.95,
+            "thresholdAI": True,
+            "thresholdAD": False,
+            "thresholdMI": False,
+            "thresholdMD": True,
+        }
+        for wakeup in rebalance_intervals
+    ] + [
+        {
+            "wakeUpRebalancerEveryXReqs": wakeup,
+            "mhMovingAverageParam": 0.3,
             "mhOnlyUpdateHitIfRebalance": True,
-            "mhMinDiff": 2, 
-            "mhMinDiffRatio": 0.05,
-            "thresholdAI": False,
-            "thresholdAD": False,
-            "thresholdMI": True,
-            "thresholdMD": True,
-        }
-        for wakeup in rebalance_intervals
-    ]+ [
-        {
-            "wakeUpRebalancerEveryXReqs": wakeup,
-            "mhMovingAverageParam": 0.3,
-            "mhOnlyUpdateHitIfRebalance": False,
+            "maxDecayInterval": 1000_000,
             "minRequestsObserved": wakeup,
             "mhMinDiff": 2, 
             "mhMinDiffRatio": 0.00,
+            "thresholdAIADStep": 2,
+            "thesholdMIMDFactor": 2.0,
             "emrLow": 0.5,
             "emrHigh": 0.95,
             "thresholdAI": True,
@@ -124,36 +148,23 @@ cache_configs = {
             "thresholdMD": True,
         }
         for wakeup in rebalance_intervals
-    ] +  [
+    ] + [
         {
             "wakeUpRebalancerEveryXReqs": wakeup,
             "mhMovingAverageParam": 0.3,
-            "mhOnlyUpdateHitIfRebalance": False,
+            "mhOnlyUpdateHitIfRebalance": True,
+            "maxDecayInterval": 1000_000,
             "minRequestsObserved": wakeup,
             "mhMinDiff": 2, 
             "mhMinDiffRatio": 0.00,
+            "thresholdAIADStep": 2,
+            "thesholdMIMDFactor": 2.0,
             "emrLow": 0.5,
             "emrHigh": 0.95,
             "thresholdAI": False,
             "thresholdAD": False,
             "thresholdMI": True,
             "thresholdMD": True,
-        }
-        for wakeup in rebalance_intervals
-    ] +  [
-        {
-            "wakeUpRebalancerEveryXReqs": wakeup,
-            "mhMovingAverageParam": 0.3,
-            "mhOnlyUpdateHitIfRebalance": False,
-            "minRequestsObserved": wakeup,
-            "mhMinDiff": 2, 
-            "emrLow": 0.5,
-            "emrHigh": 0.95,
-            "mhMinDiffRatio": 0.00,
-            "thresholdAI": True,
-            "thresholdAD": True,
-            "thresholdMI": False,
-            "thresholdMD": False,
         }
         for wakeup in rebalance_intervals
     ],
@@ -168,7 +179,7 @@ cache_configs = {
 def generate_configs(
     trace_info_csv="../../trace_info.csv",
     base_config_path="base_config.json",
-    work_dir=f"{HOME_DIR}/thesis-playground/paper-exp/efficiency/work_dir",
+    work_dir=f"{HOME_DIR}/thesis-playground/paper-exp/efficiency/work_dir_meta",
     force_delete=False
 ):
     total_confs = 0
@@ -232,8 +243,8 @@ def generate_configs(
                     meta_config = {
                         "trace_name": trace_name,
                         "uuid": uuid,
-                        "memory_requirement": cachebench_config["cache_config"]["cacheSizeMB"],
-                        "cpu_requirement": 3,  # reserve 3 cores per task
+                        "memory_requirement": cachebench_config["cache_config"]["cacheSizeMB"] + 100,
+                        "cpu_requirement": 2.5,  # reserve 3 cores per task
                         "download_path": f"{WGET_PATH}/{download_path}",
                         "trace_file": f"{TRACE_FILE_PATH}/{file_name}",
                         "slab_size": slab_size,

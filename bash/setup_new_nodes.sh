@@ -2,14 +2,17 @@
 
 # Configurable list of machines (edit as needed)
 MACHINES=(
-    "Hongshu@clnode055.clemson.cloudlab.us"
-    "Hongshu@clnode079.clemson.cloudlab.us"
-    "Hongshu@clnode077.clemson.cloudlab.us"
+    "Hongshu@clnode302.clemson.cloudlab.us"
+    "Hongshu@clnode290.clemson.cloudlab.us"
+    "Hongshu@clnode303.clemson.cloudlab.us"
+    "Hongshu@clnode287.clemson.cloudlab.us"
+    "Hongshu@clnode301.clemson.cloudlab.us"
+    "Hongshu@clnode286.clemson.cloudlab.us"
 )
 
 SETUP_CMDS=$(cat <<'END_CMDS'
 sudo apt-get update -y
-sudo apt-get install python3-pip libglib2.0-dev -y
+sudo apt-get install python3-pip libglib2.0-dev parallel -y
 pip3 install pandas plotly matplotlib seaborn requests
 
 cd /users/Hongshu
