@@ -15,7 +15,7 @@ mpl.rcParams.update({
 })
 
 def process_trace(trace_name):
-    base_dir = f"/mydata/hongshu/traces/thesis/subtraces/{trace_name}/chunk_0"
+    base_dir = f"/nfs/hongshu/traces/thesis/subtraces/{trace_name}/chunk_0"
     miss_ratios_path = os.path.join(base_dir, "miss_ratios.csv")
     miss_ratio_df = pd.read_csv(miss_ratios_path) 
     miss_ratio_df['class_size'] = miss_ratio_df['subtrace_name'].map(lambda x: int(x.split('.')[0].split('_')[-1]))
@@ -92,7 +92,11 @@ for idx, (trace_name, subplot_title) in enumerate(trace_info):
     # Dual x-axis: bottom for class 0, top for class 1
     ax_top = ax_left.twiny()
     ax_top.set_xlim(ax_left.get_xlim())
-    ax_top.set_xticks([0, 32, 64, 96, 128])
+    
+    # Set same tick positions for both axes
+    tick_positions = [0, 32, 64, 96, 128]
+    ax_left.set_xticks(tick_positions)
+    ax_top.set_xticks(tick_positions)
     ax_top.set_xticklabels([128, 96, 64, 32, 0])  # Class 1 slabs, right-to-left
     ax_top.set_xlabel("Number of Slabs (Class 1 ←)")
     ax_top.tick_params(axis='x')

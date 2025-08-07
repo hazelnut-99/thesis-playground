@@ -4,12 +4,12 @@
 base_url="https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/cacheDatasets/"
 subdirs=("tencentPhoto" "metaCDN" "wiki")  # Add more as needed
 
-trace_dir="/mydata/hongshu/traces"
-outcome_dir="/mydata/hongshu/thesis-playground/bash/outcome_new"
-parse_script="/mydata/hongshu/thesis-playground/bash/parse_trace_analysis.sh"
-analyzer="/mydata/hongshu/libCacheSim/_build/bin/traceAnalyzer"
-heatmap_script="/mydata/hongshu/libCacheSim/scripts/traceAnalysis/size_heatmap.py"
-minmax_executable="/mydata/hongshu/thesis-playground/C++/cacheTraceReader/executable/reader"
+trace_dir="/nfs/hongshu/traces"
+outcome_dir="/nfs/hongshu/thesis-playground/bash/outcome_new"
+parse_script="/nfs/hongshu/thesis-playground/bash/parse_trace_analysis.sh"
+analyzer="/nfs/hongshu/libCacheSim/_build/bin/traceAnalyzer"
+heatmap_script="/nfs/hongshu/libCacheSim/scripts/traceAnalysis/size_heatmap.py"
+minmax_executable="/nfs/hongshu/thesis-playground/C++/cacheTraceReader/executable/reader"
 
 process_trace() {
     ulimit -v $((248 * 1024 * 1024))

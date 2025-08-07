@@ -64,7 +64,7 @@ def plot_metric_over_time(metric, ylabel, title, filename):
     legend_handles = []
     annotation_color = "#444444"
     # Define the request_id threshold for "all slabs allocated"
-    vline_dict = {128: 1_000_000, 256: 2_900_000}
+    vline_dict = {128: 1_000_000, 256: 2850000}
     for i, slab_count in enumerate(slab_counts):
         ax = axs[i]
         vline_request_id = vline_dict[slab_count]

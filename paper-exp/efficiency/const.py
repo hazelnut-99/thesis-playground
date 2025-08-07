@@ -6,8 +6,8 @@ CACHEBENCH_BINARY_PATH2 = "/users/Hongshu/cachelib_v2/opt/cachelib/bin/cachebenc
 MOCK_TIMER_PATH = "/nfs/hongshu/libmock_time.so"
 
 VALID_ALLOCATOR_REBALANCE_COMBINATIONS = {
-    "SIMPLE2Q": set(["marginal-hits-old", "marginal-hits-new", "free-mem", "disabled", "hits", "tail-age"]),
-    "LRU2Q": set(["marginal-hits-old", "marginal-hits-new", "free-mem", "disabled", "hits", "tail-age"]),
-    "TINYLFU": set(["free-mem", "disabled", "hits", "tail-age"]),
-    "TINYLFUTail": set(["marginal-hits-old", "marginal-hits-new"])
+    "SIMPLE2Q": set(["marginal-hits-old", "marginal-hits-new", "free-mem", "disabled", "hits", "tail-age", "lama", 'eviction-rate']),
+    "LRU2Q": set(["marginal-hits-old", "marginal-hits-new", "free-mem", "disabled", "hits", "tail-age", 'eviction-rate']),
+    "TINYLFU": set(["free-mem", "disabled", "hits", "tail-age", 'eviction-rate']),
+    "TINYLFUTail": set(["marginal-hits-old", "marginal-hits-new"]),
 }

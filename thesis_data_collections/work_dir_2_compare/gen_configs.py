@@ -10,7 +10,7 @@ import data_collection.util as util
 import json
 import uuid
 
-BASE_FILE_PATH = "/mydata/hongshu/"
+BASE_FILE_PATH = "/nfs/hongshu/"
 
 current_dir = os.path.dirname(__file__)
 
@@ -19,13 +19,13 @@ traces = {
         "extra": {
             "allocSizes": [256, 512, 1024, 2048, 4096]
         },
-        "cache_sizes": [128, 256],
+        "cache_sizes": [32, 64, 128, 256],
         "file_path": BASE_FILE_PATH + "traces/synth_static_202.csv"
     }
 }
 
 
-allocators = ['LRU2Q']
+allocators = ['SIMPLE2Q']
 wakeUpRebalancerEveryXReqs = [i * 1000 for i in range(10, 1010, 10)] + [1000]
 
 rebalanceStrategies = {

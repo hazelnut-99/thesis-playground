@@ -74,7 +74,6 @@ def compute_reuse_distances(reference_sequence):
     
     return dict(hist)
 
-
 def generate_one_subtrace(binary_file_path, name, output_dir, alloc_sizes, alloc_size):
     """
     Generate a subtrace file for a specific allocation size from a Zstandard-compressed binary file.
@@ -91,12 +90,13 @@ def generate_one_subtrace(binary_file_path, name, output_dir, alloc_sizes, alloc
     # Create the output file path
     output_file_path = os.path.join(output_dir, f"{name}_subtrace_{alloc_size}.csv")
 
-    object_ids = []
 
     # Open the binary file and decompress it
     with open(binary_file_path, 'rb') as binary_file:
         decompressor = ZstdDecompressor()
-        with decompressor.stream_reader(binary_file) as reader:
+        with decompressor.stream_reader(binary_file) as reader, open(output_file_path, 'w', newline='') as out_csv:
+            writer = csv.writer(out_csv)
+            writer.writerow(['obj_id'])  # Write header
             while True:
                 # Read a single record (24 bytes per record)
                 record = reader.read(24)
@@ -111,14 +111,14 @@ def generate_one_subtrace(binary_file_path, name, output_dir, alloc_sizes, alloc
 
                 # Adjust object size with metadata overhead
                 obj_size = max(24, obj_size)
-                obj_size += (32 + len(str(obj_id)))
+                obj_size += (32 + len(str(obj_id)) + 20) # 20 for keysize, 32 is metadata
 
                 # Find the smallest allocation size that can fit the object
                 index = bisect.bisect_left(alloc_sizes, obj_size)
                 if index < len(alloc_sizes) and alloc_size == alloc_sizes[index]:
-                    object_ids.append(obj_id)
+                    writer.writerow([obj_id])  # Write obj_id to file
 
-    return output_file_path, object_ids
+    return output_file_path
 
 
 
@@ -154,7 +154,7 @@ def subtrace_statistics_helper(object_ids):
 
 
 
-def process_binary_and_generate_subtraces(binary_file_path, output_dir, factor, max_size, min_size, name, alignment=8, alloc_sizes=None):
+def process_binary_and_generate_subtraces(binary_file_path, output_dir, factor, max_size, min_size, name, alignment=8, alloc_sizes=None, mrc=False):
     """
     Process a CSV file, generate subtrace files for each allocation size, calculate statistics and miss ratios, and clean up subtrace files.
 
@@ -197,11 +197,20 @@ def process_binary_and_generate_subtraces(binary_file_path, output_dir, factor, 
             print(f"Processing allocation size: {alloc_size}")
 
             # Generate subtrace for the current allocation size
-            subtrace_path, object_ids = generate_one_subtrace(binary_file_path, name, output_dir, alloc_sizes, alloc_size)
+            subtrace_path = generate_one_subtrace(binary_file_path, name, output_dir, alloc_sizes, alloc_size)
+            object_ids = []
+            with open(subtrace_path, 'r') as f:
+                reader = csv.reader(f)
+                next(reader)  # skip header
+                for row in reader:
+                    if row:
+                        object_ids.append(int(row[0]))
             record_count, distinct_object_count, slope, intercept, zipf_r2, p_value = subtrace_statistics_helper(object_ids)
             stat_writer.writerow([os.path.basename(subtrace_path), record_count, distinct_object_count, slope, intercept, zipf_r2, p_value])
             
             # Compute reuse distance histogram
+            if not mrc:
+                continue
             reuse_distance_histogram = compute_reuse_distances(object_ids)
 
             # Total number of records in the subtrace
@@ -235,23 +244,11 @@ def process_binary_and_generate_subtraces(binary_file_path, output_dir, factor, 
 if __name__ == "__main__":
     
     configs = [
-        # {
-        #     "input_path": "/proj/latencymodel-PG0/hongshu/traces/cluster52.oracleGeneral.sample10.zst",
-        #     "output_dir": "/proj/latencymodel-PG0/hongshu/traces/subtraces/cluster52_sample10",
-        #     "maxsize": 6300,
-        #     "name": "cluster52_sample10"
-        # },
-        # {
-        #     "input_path": "/proj/latencymodel-PG0/hongshu/traces/202210_kv_traces_all_sort.csv.oracleGeneral.zst",
-        #     "output_dir": "/proj/latencymodel-PG0/hongshu/traces/subtraces/meta_2022",
-        #     "maxsize": 523350,
-        #     "name": "meta_2022"
-        # },
         {
-            "input_path": "/proj/latencymodel-PG0/hongshu/traces/202401_kv_traces_all_sort.csv.oracleGeneral.zst",
-            "output_dir": "/proj/latencymodel-PG0/hongshu/traces/subtraces/meta_2024",
-            "maxsize": 523350,
-            "name": "meta_2024"
+            "input_path": "/nfs/hongshu/traces/cluster53.oracleGeneral.zst",
+            "output_dir": "/nfs/hongshu/subtraces/cluster53",
+            "maxsize": 1048576,
+            "name": "cluster53"
         }
     ]
     
@@ -260,10 +257,11 @@ if __name__ == "__main__":
         subtrace_files = process_binary_and_generate_subtraces(
             binary_file_path=config['input_path'],
             output_dir=config['output_dir'],
-            factor=1.5,
+            factor=1.25,
             max_size=config['maxsize'],
             min_size=72,
             name=config['name'],
+            mrc=False
             # factor=None,
             # max_size=None,
             # min_size=None,

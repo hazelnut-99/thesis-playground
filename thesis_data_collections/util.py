@@ -5,8 +5,8 @@ import subprocess
 
 def run_cachebench_and_extract_rebalance_states(config_file, output_file, output_json_file):
     command = (
-        f"LD_PRELOAD=/mydata/hongshu/libmock_time.so "
-        f"/mydata/hongshu/CacheLib/opt/cachelib/bin/cachebench --json_test_config {config_file} "
+        f"LD_PRELOAD=/nfs/hongshu/libmock_time.so "
+        f"/users/Hongshu/cachelib_v1/opt/cachelib/bin/cachebench --json_test_config {config_file} "
         f"-progress=50000 --enable_debug_log=true"
     )
 
@@ -31,8 +31,8 @@ def run_cachebench_and_extract_rebalance_states(config_file, output_file, output
 
 def run_cachebench_and_extract_miss_ratios(config_file, output_file, output_json_file):
     command = (
-        f"LD_PRELOAD=/mydata/hongshu/libmock_time.so "
-        f"//mydata/hongshu/CacheLib/opt/cachelib/bin/cachebench --json_test_config {config_file} "
+        f"LD_PRELOAD=/nfs/hongshu/libmock_time.so "
+        f"/users/Hongshu/cachelib_v1/opt/cachelib/bin/cachebench --json_test_config {config_file} "
         f"-progress=50000 --enable_debug_log=true"
     )
 
@@ -63,15 +63,15 @@ def run_cachebench(config_file, output_file, output_json_file):
     
     if config_content["test_config"]["useTraceTimer"]:
         command = [
-            "LD_PRELOAD=/mydata/hongshu/libmock_time.so",
-            "/mydata/hongshu/CacheLib/opt/cachelib/bin/cachebench",
+            "LD_PRELOAD=/nfs/hongshu/libmock_time.so",
+            "/users/Hongshu/cachelib_v1/opt/cachelib/bin/cachebench",
             "--json_test_config", config_file,
             "-progress=50000",
             "--dump_result_json_file", output_json_file
         ]
     else:
         command = [
-            "/mydata/hongshu/CacheLib/opt/cachelib/bin/cachebench",
+            "/users/Hongshu/cachelib_v1/opt/cachelib/bin/cachebench",
             "--json_test_config", config_file,
             "-progress=50000",
             "--dump_result_json_file", output_json_file

@@ -1,68 +1,66 @@
 #!/bin/bash
 
-# Directories and script paths
-trace_dir="/mydata/hongshu/traces"
-outcome_dir="/mydata/hongshu/thesis-playground/bash/outcome"
-parse_script="/mydata/hongshu/thesis-playground/bash/parse_trace_analysis.sh"
-analyzer="/mydata/hongshu/libCacheSim/_build/bin/traceAnalyzer"
-heatmap_script="/mydata/hongshu/libCacheSim/scripts/traceAnalysis/size_heatmap.py"
-minmax_executable="/mydata/hongshu/thesis-playground/C++/cacheTraceReader/executable/reader"
-
-traces=(
-    "tencent_photo1.oracleGeneral.zst"
-    "wiki_2016u.oracleGeneral.zst"
+# Local trace files configuration
+# Add your local trace files here (full paths)
+trace_files=(
+    "/nfs/hongshu/traces/memcache_2024_intel.csv.oracleGeneral.zst"
+    # Add more trace files as needed
 )
 
+trace_dir="/nfs/hongshu/traces"
+outcome_dir="/nfs/hongshu/thesis-playground/bash/outcome_new"
+parse_script="/nfs/hongshu/thesis-playground/bash/parse_trace_analysis.sh"
+analyzer="/nfs/hongshu/libCacheSim/_build/bin/traceAnalyzer"
+heatmap_script="/nfs/hongshu/libCacheSim/scripts/traceAnalysis/size_heatmap.py"
+minmax_executable="/nfs/hongshu/thesis-playground/C++/cacheTraceReader/executable/reader"
+
 process_trace() {
-    filename="$1"
-    filepath="${trace_dir}/${filename}"
-    filename_no_ext="${filename%.*}"
-    analysis_txt="${trace_dir}/analysis/${filename_no_ext}_analysis.txt"
-    analysis_json="${trace_dir}/analysis/${filename_no_ext}_analysis.json"
+    ulimit -v $((248 * 1024 * 1024))
+    filepath="$1"
+    filename=$(basename "$filepath")
+    analysis_txt="${trace_dir}/analysis_txt/${filename}_analysis.txt"
+    analysis_json="${trace_dir}/analysis_json/${filename}_analysis.json"
 
     echo "Processing $filename"
 
-    # Run traceAnalyzer
-    cd "${outcome_dir}" || exit
-    "${analyzer}" "${filepath}" oracleGeneralBin --common >> "${analysis_txt}"
-
-    # Parse analysis
-    /bin/bash "${parse_script}" "${analysis_txt}" "${analysis_json}"
-
-    # Extract Min/Max object size
-    minmax_output=$("${minmax_executable}" "${filepath}" print_min_max_size)
-
-    min_obj_size=$(echo "$minmax_output" | grep "Min Object Size:" | awk '{print $4}')
-    max_obj_size=$(echo "$minmax_output" | grep "Max Object Size:" | awk '{print $4}')
-    num_small_records=$(echo "$minmax_output" | grep "Number of small records:" | awk '{print $5}')
-    total_records=$(echo "$minmax_output" | grep "Total number of records:" | awk '{print $5}')
-    avg_qps=$(echo "$minmax_output" | grep "Average QPS:" | awk '{print $3}')
-
-    # Add all stats to JSON file
-    if [[ -n "$min_obj_size" && -n "$max_obj_size" && -n "$num_small_records" && -n "$total_records" && -n "$avg_qps" ]]; then
-        tmp_json=$(mktemp)
-        jq --arg min "$min_obj_size" \
-        --arg max "$max_obj_size" \
-        --arg small "$num_small_records" \
-        --arg total "$total_records" \
-        --arg avgqps "$avg_qps" \
-        '. + {
-            min_obj_size: ($min | tonumber),
-            max_obj_size: ($max | tonumber),
-            num_small_records: ($small | tonumber),
-            total_records: ($total | tonumber),
-            avg_qps: ($avgqps | tonumber)
-            }' \
-        "$analysis_json" > "$tmp_json" && mv "$tmp_json" "$analysis_json"
+    # Check if the trace file exists
+    if [[ ! -f "$filepath" ]]; then
+        echo "Error: Trace file $filepath does not exist" >&2
+        return 1
     fi
 
-    # Generate heatmap
-    cd /mydata/hongshu/thesis-playground/bash/ || exit
-    python3 "${heatmap_script}" "outcome/${filename}.sizeWindow_w300_req"
+    if [[ -f "$analysis_json" ]]; then
+        echo "Analysis JSON $analysis_json already exists, skipping."
+        return
+    fi
+
+    # Create analysis directories if they don't exist
+    mkdir -p "${trace_dir}/analysis_txt"
+    mkdir -p "${trace_dir}/analysis_json"
+
+    cd "${outcome_dir}" || { echo "Failed to cd to ${outcome_dir}"; return 1; }
+    if ! "${analyzer}" "${filepath}" oracleGeneralBin --simple > "${analysis_txt}"; then
+        echo "traceAnalyzer failed for ${filename}" >&2
+        return 1
+    fi
+
+    if ! /bin/bash "${parse_script}" "${analysis_txt}" "${analysis_json}"; then
+        echo "parse_script failed for ${analysis_txt}" >&2
+        return 1
+    fi
+
+    echo "Successfully processed $filename"
 }
 
 export -f process_trace
 export trace_dir outcome_dir parse_script analyzer heatmap_script minmax_executable
 
-# Run in parallel
-parallel -j 3 process_trace ::: "${traces[@]}"
+# Process each local trace file
+echo "Processing ${#trace_files[@]} local trace files..."
+
+for filepath in "${trace_files[@]}"; do
+    [[ -z "$filepath" ]] && continue
+    process_trace "$filepath"
+done
+
+echo "All trace files processed!"

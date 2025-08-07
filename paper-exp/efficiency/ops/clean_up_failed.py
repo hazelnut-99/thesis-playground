@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from const import *
 
-WORK_DIR = f"{HOME_DIR}/thesis-playground/paper-exp/efficiency/work_dir_meta"
+WORK_DIR = f"{HOME_DIR}/thesis-playground/paper-exp/efficiency/work_dir_meta_sensitivity"
 
 for subdir in os.listdir(WORK_DIR):
     subdir_path = os.path.join(WORK_DIR, subdir)

@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/nfs/hongshu/thesis-playground/paper-exp/efficiency/master/master.py", line 632, in <module>
+    schedule_experiments_reconstructable()
+  File "/nfs/hongshu/thesis-playground/paper-exp/efficiency/master/master.py", line 582, in schedule_experiments_reconstructable
+    mark_exp_running(exp, chosen_host)
+  File "/nfs/hongshu/thesis-playground/paper-exp/efficiency/master/master.py", line 312, in mark_exp_running
+    with open(lock_file, 'w') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/nfs/hongshu/thesis-playground/paper-exp/efficiency/work_dir_lama_window/meta_202401_kv-e3f8d84176ce7d6eec2b92068d4e45f8/running.lock'
+bash: line 1: /nfs/hongshu/thesis-playground/paper-exp/efficiency/work_dir_lama_window/meta_202401_kv-e3f8d84176ce7d6eec2b92068d4e45f8/worker.log: No such file or directory
+Traceback (most recent call last):
+  File "/nfs/hongshu/thesis-playground/paper-exp/efficiency/master/master.py", line 632, in <module>
+    schedule_experiments_reconstructable()
+  File "/nfs/hongshu/thesis-playground/paper-exp/efficiency/master/master.py", line 622, in schedule_experiments_reconstructable
+    time.sleep(sleep_time)
+KeyboardInterrupt

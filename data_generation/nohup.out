@@ -103,3 +103,167 @@ Generating Zipf distribution with m=200000, alpha=1.0
 {'m': 100000, 'alpha': 1.0, 'share': 1, 'size': 4054}
 Generating Zipf distribution with m=100000, alpha=1.0
 Generated data for /proj/latencymodel-PG0/hongshu/traces/synth_dynamic_301.csv
+{'m': 1000000, 'alpha': 1.0, 'share': 2, 'size': 30, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=1.0
+{'m': 1000000, 'alpha': 0.8, 'share': 2, 'size': 50, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=0.8
+{'m': 1000000, 'alpha': 1.2, 'share': 1, 'size': 80, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=1.2
+{'m': 1000000, 'alpha': 1.0, 'share': 2, 'size': 300, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=1.0
+{'m': 1000000, 'alpha': 0.8, 'share': 2, 'size': 500, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=0.8
+{'m': 1000000, 'alpha': 1.2, 'share': 1, 'size': 800, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=1.2
+12096 55 30
+24192 5 30
+36288 1189151 50
+48384 1018766 50
+60480 2000001 80
+72576 4 30
+84672 416815 30
+96768 1000035 50
+108864 3001109 300
+120960 3000025 300
+133056 1000142 50
+145152 2000140 80
+157248 11877 30
+169344 6510 30
+181440 1024959 50
+193536 1588205 50
+205632 2000055 80
+217728 57 30
+229824 4000009 500
+241920 4030472 500
+254016 1467 30
+266112 1000697 50
+278208 1873305 50
+290304 2000005 80
+302400 22 30
+314496 1 30
+326592 1012544 50
+338688 1497225 50
+350784 5000037 800
+362880 3000061 300
+374976 2000018 80
+387072 30 30
+399168 15 30
+411264 1850133 50
+423360 1000007 50
+435456 2000327 80
+447552 32 30
+459648 130195 30
+471744 3000141 300
+483840 4045110 500
+495936 1253780 50
+508032 1372292 50
+520128 2061978 80
+532224 16939 30
+544320 78055 30
+556416 1003610 50
+568512 1051970 50
+580608 2000059 80
+592704 4000027 500
+604800 5000011 800
+{'m': 2097152, 'alpha': 1.0, 'share': 1, 'size': 470}
+Generating Zipf distribution with m=2097152, alpha=1.0
+{'m': 1048576, 'alpha': 1.0, 'share': 1, 'size': 982}
+Generating Zipf distribution with m=1048576, alpha=1.0
+{'m': 2097152, 'alpha': 1.0, 'share': 1, 'size': 470}
+Generating Zipf distribution with m=2097152, alpha=1.0
+{'m': 16777216, 'alpha': 1.0, 'share': 1, 'size': 16342}
+Generating Zipf distribution with m=16777216, alpha=1.0
+{'m': 2097152, 'alpha': 1.0, 'share': 1, 'size': 470}
+Generating Zipf distribution with m=2097152, alpha=1.0
+{'m': 16777216, 'alpha': 0.2, 'share': 1, 'size': 16342}
+Generating Zipf distribution with m=16777216, alpha=0.2
+{'m': 2097152, 'alpha': 1.0, 'share': 1, 'size': 470}
+Generating Zipf distribution with m=2097152, alpha=1.0
+{'m': 1048576, 'alpha': 0.2, 'share': 1, 'size': 982}
+Generating Zipf distribution with m=1048576, alpha=0.2
+An error occurred: [Errno 13] Permission denied: '/nfs/hongshu/traces/synth_case_study_001.csv'
+An error occurred: [Errno 13] Permission denied: '/nfs/hongshu/traces/synth_case_study_002.csv'
+An error occurred: [Errno 13] Permission denied: '/nfs/hongshu/traces/synth_case_study_004.csv'
+An error occurred: [Errno 13] Permission denied: '/nfs/hongshu/traces/synth_case_study_003.csv'
+{'m': 1000000, 'alpha': 1.0, 'share': 2, 'size': 30, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=1.0
+{'m': 1000000, 'alpha': 0.8, 'share': 2, 'size': 50, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=0.8
+{'m': 1000000, 'alpha': 1.2, 'share': 1, 'size': 80, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=1.2
+{'m': 1000000, 'alpha': 1.0, 'share': 2, 'size': 300, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=1.0
+{'m': 1000000, 'alpha': 0.8, 'share': 2, 'size': 500, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=0.8
+{'m': 1000000, 'alpha': 1.2, 'share': 1, 'size': 800, 'type': 'zipf'}
+Generating Zipf distribution with m=1000000, alpha=1.2
+12096 92 30
+24192 107 30
+36288 1000137 50
+48384 1000245 50
+60480 2014440 80
+72576 89 30
+84672 9 30
+96768 1934268 50
+108864 3032015 300
+120960 3055399 300
+133056 1047105 50
+145152 2000048 80
+157248 245939 30
+169344 467 30
+181440 1000010 50
+193536 1000003 50
+205632 2000000 80
+217728 967 30
+229824 4000017 500
+241920 4093917 500
+254016 712 30
+266112 1000005 50
+278208 1949723 50
+290304 2000044 80
+302400 1441 30
+314496 10025 30
+326592 1000296 50
+338688 1492148 50
+350784 5000004 800
+362880 3000143 300
+374976 2000000 80
+387072 1180 30
+399168 1797 30
+411264 1004802 50
+423360 1002465 50
+435456 2000004 80
+447552 17 30
+459648 358460 30
+471744 3000843 300
+483840 4011139 500
+495936 1326404 50
+508032 1277608 50
+520128 2000000 80
+532224 7 30
+544320 2 30
+556416 1000394 50
+568512 1000082 50
+580608 2001168 80
+592704 4180849 500
+604800 5000055 800
+{'m': 2097152, 'alpha': 1.0, 'share': 1, 'size': 470}
+Generating Zipf distribution with m=2097152, alpha=1.0
+{'m': 16777216, 'alpha': 0.2, 'share': 1, 'size': 16342}
+Generating Zipf distribution with m=16777216, alpha=0.2
+Generated data for /nfs/hongshu/traces/synth_case_study_004.csv
+{'m': 2097152, 'alpha': 1.0, 'share': 1, 'size': 470}
+Generating Zipf distribution with m=2097152, alpha=1.0
+{'m': 1048576, 'alpha': 0.2, 'share': 1, 'size': 982}
+Generating Zipf distribution with m=1048576, alpha=0.2
+Generated data for /nfs/hongshu/traces/synth_case_study_002.csv
+{'m': 2097152, 'alpha': 1.0, 'share': 1, 'size': 470}
+Generating Zipf distribution with m=2097152, alpha=1.0
+{'m': 16777216, 'alpha': 1.0, 'share': 1, 'size': 16342}
+Generating Zipf distribution with m=16777216, alpha=1.0
+Generated data for /nfs/hongshu/traces/synth_case_study_003.csv
+{'m': 2097152, 'alpha': 1.0, 'share': 1, 'size': 470}
+Generating Zipf distribution with m=2097152, alpha=1.0
+{'m': 1048576, 'alpha': 1.0, 'share': 1, 'size': 982}
+Generating Zipf distribution with m=1048576, alpha=1.0
+Generated data for /nfs/hongshu/traces/synth_case_study_001.csv

@@ -350,6 +350,6 @@ if __name__ == "__main__":
     periodic_generator = PeriodicGenerator([static_generators_config1, static_generators_config2], [4, 1], 10)
     generate(periodic_generator, 50)
     
-    generate_based_on_config_file("static.json")
+    generate_based_on_config_file("case_study_config.json")
     
     

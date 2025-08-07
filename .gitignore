@@ -9,4 +9,11 @@
 **/__pycache__/
 work_dir/
 work_dir_*/
+*nohup.out
+
+# Large CSV files that exceed GitHub's file size limit
+thesis_data_collections/work_dir_2_compare/report.csv
+data_collection/work_dir_17_twitter/report.csv
+# General pattern for large report files
+**/report.csv
 

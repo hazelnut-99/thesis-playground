@@ -1,4 +1,5 @@
 import os
+
 import json
 import subprocess
 import time
@@ -12,22 +13,38 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from const import *
 
-WORK_DIR = f"{HOME_DIR}/thesis-playground/paper-exp/efficiency/work_dir_meta"
+# List of work directories to process sequentially
+WORK_DIRS = [
+    f"{HOME_DIR}/thesis-playground/paper-exp/efficiency/work_dir_lama_window",
+    #f"{HOME_DIR}/thesis-playground/paper-exp/efficiency/work_dir_cp",
+    #f"{HOME_DIR}/thesis-playground/paper-exp/efficiency/work_dir_cdn",
+    
+    # Add more work directories here as needed
+    # f"{HOME_DIR}/thesis-playground/paper-exp/efficiency/work_dir_another",
+]
+
 TRACE_DIR = f"{HOME_DIR}/traces"
 SCRIPTS_DIR = f"{HOME_DIR}/thesis-playground/paper-exp/efficiency/" # Directory for util.py
 HOSTS_FILE = "hosts.txt"                 # A file in the same directory as the script
 PYTHON_EXEC = "python3"                  # or "python" as needed
-STATE_FILE = "scheduler_state_meta.json"      # File for dumping the central state
+STATE_FILE = "scheduler_state_brief.json"      # File for dumping the central state
 
 # Per-node resource limits (fill in actual values)
 NODE_RESOURCES = {
-    "clnode302.clemson.cloudlab.us": {"cpu": 64, "mem": 204800},
-    "clnode290.clemson.cloudlab.us": {"cpu": 120, "mem": 245760},
-    "clnode303.clemson.cloudlab.us": {"cpu": 120, "mem": 245760},
-    "clnode287.clemson.cloudlab.us": {"cpu": 120, "mem": 245760},
-    "clnode301.clemson.cloudlab.us": {"cpu": 120, "mem": 245760},
-    "clnode286.clemson.cloudlab.us": {"cpu": 120, "mem": 245760}
+    "clnode370.clemson.cloudlab.us": {"cpu": 20, "mem": 51200},
+    "clnode355.clemson.cloudlab.us": {"cpu": 64, "mem": 133120},
+    "clnode337.clemson.cloudlab.us": {"cpu": 64, "mem": 133120},
+    "clnode322.clemson.cloudlab.us": {"cpu": 64, "mem": 133120},
+    "clnode332.clemson.cloudlab.us": {"cpu": 64, "mem": 133120},
 }
+
+"""
+clnode370.clemson.cloudlab.us
+clnode355.clemson.cloudlab.us
+clnode337.clemson.cloudlab.us
+clnode322.clemson.cloudlab.us
+clnode332.clemson.cloudlab.us
+"""
 # =====================
 
 # --- HELPER FUNCTIONS ---
@@ -47,7 +64,7 @@ def get_nfs_free_bytes(path):
     """Gets the free space in bytes for the filesystem that a path resides on."""
     try:
         stat = os.statvfs(path)
-        return stat.f_bavail * stat.f_frsize
+        return stat.f_bavail * stat.f_frsize * 0.9
     except FileNotFoundError:
         logging.error(f"Path not found for statvfs: {path}. Returning 0 free space.")
         return 0
@@ -148,6 +165,7 @@ def delete_trace(trace_file):
     """
     Deletes a trace file from the filesystem using sudo.
     """
+    #pass
     if os.path.exists(trace_file):
         logging.info(f"Deleting trace file {trace_file} with sudo...")
         subprocess.run(["sudo", "rm", "-f", trace_file])
@@ -170,6 +188,22 @@ def log_status_summary(exps, running_jobs):
         status_count[status] += 1
     logging.info(f"STATUS: {status_count['todo']} ToDo, {len(running_jobs)} Running, "
                  f"{status_count['finished']} Finished, {status_count['failed']} Failed.")
+
+
+def get_host_mem_free_percent(host):
+    """
+    Returns the percentage of free memory on the remote host.
+    Returns None if unable to retrieve.
+    """
+    mem_util_cmd = "free -m | awk '/^Mem:/ {printf \"%.2f\", $7/$2 * 100.0}'"
+    try:
+        mem_result = subprocess.run(
+            ["ssh", host, mem_util_cmd],
+            capture_output=True, text=True, check=True, timeout=10
+        )
+        return float(mem_result.stdout.strip())
+    except Exception:
+        return None
 
 def log_node_system_stats(hosts):
     """Logs the current CPU and Memory utilization for each host."""
@@ -220,20 +254,45 @@ def is_process_actually_running(hostname, uuid):
     """
     Connects to a remote host and checks if a process with a specific
     tag (UUID) is currently running.
+    
+    Returns:
+        True: Process is running OR unable to verify (SSH failures, errors)  
+        False: Process is confirmed not running (SSH successful, no matching processes)
     """
     process_tag = f"CACHEBENCH_UUID={uuid}"
-    # pgrep -f searches the full command line for the pattern.
-    # It returns 0 if a process is found, 1 if not.
-    check_cmd = f"pgrep -f '{process_tag}'"
+    # Use ps to avoid the pgrep self-matching issue
+    check_cmd = f"ps aux | grep '{process_tag}' | grep -v grep | wc -l"
     try:
-        # We check the return code. If it's 0, the process exists.
-        subprocess.run(["ssh", hostname, check_cmd], check=True, capture_output=True, timeout=30)
+        result = subprocess.run(
+            ["ssh", hostname, check_cmd], 
+            check=False,  # Don't raise exception on non-zero return code
+            capture_output=True, 
+            timeout=30,
+            text=True
+        )
+        
+        if result.returncode == 0:
+            # Command succeeded, check the count
+            count = int(result.stdout.strip())
+            if count > 0:
+                logging.debug(f"Process {uuid} is running on {hostname} ({count} processes found)")
+                return True
+            else:
+                logging.debug(f"Process {uuid} not found on {hostname} (SSH successful)")
+                return False
+        else:
+            # Command failed - treat as still running to be safe
+            logging.warning(f"Process check failed (code {result.returncode}) when checking {uuid} on {hostname}: {result.stderr.strip()}. Assuming still running.")
+            return True
+            
+    except subprocess.TimeoutExpired:
+        # SSH connection timeout - treat as still running to avoid premature cleanup
+        logging.warning(f"SSH timeout when checking process on {hostname} for task {uuid}. Assuming still running.")
         return True
-    except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
-        # CalledProcessError with non-zero return code means pgrep found nothing.
-        # TimeoutExpired means the host might be down or unresponsive.
-        logging.warning(f"checking processing running for hostname {hostname} task {uuid} failed: {e}")
-        return False
+    except Exception as e:
+        # Other SSH-related errors - treat as still running to be safe
+        logging.warning(f"SSH error when checking process on {hostname} for task {uuid}: {e}. Assuming still running.")
+        return True
 
 def get_running_info(exp):
     """
@@ -286,10 +345,13 @@ def get_exp_status(exp, grace_period=300):
     if hostname:
         uuid = os.path.basename(exp["dir"])
         # Check if the process is still alive
-        if is_process_actually_running(hostname, uuid):
+        process_status = is_process_actually_running(hostname, uuid)
+        
+        if process_status is True:
+            # Process is running (or we can't verify due to SSH issues - treat as running)
             return "running"
-        else:
-            # Process is gone, but no rc.txt yet. Start or check the grace period.
+        elif process_status is False:
+            # SSH worked, but process is confirmed gone - start grace period
             now = time.time()
             if not os.path.exists(grace_file):
                 # Start the grace period
@@ -371,8 +433,8 @@ def trace_file_status_count(exps, status):
     return count
 
 def schedule_experiments_reconstructable():
-    """Main scheduler function with state reconstruction."""
-    log_file = "master_meta.log"
+    """Main scheduler function with state reconstruction - processes multiple work directories sequentially."""
+    log_file = "master_0805.log"
     log_formatter = logging.Formatter("%(asctime)s %(levelname)s: %(message)s", datefmt='%Y-%m-%d %H:%M:%S')
     handler = RotatingFileHandler(log_file, maxBytes=10*1024*1024, backupCount=5)  # 10MB per file, keep 5 backups
     handler.setFormatter(log_formatter)
@@ -381,161 +443,189 @@ def schedule_experiments_reconstructable():
     logging.getLogger().setLevel(logging.INFO)
     
     logging.info("--- Scheduler Starting ---")
-    master_start_time = time.time() # For reconstructed jobs
-
-    all_exps = scan_experiments(WORK_DIR)
-    trace_to_exps = group_by_trace(all_exps)
-    hosts = get_hosts(HOSTS_FILE)
-
-    # --- STATE TRACKING ---
-    node_usage = {host: {"cpu": 0, "mem": 0} for host in hosts}
-    running_jobs = {}  # {exp_dir: {"host": host, "start_time": timestamp}}
-
-    # --- STATE RECONSTRUCTION ON STARTUP ---
-    logging.info("Reconstructing state from filesystem...")
-    for exp in all_exps:
-        # Use the robust get_exp_status during reconstruction
-        status = get_exp_status(exp)
-        if status == "running":
-            exp_dir = exp["dir"]
-            running_host = get_running_info(exp) # We know this is valid now
-            meta = exp["meta"]
-            cpu_req = meta["cpu_requirement"]
-            mem_req = meta["memory_requirement"]
-            node_usage[running_host]["cpu"] += cpu_req
-            node_usage[running_host]["mem"] += mem_req
-            running_jobs[exp_dir] = {"host": running_host, "start_time": master_start_time}
-            logging.info(f"Reconstructed state for running job {os.path.basename(exp_dir)} on {running_host}")
-
-    logging.info("--- State Reconstruction Complete. Starting Main Loop. ---")
+    logging.info(f"Will process {len(WORK_DIRS)} work directories sequentially: {WORK_DIRS}")
     
-    last_system_log_time = 0
+    hosts = get_hosts(HOSTS_FILE)
+    logging.info("Found hosts: " + ", ".join(hosts))
+    
+    # Process each work directory sequentially
+    for work_dir_index, current_work_dir in enumerate(WORK_DIRS):
+        logging.info(f"=== Starting work directory {work_dir_index + 1}/{len(WORK_DIRS)}: {current_work_dir} ===")
+        
+        if not os.path.exists(current_work_dir):
+            logging.warning(f"Work directory {current_work_dir} does not exist. Skipping.")
+            continue
+        
+        master_start_time = time.time() # For reconstructed jobs
 
-    # --- MAIN SCHEDULING LOOP ---
-    while True:
-        # 1. UPDATE STATE: Check for finished jobs and free up resources
-        finished_jobs = []
-        for exp_dir, job_info in list(running_jobs.items()):
-            host = job_info['host']
-            exp_obj = next((exp for exp in all_exps if exp["dir"] == exp_dir), None)
-            if exp_obj is None: continue
+        all_exps = scan_experiments(current_work_dir)
+        if not all_exps:
+            logging.info(f"No experiments found in {current_work_dir}. Skipping.")
+            continue
             
-            status = get_exp_status(exp_obj)
-            if status != "running": # Job has finished or failed (including stale)
-                meta = exp_obj["meta"]
+        trace_to_exps = group_by_trace(all_exps)
+
+        # --- STATE TRACKING ---
+        node_usage = {host: {"cpu": 0, "mem": 0} for host in hosts}
+        running_jobs = {}  # {exp_dir: {"host": host, "start_time": timestamp}}
+
+        # --- STATE RECONSTRUCTION ON STARTUP ---
+        logging.info(f"Reconstructing state from filesystem for {current_work_dir}...")
+        for exp in all_exps:
+            # Use the robust get_exp_status during reconstruction
+            status = get_exp_status(exp)
+            if status == "running":
+                logging.info(f"Reconstructing running job: {exp['dir']}")
+                exp_dir = exp["dir"]
+                running_host = get_running_info(exp) # We know this is valid now
+                meta = exp["meta"]
+                cpu_req = meta["cpu_requirement"]
+                mem_req = meta["memory_requirement"] * 1.2 ### over-sell a bit, there are oom problems sometimes
+                node_usage[running_host]["cpu"] += cpu_req
+                node_usage[running_host]["mem"] += mem_req
+                running_jobs[exp_dir] = {"host": running_host, "start_time": master_start_time}
+                logging.info(f"Reconstructed state for running job {os.path.basename(exp_dir)} on {running_host}")
+
+        logging.info(f"--- State Reconstruction Complete for {current_work_dir}. Starting Main Loop. ---")
+        
+        last_system_log_time = 0
+
+        # --- MAIN SCHEDULING LOOP FOR CURRENT WORK DIRECTORY ---
+        while True:
+            # 1. UPDATE STATE: Check for finished jobs and free up resources
+            finished_jobs = []
+            for exp_dir, job_info in list(running_jobs.items()):
+                host = job_info['host']
+                exp_obj = next((exp for exp in all_exps if exp["dir"] == exp_dir), None)
+                if exp_obj is None: continue
+                
+                status = get_exp_status(exp_obj)
+                if status != "running": # Job has finished or failed (including stale)
+                    meta = exp_obj["meta"]
+                    cpu_req = meta["cpu_requirement"]
+                    mem_req = meta["memory_requirement"] * 1.2
+                    node_usage[host]["cpu"] = max(0, node_usage[host]["cpu"] - cpu_req)
+                    node_usage[host]["mem"] = max(0, node_usage[host]["mem"] - mem_req)
+                    
+                    end_time = time.time()
+                    run_time_seconds = end_time - job_info['start_time']
+                    run_time_formatted = str(timedelta(seconds=int(run_time_seconds)))
+                    
+                    logging.info(f"Job {os.path.basename(exp_dir)} ended on {host} with status '{status}' after {run_time_formatted}. Freed resources.")
+                    finished_jobs.append(exp_dir)
+            
+            for job_dir in finished_jobs:
+                if job_dir in running_jobs:
+                    del running_jobs[job_dir]
+
+            # 2. MANAGE TRACES: Check if any traces can be deleted
+            for trace_file, exps_for_trace in trace_to_exps.items():
+                if os.path.exists(trace_file) and all_exps_done(exps_for_trace):
+                    is_still_running = any(exp['dir'] in running_jobs for exp in exps_for_trace)
+                    if not is_still_running:
+                        delete_trace(trace_file)
+
+            # 3. SCHEDULE NEW JOBS (MODIFIED LOGIC)
+            progress_made = False
+            pending_exps = [exp for exp in all_exps if get_exp_status(exp) == "todo"]
+
+            trace_file_to_pending_count = trace_file_status_count(all_exps, "todo")
+            trace_file_to_finished_count = trace_file_status_count(all_exps, "finished")
+
+            random.shuffle(pending_exps)
+            pending_exps.sort(
+                key=lambda exp: (
+                    -trace_file_to_finished_count[exp["meta"]["trace_file"]],
+                    trace_file_to_pending_count[exp["meta"]["trace_file"]]
+                )
+            )
+            #random.shuffle(pending_exps)
+
+            # --- Phase 1: Schedule all possible jobs with existing traces ---
+            for exp in pending_exps:
+                trace_file = exp["meta"]["trace_file"]
+                if not os.path.exists(trace_file):
+                    continue # Skip if trace doesn't exist
+                
+                exp_dir = exp["dir"]
+                meta = exp["meta"]
                 cpu_req = meta["cpu_requirement"]
                 mem_req = meta["memory_requirement"]
-                node_usage[host]["cpu"] = max(0, node_usage[host]["cpu"] - cpu_req)
-                node_usage[host]["mem"] = max(0, node_usage[host]["mem"] - mem_req)
                 
-                end_time = time.time()
-                run_time_seconds = end_time - job_info['start_time']
-                run_time_formatted = str(timedelta(seconds=int(run_time_seconds)))
+                eligible_hosts = []
+                for host in hosts:
+                    node_res = NODE_RESOURCES.get(host, {"cpu": 0, "mem": 0})
+                    usage = node_usage.get(host, {"cpu": 0, "mem": 0})
+                    mem_free_percent = get_host_mem_free_percent(host)
+                    if mem_free_percent is None or mem_free_percent <= 15.0:
+                        continue
+                    if usage["cpu"] + cpu_req <= node_res["cpu"] and usage["mem"] + mem_req <= node_res["mem"]:
+                        eligible_hosts.append(host)
+
+                if not eligible_hosts:
+                    continue
+
+                chosen_host = random.choice(eligible_hosts)
+                uuid = os.path.basename(exp_dir)
+
+                logging.info(f"Dispatching {uuid} to {chosen_host}...")
                 
-                logging.info(f"Job {os.path.basename(exp_dir)} ended on {host} with status '{status}' after {run_time_formatted}. Freed resources.")
-                finished_jobs.append(exp_dir)
+                remote_cmd_py = f'from util import run_cachebench; run_cachebench("{exp_dir}")'
+                remote_cmd = (
+                    f"cd {SCRIPTS_DIR} && "
+                    f"nohup env CACHEBENCH_UUID={uuid} {PYTHON_EXEC} -c '{remote_cmd_py}' "
+                    f"> {exp_dir}/worker.log 2>&1 &"
+                )
+                
+                subprocess.Popen(["ssh", chosen_host, remote_cmd])
+                
+                mark_exp_running(exp, chosen_host)
+                node_usage[chosen_host]["cpu"] += cpu_req
+                node_usage[chosen_host]["mem"] += mem_req
+                running_jobs[exp_dir] = {"host": chosen_host, "start_time": time.time()}
+                progress_made = True
+                time.sleep(1)
+
+            # --- Phase 2: If no progress was made, try to download one trace ---
+            if not progress_made and pending_exps:
+                logging.info("No launchable jobs with existing traces. Attempting to download a new trace.")
+                # Find the first pending experiment that needs a trace
+                #random.shuffle(pending_exps)  # Shuffle to avoid bias
+                for exp in pending_exps:
+                    if not os.path.exists(exp["meta"]["trace_file"]):
+                        if download_trace(exp["meta"]):
+                            logging.info("Trace download successful. Will schedule jobs for it in the next cycle.")
+                        else:
+                            logging.warning("Trace download failed. Will try again later.")
+                        # We consider the download attempt as progress to prevent a long sleep
+                        progress_made = True
+                        break # Only attempt one download per cycle
+            
+            # 4. LOGGING AND SLEEP
+            now = time.time()
+            if now - last_system_log_time > 60:
+                log_node_system_stats(hosts)
+                log_running_job_stats(running_jobs)
+                dump_state_to_file(all_exps, running_jobs, STATE_FILE) # Dump state here
+                last_system_log_time = now
+                
+            log_status_summary(all_exps, running_jobs)
+
+            # Check if all jobs are in a finished or failed state for current work directory
+            all_jobs_accounted_for = all(get_exp_status(exp) in ["finished", "failed"] for exp in all_exps)
+            if not running_jobs and all_jobs_accounted_for:
+                logging.info(f"All experiments completed for {current_work_dir}. Moving to next work directory.")
+                break
+            
+            sleep_time = 5 if progress_made else 60
+            logging.info(f"Loop finished. Sleeping for {sleep_time} seconds.")
+            time.sleep(sleep_time)
         
-        for job_dir in finished_jobs:
-            if job_dir in running_jobs:
-                del running_jobs[job_dir]
+        # Work directory completed
+        logging.info(f"=== Completed work directory {work_dir_index + 1}/{len(WORK_DIRS)}: {current_work_dir} ===")
 
-        # 2. MANAGE TRACES: Check if any traces can be deleted
-        for trace_file, exps_for_trace in trace_to_exps.items():
-            if os.path.exists(trace_file) and all_exps_done(exps_for_trace):
-                is_still_running = any(exp['dir'] in running_jobs for exp in exps_for_trace)
-                if not is_still_running:
-                    delete_trace(trace_file)
-
-        # 3. SCHEDULE NEW JOBS (MODIFIED LOGIC)
-        progress_made = False
-        pending_exps = [exp for exp in all_exps if get_exp_status(exp) == "todo"]
-
-        trace_file_to_pending_count = trace_file_status_count(all_exps, "todo")
-        trace_file_to_finished_count = trace_file_status_count(all_exps, "finished")
-
-        pending_exps.sort(
-            key=lambda exp: (
-                -trace_file_to_finished_count[exp["meta"]["trace_file"]],
-                trace_file_to_pending_count[exp["meta"]["trace_file"]]
-            )
-        )
-        #random.shuffle(pending_exps)
-
-        # --- Phase 1: Schedule all possible jobs with existing traces ---
-        for exp in pending_exps:
-            trace_file = exp["meta"]["trace_file"]
-            if not os.path.exists(trace_file):
-                continue # Skip if trace doesn't exist
-
-            exp_dir = exp["dir"]
-            meta = exp["meta"]
-            cpu_req = meta["cpu_requirement"]
-            mem_req = meta["memory_requirement"]
-            
-            eligible_hosts = []
-            for host in hosts:
-                node_res = NODE_RESOURCES.get(host, {"cpu": 0, "mem": 0})
-                usage = node_usage.get(host, {"cpu": 0, "mem": 0})
-                if usage["cpu"] + cpu_req <= node_res["cpu"] and usage["mem"] + mem_req <= node_res["mem"]:
-                    eligible_hosts.append(host)
-
-            if not eligible_hosts:
-                continue
-
-            chosen_host = random.choice(eligible_hosts)
-            uuid = os.path.basename(exp_dir)
-
-            logging.info(f"Dispatching {uuid} to {chosen_host}...")
-            
-            remote_cmd_py = f'from util import run_cachebench; run_cachebench("{exp_dir}")'
-            remote_cmd = (
-                f"cd {SCRIPTS_DIR} && "
-                f"nohup env CACHEBENCH_UUID={uuid} {PYTHON_EXEC} -c '{remote_cmd_py}' "
-                f"> {exp_dir}/worker.log 2>&1 &"
-            )
-            
-            subprocess.Popen(["ssh", chosen_host, remote_cmd])
-            
-            mark_exp_running(exp, chosen_host)
-            node_usage[chosen_host]["cpu"] += cpu_req
-            node_usage[chosen_host]["mem"] += mem_req
-            running_jobs[exp_dir] = {"host": chosen_host, "start_time": time.time()}
-            progress_made = True
-            time.sleep(1)
-
-        # --- Phase 2: If no progress was made, try to download one trace ---
-        if not progress_made and pending_exps:
-            logging.info("No launchable jobs with existing traces. Attempting to download a new trace.")
-            # Find the first pending experiment that needs a trace
-            for exp in pending_exps:
-                if not os.path.exists(exp["meta"]["trace_file"]):
-                    if download_trace(exp["meta"]):
-                        logging.info("Trace download successful. Will schedule jobs for it in the next cycle.")
-                    else:
-                        logging.warning("Trace download failed. Will try again later.")
-                    # We consider the download attempt as progress to prevent a long sleep
-                    progress_made = True
-                    break # Only attempt one download per cycle
-        
-        # 4. LOGGING AND SLEEP
-        now = time.time()
-        if now - last_system_log_time > 60:
-            log_node_system_stats(hosts)
-            log_running_job_stats(running_jobs)
-            dump_state_to_file(all_exps, running_jobs, STATE_FILE) # Dump state here
-            last_system_log_time = now
-            
-        log_status_summary(all_exps, running_jobs)
-
-        # Check if all jobs are in a finished or failed state
-        all_jobs_accounted_for = all(get_exp_status(exp) in ["finished", "failed"] for exp in all_exps)
-        if not running_jobs and all_jobs_accounted_for:
-             logging.info("All experiments completed. Shutting down.")
-             break
-        
-        sleep_time = 5 if progress_made else 60
-        logging.info(f"Loop finished. Sleeping for {sleep_time} seconds.")
-        time.sleep(sleep_time)
+    # All work directories completed
+    logging.info("=== ALL WORK DIRECTORIES COMPLETED. SHUTTING DOWN. ===")
 
 
 if __name__ == '__main__':

@@ -3,7 +3,7 @@ import json
 import os
 import glob
 
-base_dir=f"work_dir_meta"
+base_dir=f"work_dir_meta_detailed_wsr"
 
 
 def read_cachebench_config(dir):
@@ -37,6 +37,28 @@ def read_throughput_json(dir):
     except Exception as e:
         print(f"Failed to read {files[0]}: {e}")
         return None
+
+
+def read_rebalanced_slabs(dir):
+    """
+    read file dir/log.txt
+    grep the row 'Released X slabs'
+    extract the number X (may have commas), cast to int, return it
+    return None if not found
+    """
+    import re
+    log_path = os.path.join(dir, "log.txt")
+    if not os.path.isfile(log_path):
+        return None
+    with open(log_path, "r") as f:
+        for line in f:
+            m = re.search(r"Released\s+([\d,]+)\s+slabs", line)
+            if m:
+                num = m.group(1).replace(",", "")
+                try:
+                    return int(num)
+                except Exception:
+                    return
     
 
 def add_config_columns(df):
@@ -72,6 +94,7 @@ def process_dir(dir):
         result_json = read_result_json(dir)
         bench_config = read_cachebench_config(dir)
         throughput_result = read_throughput_json(dir)
+        rebalanced_slabs_value = read_rebalanced_slabs(dir)
         
         
         if not result_json:
@@ -89,6 +112,7 @@ def process_dir(dir):
                 **bench_config['test_config'],
                 **item
             }
+            combined_result['rebalanced_slabs'] = rebalanced_slabs_value
             results.append(combined_result)
 
         return results
@@ -112,5 +136,5 @@ df = collect_result()
 if '_getMissCnt' in df.columns and '_getCnt' in df.columns:
     df['_missRatio'] = df['_getMissCnt'] / df['_getCnt']
 print("finished collecting results")
-df.to_csv(f"report/report_meta.csv", index=False)
+df.to_csv(f"report/report_meta_detailed_wsr.csv", index=False)
 
