@@ -29,7 +29,7 @@
         "host": "clnode322.clemson.cloudlab.us",
         "start_time_unix": 1754491720.2885919,
         "start_time_iso": "2025-08-06T14:48:40.288592",
-        "duration": "18:58:49"
+        "duration": "19:00:05"
     },
     {
         "uuid": "meta_202210_kv-d429528b0eec51edf46642eda688d037",
@@ -61,7 +61,7 @@
         "host": "clnode355.clemson.cloudlab.us",
         "start_time_unix": 1754491720.2885919,
         "start_time_iso": "2025-08-06T14:48:40.288592",
-        "duration": "18:58:49"
+        "duration": "19:00:05"
     },
     {
         "uuid": "meta_202401_kv-e8106b7ea07fe2ce76e45591cfd3f4a7",
@@ -69,7 +69,7 @@
         "host": "clnode322.clemson.cloudlab.us",
         "start_time_unix": 1754491720.2885919,
         "start_time_iso": "2025-08-06T14:48:40.288592",
-        "duration": "18:58:49"
+        "duration": "19:00:05"
     },
     {
         "uuid": "meta_memcache_2024_kv-b3928bd466664062089143bae5d11d08",
@@ -149,7 +149,7 @@
         "host": "clnode337.clemson.cloudlab.us",
         "start_time_unix": 1754491720.2885919,
         "start_time_iso": "2025-08-06T14:48:40.288592",
-        "duration": "18:58:49"
+        "duration": "19:00:05"
     },
     {
         "uuid": "meta_memcache_2024_kv-90785a4b066172e69cdb74f422c38138",
@@ -237,7 +237,7 @@
         "host": "clnode322.clemson.cloudlab.us",
         "start_time_unix": 1754491720.2885919,
         "start_time_iso": "2025-08-06T14:48:40.288592",
-        "duration": "18:58:49"
+        "duration": "19:00:05"
     },
     {
         "uuid": "meta_memcache_2024_kv-af7d06dd682c52346c7dbb7545db24d9",
@@ -461,7 +461,7 @@
         "host": "clnode332.clemson.cloudlab.us",
         "start_time_unix": 1754491720.2885919,
         "start_time_iso": "2025-08-06T14:48:40.288592",
-        "duration": "18:58:49"
+        "duration": "19:00:05"
     },
     {
         "uuid": "meta_memcache_2024_kv-b64d8351816ebf4d27717be2a0a11743",
@@ -509,7 +509,7 @@
         "host": "clnode322.clemson.cloudlab.us",
         "start_time_unix": 1754491720.2885919,
         "start_time_iso": "2025-08-06T14:48:40.288592",
-        "duration": "18:58:49"
+        "duration": "19:00:05"
     },
     {
         "uuid": "twitter_cluster50-8d117306ca3f95001c7bbcc4e349659e",
@@ -541,7 +541,7 @@
         "host": "clnode332.clemson.cloudlab.us",
         "start_time_unix": 1754491720.2885919,
         "start_time_iso": "2025-08-06T14:48:40.288592",
-        "duration": "18:58:49"
+        "duration": "19:00:05"
     },
     {
         "uuid": "twitter_cluster53-d556a95d003f3df18010ac770bd46d74",
@@ -589,7 +589,7 @@
         "host": "clnode322.clemson.cloudlab.us",
         "start_time_unix": 1754491720.2885919,
         "start_time_iso": "2025-08-06T14:48:40.288592",
-        "duration": "18:58:49"
+        "duration": "19:00:05"
     },
     {
         "uuid": "twitter_cluster50-d72dcaa76a88f70d237198adf4a67a22",
@@ -661,7 +661,7 @@
         "host": "clnode337.clemson.cloudlab.us",
         "start_time_unix": 1754491720.2885919,
         "start_time_iso": "2025-08-06T14:48:40.288592",
-        "duration": "18:58:49"
+        "duration": "19:00:05"
     },
     {
         "uuid": "twitter_cluster50-ffa5518d5e5010b15e164835f4db6400",
@@ -685,7 +685,7 @@
         "host": "clnode322.clemson.cloudlab.us",
         "start_time_unix": 1754491720.2885919,
         "start_time_iso": "2025-08-06T14:48:40.288592",
-        "duration": "18:58:49"
+        "duration": "19:00:05"
     },
     {
         "uuid": "twitter_cluster50-1a3e06db10628a47e81a95d56371a6ec",
@@ -781,7 +781,7 @@
         "host": "clnode332.clemson.cloudlab.us",
         "start_time_unix": 1754491720.2885919,
         "start_time_iso": "2025-08-06T14:48:40.288592",
-        "duration": "18:58:49"
+        "duration": "19:00:05"
     },
     {
         "uuid": "meta_202210_kv-be136bab5dc91c4f0199f7a1033f0b00",
@@ -789,6 +789,6 @@
         "host": "clnode337.clemson.cloudlab.us",
         "start_time_unix": 1754491720.2885919,
         "start_time_iso": "2025-08-06T14:48:40.288592",
-        "duration": "18:58:49"
+        "duration": "19:00:05"
     }
 ]
