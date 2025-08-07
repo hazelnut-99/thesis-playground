@@ -14,6 +14,11 @@ work_dir_*/
 # Large CSV files that exceed GitHub's file size limit
 thesis_data_collections/work_dir_2_compare/report.csv
 data_collection/work_dir_17_twitter/report.csv
-# General pattern for large report files
-**/report.csv
+
+# Large report files in various directories
+**/report_*_raw.csv
+**/report_old.csv
+paper-exp/efficiency/report/report_meta3.csv
+paper-exp/efficiency/report/end-to-end/report_lama_detailed_raw.csv
+paper-exp/efficiency/report/end-to-end/report_complete_raw*.csv
 
